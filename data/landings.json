@@ -1,0 +1,359 @@
+{
+  "analysis_date": "2026-05-12",
+  "landings_analyzed": 5,
+  "hypothesis_3_check": "ПОДТВЕРЖДЕНА — все 5 лендингов используют отзывы о 'скорости', 'удобстве', 'хорошем приложении'. Только Anti-Shkola даёт истории именно о снятии блока (кейс Валерия: 'на интервью я просто молчал'). Speak содержит 1 косвенный отзыв про anxiety ('without the anxiety of an actual person'). Cambly упоминает 'без страха и осуждения' как слоган, но не в отзывах. TalkPal и Lindsay — ноль proof-points о снятии блока.",
+
+  "landings": [
+    {
+      "brand": "TalkPal",
+      "url": "https://talkpal.ai",
+      "screenshot_path": "data/screenshots/landing_talkpal.png",
+      "above_the_fold": {
+        "headline": "The fun and effective way to learn a language with AI!",
+        "subheadline": "Talkpal turns AI into your personal language coach - practice speaking, listening, writing, and pronunciation anytime, anywhere.",
+        "cta_text": "Get started",
+        "cta_style": "Синяя/фиолетовая кнопка, центрированная, над hero",
+        "hero_type": "product (UI-скриншоты приложения)",
+        "social_proof": "5,000,000+ users, 4.7/5 App Store rating; пресс-логотипы: Trendhunter, El Pais, MSN, Medium, Newsweek",
+        "score": 6
+      },
+      "structure": {
+        "sections": ["nav-bar", "hero", "language-selector (80+ languages)", "press-logos", "features-3-pillars", "stats-block", "reviews-carousel", "limited-offer-cta", "faq", "download-cta", "footer"],
+        "total_sections": 11,
+        "page_length": "medium",
+        "content_density": "visual",
+        "narrative": "Product → Features → Scale → Proof → Trial"
+      },
+      "conversion_triggers": {
+        "objection_handling": ["FAQ (4 вопроса)", "14-day free trial banner"],
+        "trust_signals": ["5M+ users", "4.7/5 rating", "17+ press logos", "OpenAI / Nvidia / Microsoft / Google / AWS partnership logos"],
+        "urgency": "Limited offer: Try Talkpal Premium for 14 days for free",
+        "social_proof_count": 10,
+        "score": 7
+      },
+      "pricing": {
+        "model": "freemium + subscription",
+        "presentation": "Free tier + Premium (monthly/yearly, цена не указана на главной)",
+        "anchoring": false,
+        "highlighted_tier": "Talkpal Premium",
+        "risk_reversal": "14-day free trial",
+        "score": 5
+      },
+      "technical": {
+        "platform": "WordPress (custom theme)",
+        "estimated_load_time": "slow (heavy base64 images, lazy-loaded SVGs)",
+        "mobile_friendly": true
+      },
+      "overall_score": 6.0,
+      "strengths": [
+        "Максимальная ширина охвата — 80+ языков, 17 пресс-логотипов",
+        "5M+ users + 4.7 rating — убедительные числа",
+        "14-day free trial снижает барьер входа",
+        "Tech credibility через OpenAI/Nvidia/AWS логотипы"
+      ],
+      "weaknesses": [
+        "Хедлайн 'fun and effective' — generic, не адресует боль FLA",
+        "Ноль отзывов о снятии психологического блока — только 'amazing app', 'great feedback'",
+        "Цены скрыты за signup — friction без anchoring",
+        "Cookie-баннер занимает весь экран при первом визите — убивает above-the-fold",
+        "Methodology-секция минималистична: 3 bullet-point фичи без depth"
+      ],
+      "ideas_for_our_landing": [
+        "Press-логотипы + числовые stat-badges работают как быстрый trust builder — добавить аналог для RU-медиа",
+        "14-day trial формулировка 'limited offer' создаёт urgency без агрессии — взять паттерн"
+      ]
+    },
+
+    {
+      "brand": "Speak",
+      "url": "https://speak.com",
+      "screenshot_path": "data/screenshots/landing_speak.png",
+      "above_the_fold": {
+        "headline": "The most effective way to learn a language",
+        "subheadline": "Talk out loud, get instant feedback, and become fluent with the world's most advanced AI language tutor.",
+        "cta_text": "Start Speaking →",
+        "cta_style": "Тёмная кнопка, стрелка, выше линии сгиба, минималистично",
+        "hero_type": "product (UI приложения на мобильном)",
+        "social_proof": "4.8 Rating, 15M+ Downloads",
+        "score": 7
+      },
+      "structure": {
+        "sections": ["nav", "hero", "stats (4.8/15M)", "proven-method manifesto", "speak-tutor feature", "tutor-relationship", "curriculum-section", "testimonials-carousel", "faq", "footer-cta"],
+        "total_sections": 10,
+        "page_length": "medium",
+        "content_density": "balanced",
+        "narrative": "Method manifesto → AI Tutor as person → Speaking curriculum → Social proof → CTA"
+      },
+      "conversion_triggers": {
+        "objection_handling": ["FAQ (5 вопросов)", "7-day free trial упомянут в FAQ", "'You need to speak out loud' — философский manifesto снимает возражение 'приложения не работают'"],
+        "trust_signals": ["4.8 rating", "15M downloads", "Jessica Park testimonial (named user with photo)", "многочисленные App Store отзывы с датами"],
+        "urgency": "Нет явной urgency",
+        "social_proof_count": 12,
+        "score": 7
+      },
+      "pricing": {
+        "model": "freemium + subscription",
+        "presentation": "7-day free trial; цены не на главной",
+        "anchoring": false,
+        "highlighted_tier": "не виден на главной",
+        "risk_reversal": "7-day free trial",
+        "score": 4
+      },
+      "technical": {
+        "platform": "Custom (Webflow-style)",
+        "estimated_load_time": "fast",
+        "mobile_friendly": true
+      },
+      "overall_score": 6.5,
+      "strengths": [
+        "Манифест 'You need to speak out loud' — сильное философское позиционирование",
+        "Один отзыв ПРЯМО про FLA: 'like having a personal tutor, without the anxiety of an actual person' (mingorr81) — ценнейший proof-point",
+        "Speak Tutor описан как персонаж (relationship, motivations) — очеловечивание AI",
+        "Curriculum-секция показывает глубину продукта",
+        "Чистый, быстрый, некричащий дизайн"
+      ],
+      "weaknesses": [
+        "Только 1 из 10+ отзывов касается психологического блока — остальные про 'amazing', 'effective'",
+        "Нет истории before/after по эмоциям — только результат ('I speak now')",
+        "Pricing полностью скрыт — нельзя оценить ценность без регистрации",
+        "Urgency отсутствует",
+        "Нет раздела о methodology с конкретными шагами"
+      ],
+      "ideas_for_our_landing": [
+        "Отзыв про 'anxiety of an actual person' — proof-point именно о блоке, не о уровне. Собрать аналогичные от реальных учеников и вынести в hero-секцию",
+        "Манифест-формат 'You need to X to learn Y' — сильный hook для нашего лендинга: 'Чтобы перестать бояться, надо начать говорить — но не с живым человеком, а в безопасной среде'"
+      ]
+    },
+
+    {
+      "brand": "Cambly",
+      "url": "https://cambly.com",
+      "screenshot_path": "data/screenshots/landing_cambly.png",
+      "above_the_fold": {
+        "headline": "Learn real English. Make real progress.",
+        "subheadline": "All levels welcome. Real conversations with native speakers. Anytime, anywhere, 24/7.",
+        "cta_text": "Get started",
+        "cta_style": "Жёлтая/оранжевая кнопка, brand color, заметная",
+        "hero_type": "lifestyle (человек учится, фото носителя)",
+        "social_proof": "Urgency-баннер: 'Best Discount of the Year is LIVE! 50% off'",
+        "score": 7
+      },
+      "structure": {
+        "sections": ["urgency-topbar", "nav", "hero", "start-with-goals", "meet-tutors", "see-progress", "progress-not-perfection-manifesto", "pricing-tiers", "mobile-app-section", "work-your-way", "footer-cta"],
+        "total_sections": 11,
+        "page_length": "long",
+        "content_density": "visual",
+        "narrative": "Goals → Tutors → Progress → Philosophy → Pricing"
+      },
+      "conversion_triggers": {
+        "objection_handling": ["'Progress, not perfection. Learn from mistakes, without fear or judgment.' — прямое обращение к FLA-боли", "50% urgency discount в topbar"],
+        "trust_signals": ["100% native English tutors", "Reviews implied но не показаны на главной", "24/7 availability"],
+        "urgency": "'Best Discount of the Year is LIVE! Get 50% off: Your career can't wait!'",
+        "social_proof_count": 3,
+        "score": 7
+      },
+      "pricing": {
+        "model": "subscription (tiered)",
+        "presentation": "Groups от €17/mo (было €34), One-on-one implied; видимы на главной",
+        "anchoring": true,
+        "highlighted_tier": "Groups (показан первым с 50% скидкой)",
+        "risk_reversal": "Не найдено явного",
+        "score": 7
+      },
+      "technical": {
+        "platform": "Custom React/Next.js",
+        "estimated_load_time": "medium",
+        "mobile_friendly": true
+      },
+      "cambly_ru_note": "cambly.com/ru редиректит на cambly.com/?lang=en с ошибкой Oops! — локализация под RU фактически отсутствует. Весь контент на английском, нет русскоязычного кейса или ценностного предложения под RU-боль.",
+      "overall_score": 7.0,
+      "strengths": [
+        "'Progress, not perfection. Learn from mistakes, without fear or judgment.' — единственный главный слоган среди конкурентов, ПРЯМО называющий FLA-страх",
+        "Urgency-топбар с конкретной скидкой 50% — сильный конверсионный триггер",
+        "Pricing видим на странице — прозрачность снижает friction",
+        "Anchoring: показывает цену 'было/стало'",
+        "Визуально сильный, жёлтый бренд, легко запоминается"
+      ],
+      "weaknesses": [
+        "Слоган 'Progress not perfection' есть, но отзывов о снятии блока нет — декларация без доказательства",
+        "RU-локализации нет вообще (редирект на EN с ошибкой)",
+        "Нет конкретных историй учеников на главной",
+        "Social proof count минимальный (3 vs 10-12 у конкурентов)",
+        "Методология слабо описана"
+      ],
+      "ideas_for_our_landing": [
+        "'Progress, not perfection' — паттерн работы с перфекционизмом прямо в headline. Адаптировать под RU: 'Говорить неидеально — это нормально. Молчать — нет.'",
+        "Urgency-топбар с конкретной скидкой (50% off, срок) — добавить аналог при запуске/марафоне"
+      ]
+    },
+
+    {
+      "brand": "Lindsay Does Languages",
+      "url": "https://lindsaydoeslanguages.com",
+      "screenshot_path": "data/screenshots/landing_lindsay.png",
+      "above_the_fold": {
+        "headline": "I don't teach languages. I teach you how to learn a language.",
+        "subheadline": "Yes, you can learn any language. Let's face it, we've all fallen for the 'best method ever' promises that just don't deliver.",
+        "cta_text": "SIGN ME UP! (free video training)",
+        "cta_style": "Жёлтая кнопка среднего размера, lead magnet форма",
+        "hero_type": "personal brand (Lindsay с книгами, зелёный outfit)",
+        "social_proof": "Forbes, Inc, The Guardian, BBC логотипы",
+        "score": 8
+      },
+      "structure": {
+        "sections": ["nav", "hero-manifesto", "press-logos", "lead-magnet-free-video", "benefits-3 (confidence/love/joy)", "missing-piece-philosophy", "language-life-product", "about-lindsay", "email-club-signup", "footer"],
+        "total_sections": 10,
+        "page_length": "long",
+        "content_density": "text-heavy",
+        "narrative": "Provocative manifesto → Problem (methods that fail) → Philosophy → Lead magnet → Product → Personal brand → Email capture"
+      },
+      "conversion_triggers": {
+        "objection_handling": ["'Let's face it, we've all fallen for the best method ever promises' — прямая работа с разочарованием от предыдущих попыток", "'Yes, you can learn any language' — прямой ответ на 'у меня нет способностей'"],
+        "trust_signals": ["Forbes / Inc / The Guardian / BBC логотипы", "MA in Applied Linguistics — academic credibility", "'two decades of language learning'"],
+        "urgency": "Нет urgency",
+        "social_proof_count": 5,
+        "score": 8
+      },
+      "pricing": {
+        "model": "freemium (free video) + subscription (Language Life coaching)",
+        "presentation": "Free video как lead magnet; Language Life price не указана на главной",
+        "anchoring": false,
+        "highlighted_tier": "Language Life (coaching experience)",
+        "risk_reversal": "Бесплатное видео — нулевой риск входа",
+        "score": 6
+      },
+      "technical": {
+        "platform": "WordPress",
+        "estimated_load_time": "medium",
+        "mobile_friendly": true
+      },
+      "overall_score": 7.5,
+      "strengths": [
+        "Headline — провокационный манифест, сразу дифференцирует от всех language schools",
+        "Двухступенчатая воронка: free video → email list → продукт — классика zero-paid organic",
+        "Email opt-in с описанием ('Language Sparks — emails you actually want to read') — высокий consent rate",
+        "3 психологических benefit: confidence / love / joy — адресует эмоциональный дефицит",
+        "Personal brand с academic credibility (MA Applied Linguistics)"
+      ],
+      "weaknesses": [
+        "Ноль отзывов о снятии психологического блока — только 'calm confidence with your process' как описание",
+        "Нет истории before/after на главной (есть отдельный /results-testimonials, но не на LP)",
+        "Страница text-heavy, медленно грузится на мобильном",
+        "Urgency отсутствует полностью",
+        "Pricing полностью непрозрачен на главной"
+      ],
+      "ideas_for_our_landing": [
+        "Двойная opt-in воронка: бесплатный лид-магнит (диагностика блока / мини-видео) → email-список → основной продукт. Lindsay строит весь бизнес на email-листе без paid ads.",
+        "'Calm confidence with your process' — описание результата через эмоцию, не навык. Адаптировать: 'Выходишь из созвона и думаешь: получилось. Не идеально — но получилось.'"
+      ]
+    },
+
+    {
+      "brand": "Антишкола",
+      "url": "https://anti-shkola.ru",
+      "screenshot_path": "data/screenshots/landing_antishkola.png",
+      "above_the_fold": {
+        "headline": "Не курс. Маршрут к свободной речи.",
+        "subheadline": "20 языков. 350+ носителей. Маршрут под вашу цель: карьера, переезд, экзамен, дети или язык для жизни.",
+        "cta_text": "Начать с бесплатного разговора",
+        "cta_style": "Розовая/фуксия кнопка на тёмном фоне, контрастная, заметная",
+        "hero_type": "product + team (сетка фото носителей)",
+        "social_proof": "20 лет, 30 000+ учеников, 350+ носителей, 20 языков",
+        "score": 9
+      },
+      "structure": {
+        "sections": ["nav", "hero с носителями", "stats-block", "why-learning-doesnt-become-speech (problem)", "5-barrier-types-diagnostic", "5-route-types", "manifesto-not-school", "3-principles", "method-one-on-one", "science-anti-memorization", "20-languages", "teachers-block", "how-it-works-4-steps", "case-stories", "pricing-tiers", "founder-quote", "faq", "footer-cta"],
+        "total_sections": 18,
+        "page_length": "very long",
+        "content_density": "balanced",
+        "narrative": "Problem-first (почему обучение не работает) → 5 барьеров → 5 маршрутов → метод → доказательства → pricing → low-friction CTA"
+      },
+      "conversion_triggers": {
+        "objection_handling": ["5 типов барьеров (Стоп-реакция / Синдром умного молчания / Барьер живой реакции / Барьер социальной смелости / Смешанный) — самая детальная работа с возражениями среди всех конкурентов", "FAQ 5+ вопросов", "'Ошибаться — нормально' как философский принцип", "Telegram-бот диагностики барьера — бесплатный entry point"],
+        "trust_signals": ["20 лет на рынке (с 2006)", "30 000+ учеников", "Аника Брейн — основательница, полиглот 7 языков", "Именованные носители с фото и специализацией", "Кейс-истории с именами и результатами"],
+        "urgency": "Нет urgency элементов",
+        "social_proof_count": 8,
+        "score": 9
+      },
+      "pricing": {
+        "model": "one-time packages + free first call",
+        "presentation": "START $18.74/урок от $99 пакет; MAIN $34.38/урок от $183 пакет; FREE 0₽ первый разговор",
+        "anchoring": true,
+        "highlighted_tier": "MAIN (Most Popular метка)",
+        "risk_reversal": "Бесплатный 30-минутный разговор с носителем без обязательств",
+        "score": 9
+      },
+      "technical": {
+        "platform": "Tilda",
+        "estimated_load_time": "medium",
+        "mobile_friendly": true
+      },
+      "overall_score": 8.5,
+      "strengths": [
+        "Единственный RU-нативный конкурент с детальной таксономией языкового барьера (5 типов) — прямое попадание в боль ЦА",
+        "Кейс-истории про снятие блока (Валерий: 'на интервью я просто молчал') — наиболее близкий proof-point к FLA-нарративу среди всех 5 конкурентов",
+        "Бесплатный разговор как CTA — низкий барьер входа, не тест и не регистрация",
+        "Манифест основательницы ('Знаний достаточно. Не хватает смелости') — сильное резюме проблемы",
+        "Структура problem → diagnosis → solution → proof → pricing — классическая и убедительная",
+        "Telegram-бот диагностики — умный лид-магнит в RU-аудитории"
+      ],
+      "weaknesses": [
+        "Urgency отсутствует полностью — нет таймеров, ограниченных пакетов, сезонных скидок",
+        "Страница очень длинная (18 секций) — scroll-to-pricing может утомлять",
+        "Кейс-историй только 2 на главной — нужно 5-7 для сильного proof",
+        "Цены в долларах — при RU-аудитории создаёт дополнительный friction",
+        "Нет видео-формата (лендинг только текст + фото)"
+      ],
+      "ideas_for_our_landing": [
+        "Таксономия барьеров (5 типов) — скопировать формат диагностики; наша методика может расширить до более детального quiz",
+        "Формат кейс-истории с именем, должностью, конкретной ситуацией ('молчал на интервью') — наиболее убедительный proof-point для FLA-аудитории"
+      ]
+    }
+  ],
+
+  "cross_landing_insights": [
+    "Все 5 конкурентов имеют отзывы, но только Anti-Shkola содержит истории именно о снятии психологического блока. 4 из 5 сфокусированы на 'скорости обучения', 'удобстве приложения', 'эффективности метода' — гипотеза #3 подтверждена полностью.",
+    "Cambly — единственный с FLA-слоганом в hero ('Progress, not perfection. Learn from mistakes, without fear or judgment'), но не подкрепляет его отзывами.",
+    "Speak имеет 1 отзыв про anxiety ('without the anxiety of an actual person') — явно случайный, не системный. Но этот отзыв один из самых убедительных на всех 5 лендингах.",
+    "Все AI-продукты (TalkPal, Speak) продают 'fluency' и 'feedback' — ни один явно не продаёт 'снятие блока'.",
+    "Лид-магниты используют только Lindsay (free video) и Anti-Shkola (free call + Telegram-бот). TalkPal/Speak/Cambly используют free trial вместо лид-магнита.",
+    "Urgency применяет только Cambly (50% discount topbar). 4 из 5 конкурентов работают без urgency-механик.",
+    "Pricing скрыт у TalkPal и Speak (надо регистрироваться), виден у Cambly и Anti-Shkola. Прозрачность pricing = конкурентное преимущество в сегменте.",
+    "Средняя длина страницы: 10-11 секций (TalkPal, Speak, Lindsay, Cambly). Anti-Shkola аутлайер — 18 секций. Оптимальный диапазон: 8-10 секций.",
+    "Все 5 конкурентов mobile-friendly. Визуальный стиль: Cambly и Lindsay — жёлтый бренд; TalkPal — фиолетовый; Speak — минималистичный белый; Anti-Shkola — чёрный с фуксией.",
+    "Ни один конкурент не использует видео-testimonial на главной. Это белое пятно."
+  ],
+
+  "improvement_ideas": [
+    {
+      "idea": "Секция '3 истории снятия блока' с именем, профессией и конкретной ситуацией ('я понимала всё, но на созвоне замирала'). Каждая история — 3-4 предложения, фото, результат через эмоцию ('теперь сама начинаю разговор').",
+      "based_on": "Ни один из 5 конкурентов не делает это системно. Anti-Shkola близко, но только 2 кейса. Speak и Cambly имеют слоган без доказательства.",
+      "expected_impact": "high",
+      "effort": "low"
+    },
+    {
+      "idea": "Лид-магнит 'Диагностика вашего языкового барьера' — короткий тест (3 мин, 5-7 вопросов) с персонализированным результатом и первым шагом. Вход через email или Telegram.",
+      "based_on": "Lindsay строит весь бизнес на email-листе. Anti-Shkola использует Telegram-бот диагностики. Ни TalkPal, ни Speak, ни Cambly не работают с диагностикой.",
+      "expected_impact": "high",
+      "effort": "medium"
+    },
+    {
+      "idea": "Hero-headline прямо называет психологический барьер, а не 'выучи язык'. Паттерн: '[Симптом] — это не про способности. Это про [механизм]. Вот как это работает.' Пример: 'Ты всё понимаешь, но говорить страшно. Это называется языковой барьер — и он снимается.'",
+      "based_on": "Cambly использует 'without fear or judgment' как слоган, но только в середине страницы. Anti-Shkola называет барьер в hero. Все EN-конкуренты избегают слова 'fear' в headline.",
+      "expected_impact": "high",
+      "effort": "low"
+    },
+    {
+      "idea": "Urgency-механика на входе: ограниченное число мест в ближайшем потоке/группе или ранняя цена для первых N участников. Показывать в topbar + повторить перед CTA.",
+      "based_on": "Только Cambly использует urgency (50% discount). 4 из 5 конкурентов работают без неё — значит, urgency = редкое конкурентное преимущество в нише.",
+      "expected_impact": "medium",
+      "effort": "low"
+    },
+    {
+      "idea": "Видео-testimonial (60-90 сек) от реального ученика, рассказывающего о моменте прорыва: 'До: я молчала на переговорах. После: позвонила сама и договорилась.' Размещать перед pricing-секцией.",
+      "based_on": "Ни один из 5 конкурентов не использует видео-отзыв на главной. Speak использует текстовые отзывы с датой — работает, но видео конвертирует сильнее в FLA-нише, где важен живой эмоциональный пример.",
+      "expected_impact": "high",
+      "effort": "medium"
+    }
+  ]
+}

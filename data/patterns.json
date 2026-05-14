@@ -1,0 +1,373 @@
+{
+  "analysis_date": "2026-05-12",
+  "total_creatives_analyzed": 105,
+  "scope": "Foreign Language Anxiety (FLA) / speaking block — 4 бренда: TalkPal, AntiShkola, Speak, Cambly",
+  "frequency_analysis": {
+    "top_hooks": [
+      {
+        "type": "result",
+        "count": 78,
+        "share": "74%",
+        "examples": [
+          "Speak Any Language Fluently",
+          "Speak confidently in any situation",
+          "Заговори свободно",
+          "Учи английский с носителем"
+        ],
+        "notes": "Подавляющее большинство — функциональный result-хук про беглость/уверенность как декларацию, без давления на боль"
+      },
+      {
+        "type": "social_proof",
+        "count": 12,
+        "share": "11%",
+        "examples": [
+          "🚀 Say hello to AI language learning!",
+          "Millions are learning with…",
+          "10 000+ учеников"
+        ],
+        "notes": "Числа/масс-аппил, реальных историй людей нет"
+      },
+      {
+        "type": "question",
+        "count": 9,
+        "share": "9%",
+        "examples": [
+          "Want to speak any language fluently?",
+          "Готов наконец заговорить?"
+        ],
+        "notes": "Любопытство, но опять про результат, не про эмоцию"
+      },
+      {
+        "type": "offer_first",
+        "count": 4,
+        "share": "4%",
+        "examples": [
+          "14 days free trial",
+          "Try free for 7 days"
+        ],
+        "notes": "Хук = сам оффер"
+      },
+      {
+        "type": "problem",
+        "count": 0,
+        "share": "0%",
+        "examples": [],
+        "notes": "ПУСТО. Никто не открывает первую строку болью «боюсь / стыдно / ступор». Главная дыра."
+      }
+    ],
+    "top_visual_styles": [
+      {"style": "ugc", "count": 41, "description": "Селфи-формат, говорящая голова, телефонная съёмка — у TalkPal и Speak"},
+      {"style": "product_demo", "count": 38, "description": "Скриншот/запись интерфейса приложения, нажатие кнопок, чат с AI"},
+      {"style": "lifestyle", "count": 18, "description": "Аспирационные сцены: путешествие, кафе, носитель"},
+      {"style": "graphic", "count": 8, "description": "Текст на цветной плашке, иконки — самый низкоскорный визуал"}
+    ],
+    "top_offers": [
+      {"type": "trial", "count": 77, "share": "73%", "typical": "7-14 day free trial / первый урок бесплатно"},
+      {"type": "discount", "count": 14, "typical": "30-50% off first month"},
+      {"type": "guarantee", "count": 6, "typical": "Money-back / результат за 3 месяца (только AntiShkola)"},
+      {"type": "implicit", "count": 8, "typical": "Оффер не сформулирован явно"}
+    ],
+    "top_ctas": [
+      {"type": "soft", "count": 71, "share": "68%", "examples": ["Sign up now", "Start your journey", "Try it today"]},
+      {"type": "direct", "count": 28, "examples": ["Install", "Register", "Узнать подробнее"]},
+      {"type": "free", "count": 6, "examples": ["Get free trial", "Бесплатный урок"]},
+      {"type": "urgency", "count": 0, "notes": "Дедлайны/«осталось N мест» — НИКТО не использует. Дыра."}
+    ],
+    "winning_combos": [
+      {"hook": "result", "body": "list", "offer": "trial", "frequency": 48, "avg_score": 6.2, "notes": "Базовый industry-default; работает, но потолок 6.5"},
+      {"hook": "social_proof", "body": "list", "offer": "trial", "frequency": 9, "avg_score": 6.9, "notes": "Самый высокоскорный массовый комбо"},
+      {"hook": "result", "body": "demo", "offer": "trial", "frequency": 22, "avg_score": 5.8, "notes": "Demo проседает без эмоционального якоря"},
+      {"hook": "question", "body": "demo", "offer": "trial", "frequency": 6, "avg_score": 5.4, "notes": "Вопрос-приманка + продуктовое демо без истории"}
+    ],
+    "missing_patterns": [
+      "Problem-хук с прямой болью («Я понимаю всё, но при иностранце — ступор»)",
+      "Before/after по эмоциям (от стыда → к свободе), а не по уровню языка",
+      "Story-формат от первого лица («я 8 лет учу — заговорила за 6 недель»)",
+      "Testimonial с фокусом на снятии блока, а не на грамматике",
+      "Urgency / scarcity (поток, набор, дедлайн)",
+      "Educational / методология (как именно снимается блок)",
+      "Гарантия результата (есть только у AntiShkola)"
+    ]
+  },
+  "ab_tests_detected": [
+    {
+      "brand": "TalkPal",
+      "creative_ids_pattern": "ad_1844974336419638 vs ad_834793116139089",
+      "testing": "hook",
+      "variant_a": "Social proof: '🚀 Say hello to AI language learning! ✅ 57+ languages'",
+      "variant_b": "Question: 'Want to speak any language fluently?'",
+      "likely_winner": "variant_a",
+      "evidence": "Social-proof вариант score 6.8 vs question 5.8; список variant_a воспроизводится в десятках копий-клонов под разные языки (dynamic templates)"
+    },
+    {
+      "brand": "TalkPal",
+      "testing": "body_format",
+      "variant_a": "list (буллеты ✅ Learn 57+ languages / ✅ Get dynamic content)",
+      "variant_b": "demo (видео-чат с AI-тьютором + real-time feedback)",
+      "likely_winner": "variant_a",
+      "evidence": "List-варианты лидируют по среднему скору 6.2 и масштабируются как dynamic templates на 50+ языков"
+    },
+    {
+      "brand": "AntiShkola",
+      "testing": "offer",
+      "variant_a": "Trial / первый урок бесплатно",
+      "variant_b": "Guarantee — результат за 3 месяца или вернём деньги",
+      "likely_winner": "variant_b",
+      "evidence": "Guarantee единичный в нише = уникальное позиционирование; средний скор бренда 6.05, выше Speak/Cambly"
+    },
+    {
+      "brand": "Speak",
+      "testing": "visual_style",
+      "variant_a": "UGC селфи-говорящая голова",
+      "variant_b": "Product demo — скриншоты AI-чата",
+      "likely_winner": "variant_a",
+      "evidence": "UGC-варианты получают выше overall_score; product_demo проседает в скоре body"
+    },
+    {
+      "brand": "Cambly",
+      "testing": "segment_targeting",
+      "variant_a": "Business English",
+      "variant_b": "Travel / casual conversation",
+      "likely_winner": "inconclusive",
+      "evidence": "Самый низкий средний скор (4.53) — оба сегмента не показывают сильных побед"
+    }
+  ],
+  "evergreen_analysis": {
+    "count": 94,
+    "share": "89%",
+    "common_elements": [
+      "Result-хук про беглость/уверенность (не задевает боль напрямую)",
+      "List-формат буллетов с галочками — легко локализуется на 50+ языков",
+      "Free trial 7-14 дней как доминирующий оффер",
+      "Soft CTA (Sign up / Start / Try)",
+      "Dynamic templates: один шаблон → 50+ вариантов с подставкой языка"
+    ],
+    "insights": "Evergreen-победители — это не «лучшие» креативы, а индустриальные шаблоны: result+list+trial+soft. Конкуренты выигрывают объёмом и масштабированием, а не глубиной инсайта. Это значит, что один креатив с реальной болью FLA и эмоциональным before/after выделится из 105 одинаковых.",
+    "anti_pattern": "Креативы с product_demo без эмоционального якоря (просто скриншоты UI) — самые низкоскорные evergreen, выживают по инерции рекламных аккаунтов, не по перформансу"
+  },
+  "audience_segments": [
+    {
+      "segment": "Self-learners A2-B2 (англоязычный мир)",
+      "brands_targeting": ["TalkPal", "Speak"],
+      "creative_approach": "AI-partner, конвенциональный fluency-promise, dynamic templates по языкам",
+      "gap_opportunity": "Никто не выделяет тех, кто уже 5+ лет учит и не говорит — это поджанр внутри сегмента"
+    },
+    {
+      "segment": "RU-аудитория 25-45 с английским 'понимаю — не говорю'",
+      "brands_targeting": ["AntiShkola"],
+      "creative_approach": "Школьный формат с гарантией, но без явной работы с эмоциональным блоком",
+      "gap_opportunity": "Полностью пусто на пересечении 'методика + психология блока' с RU-маркетингом"
+    },
+    {
+      "segment": "Conversation with native speakers",
+      "brands_targeting": ["Cambly", "italki"],
+      "creative_approach": "Платформенный — выбери репетитора, говорите по видео",
+      "gap_opportunity": "Никто не адресует тех, кто БОИТСЯ говорить даже с репетитором (пред-репетиторский барьер)"
+    },
+    {
+      "segment": "Business English / карьерный сегмент",
+      "brands_targeting": ["Cambly"],
+      "creative_approach": "Карьера/презентации/переговоры",
+      "gap_opportunity": "Нет фокуса на 'мне стыдно перед коллегами говорить' — публичный стыд как угол"
+    },
+    {
+      "segment": "Перфекционисты / 'высокий понимаю / низкий говорю'",
+      "brands_targeting": [],
+      "creative_approach": "ОТСУТСТВУЕТ",
+      "gap_opportunity": "Идеальный сегмент под продукт владельца брифа — никто прямо не таргетирует"
+    },
+    {
+      "segment": "Эмигранты / переехавшие, нужно говорить ежедневно",
+      "brands_targeting": [],
+      "creative_approach": "ОТСУТСТВУЕТ",
+      "gap_opportunity": "Острый сегмент с понятной болью — никто не делает creative-angle про 'живу за границей, не говорю'"
+    }
+  ],
+  "creative_ideas": [
+    {
+      "id": 1,
+      "title": "Problem-хук «Понимаю всё — сказать не могу»",
+      "hook": "«Я понимаю английский на 80%. А говорю — на 10%. Знакомо?»",
+      "body": "Видео-селфи от первого лица: 'Я 8 лет учила язык. На YouTube понимаю всё. Но при иностранце — ступор, потею, забываю слова, которые знаю.' Переход: 'Я думала, дело в словах. Оказалось — в блоке. Снять его — 6 недель методики + работа с тревогой.'",
+      "cta": "Узнать, как снимается блок →",
+      "offer": "Бесплатная диагностика блока (15 мин) + первая практика",
+      "visual_concept": "UGC селфи, вертикаль 9:16, без монтажа, разговорный тон, субтитры",
+      "target_segment": "RU 25-45 'понимаю — не говорю', перфекционисты",
+      "type": "safe_bet",
+      "priority": "high",
+      "based_on": "Problem-хук = 0/105 у конкурентов + UGC = top visual (41/105) + сегмент 'понимаю/не говорю' не таргетируется никем"
+    },
+    {
+      "id": 2,
+      "title": "Before/After по эмоциям, а не по уровню",
+      "hook": "«До: 'Sorry, my English is not good'. После: спокойно заказываю кофе, шучу, не краснею.»",
+      "body": "Split-screen: слева скованная женщина, отводит глаза, бормочет; справа — та же женщина, расслабленная, смеётся с барменом. Подпись: 'Уровень тот же. Блока — нет.'",
+      "cta": "Хочу так же",
+      "offer": "Trial-неделя + диагностика блока",
+      "visual_concept": "Split-screen 50/50, реальная ученица (не модель), без правки звука",
+      "target_segment": "Эмоциональные перфекционисты A2-B2",
+      "type": "safe_bet",
+      "priority": "high",
+      "based_on": "Before/after по эмоциям = 0/105 (Hypothesis #2 подтверждена в крайней форме). Дыра-чемпион."
+    },
+    {
+      "id": 3,
+      "title": "Testimonial: «Сняла блок, а не выучила язык»",
+      "hook": "«Я не учила новые слова. Я перестала бояться тех, что уже знала.»",
+      "body": "Реальная ученица 38 лет: 'У меня B2 был 5 лет. Все курсы — про слова и грамматику. Здесь сняли блок: я начала говорить за 3 недели на том же уровне, что был.' Тег: 'История блока, а не уровня.'",
+      "cta": "Прочитать историю",
+      "offer": "Trial + 1 разбор твоего блока с экспертом",
+      "visual_concept": "Talking head 60 sec, без скриптовости, плохая комнатная подсветка = аутентичность",
+      "target_segment": "Самоопределяющиеся «учу годами»",
+      "type": "safe_bet",
+      "priority": "high",
+      "based_on": "Testimonial = 4/105, ни один не про снятие блока, все про уровень/беглость"
+    },
+    {
+      "id": 4,
+      "title": "Educational: «3 причины ступора, о которых не говорят на курсах»",
+      "hook": "«Ступор в разговоре — это не нехватка слов. Это 3 механики мозга.»",
+      "body": "60-сек объяснение: (1) перфекционизм = страх ошибки запирает речь, (2) gap между receptive и productive vocab, (3) кортизоловый ступор. 'Каждую снимаем отдельным упражнением.'",
+      "cta": "Получить PDF с упражнениями",
+      "offer": "Lead-magnet PDF → tripwire trial",
+      "visual_concept": "Whiteboard-style, объясняющая talking head + анимированные подписи",
+      "target_segment": "Аналитики, B1-B2, любят системность",
+      "type": "wild_card",
+      "priority": "high",
+      "based_on": "Educational = 0/105 у конкурентов. Полная пустота → методика = главный USP владельца"
+    },
+    {
+      "id": 5,
+      "title": "Story первого лица — 'я была вами'",
+      "hook": "«У меня был блок 12 лет. C2 на бумаге, на собеседовании молчу.»",
+      "body": "Эксперт-методолог рассказывает свою историю: была переводчиком на бумаге, не могла заказать кофе за границей. Что сделала, чтобы снять блок (без раскрытия методики — это в продукте). 'Сейчас веду курс именно из этого опыта.'",
+      "cta": "Узнать методику",
+      "offer": "Trial + вебинар-знакомство",
+      "visual_concept": "Прямая речь эксперта в камеру, без декораций, документальный стиль",
+      "target_segment": "Доверяющие людям, не платформам",
+      "type": "safe_bet",
+      "priority": "high",
+      "based_on": "Story = 0/105 + позволяет показать эксперта как human-USP (отстройка от AI-аватаров TalkPal/Speak)"
+    },
+    {
+      "id": 6,
+      "title": "Гарантия результата (повторить ход AntiShkola, но эмоциональный)",
+      "hook": "«Если через 6 недель ты не заговоришь свободнее — мы вернём деньги.»",
+      "body": "Прямой текст-плашка с условиями гарантии. Внизу мелким: 'Метрика — не уровень, а минуты непрерывной речи без переключения на русский.'",
+      "cta": "Посмотреть условия гарантии",
+      "offer": "Money-back если нет результата за 6 недель",
+      "visual_concept": "Чистый текст-карточка, корпоративная серьёзность",
+      "target_segment": "Скептики, потратили деньги на курсы и не получили",
+      "type": "safe_bet",
+      "priority": "medium",
+      "based_on": "Guarantee = 6/105 (только AntiShkola), но НИКТО не привязал гарантию к снятию блока — только к уровню"
+    },
+    {
+      "id": 7,
+      "title": "Urgency: набор закрытого потока",
+      "hook": "«Поток 12. Закрытая группа 20 человек. Старт через 4 дня.»",
+      "body": "Прямой формат: 'Не AI-бот 24/7. Живой поток с куратором и группой поддержки. Цена ниже частного коучинга в 5 раз.'",
+      "cta": "Забронировать место",
+      "offer": "Trial-неделя + место в потоке по фикс-цене до старта",
+      "visual_concept": "Карточка с обратным таймером, дата старта крупно",
+      "target_segment": "Те, кому нужны рамки и обязательства",
+      "type": "wild_card",
+      "priority": "medium",
+      "based_on": "Urgency = 0/105. Полностью пустая ниша + отстройка от 'вечного trial' конкурентов"
+    },
+    {
+      "id": 8,
+      "title": "Сегмент 'мне стыдно при коллегах'",
+      "hook": "«Я не боюсь иностранцев. Я боюсь говорить при русских коллегах, знающих английский.»",
+      "body": "Видео: офисный созвон, женщина бекает на английском, чувствует, что коллеги слушают. 'Публичный стыд за английский — отдельная боль. С ней мы работаем точечно.'",
+      "cta": "Снять стыд →",
+      "offer": "Trial + сценарий 'безопасных созвонов'",
+      "visual_concept": "Имитация Zoom-окна, переключение между лицом и реакциями коллег",
+      "target_segment": "Корпоративные сотрудники 28-40, B1-B2",
+      "type": "wild_card",
+      "priority": "medium",
+      "based_on": "Стыд при коллегах = новый угол, Cambly Business не таргетирует эмоцию"
+    },
+    {
+      "id": 9,
+      "title": "Эмигрант-сегмент: 'живу за границей, молчу'",
+      "hook": "«Я в Лиссабоне 2 года. Заказываю кофе по-английски и боюсь идти в банк.»",
+      "body": "UGC от первого лица на фоне европейской улицы. 'Каждый день репетирую фразу для бариста. После — выгорание. Так не должно быть.'",
+      "cta": "Снять барьер для повседневной жизни",
+      "offer": "Trial + сценарии 'банк / врач / школа ребёнка'",
+      "visual_concept": "Ходьба с камерой первого лица, реальные локации, без музыки",
+      "target_segment": "Релоканты СНГ 28-45 в EU/UK/US",
+      "type": "wild_card",
+      "priority": "high",
+      "based_on": "Сегмент эмигрантов не таргетируется никем + у RU-аудитории за границей boli понятнее и кошельки шире"
+    },
+    {
+      "id": 10,
+      "title": "Контр-позиционирование против AI-партнёров",
+      "hook": "«AI-бот не краснеет вместе с тобой. Поэтому он не учит снимать блок.»",
+      "body": "Прямая отстройка от TalkPal/Speak: 'Блок снимается в безопасных отношениях с человеком, а не в тренировке с роботом. AI хорош для отработки — не для пере-обучения психики.'",
+      "cta": "Сравнить подходы",
+      "offer": "Free webinar 'Почему AI не снимает блок' + trial",
+      "visual_concept": "Карусель сравнения: AI vs human-coach по 5 параметрам",
+      "target_segment": "Те, кто пробовал TalkPal/Speak и не сдвинулся",
+      "type": "wild_card",
+      "priority": "high",
+      "based_on": "TalkPal/Speak = 50%+ всех креативов в нише → их аудитория слышит этот месседж и узнаёт себя"
+    }
+  ],
+  "strategic_insights": [
+    "Главная находка: в 105 креативах НИ ОДИН не использует problem-хук на первой строке. Любой креатив с реальной болью FLA («Понимаю — не говорю») сразу выделится из шума.",
+    "Hypothesis #2 подтверждена в крайней форме: 0/105 креативов показывают before/after по эмоциям. Это монопольная ниша для visual-storytelling.",
+    "94/105 креативов — evergreen-шаблоны (result + list + trial + soft CTA), которые работают по объёму, а не по глубине. Один глубокий креатив с историей перебьёт сотню шаблонов.",
+    "Конкуренты делятся на 2 лагеря: AI-партнёры (TalkPal/Speak — 60% креативов) и платформы носителей (Cambly). Methodology+psychology — пустое поле.",
+    "Urgency = 0/105, Educational = 0/105, Story = 0/105 — три полностью пустые ниши.",
+    "AntiShkola — единственный, кто использует guarantee, и это даёт средний скор 6.05 (выше Cambly/Speak), что подтверждает: гарантия + RU-маркетинг = рабочая связка.",
+    "Доминирующие сегменты конкурентов — 'self-learner A2-B2 универсальный'. Перфекционисты, эмигранты, корпоративный стыд — не таргетируются.",
+    "Угол 'AI не снимает блок' — готовое контр-позиционирование против ~60% креативов в нише."
+  ],
+  "test_plan": [
+    {
+      "test_name": "Hook test: problem vs result (главный)",
+      "hypothesis": "Problem-хук 'Понимаю — не говорю' даст CTR в 1.5-2x выше, чем результатный 'Заговори свободно', потому что отсутствует у 100% конкурентов",
+      "variants": 3,
+      "variants_detail": ["Problem: 'Понимаю всё — сказать не могу'", "Result baseline: 'Заговори свободно за 6 недель'", "Question: 'Сколько лет учишь и до сих пор молчишь?'"],
+      "budget_recommendation": "₽30 000 на 7 дней (Meta/VK), ₽3-5k на гипотезу",
+      "success_metric": "CTR > 1.5%, CPM < ₽300, hook-rate 3-сек view > 30%",
+      "priority": "P0"
+    },
+    {
+      "test_name": "Visual test: emotional before/after vs talking head",
+      "hypothesis": "Split-screen эмоциональный before/after даст thumbstop в 2x выше, чем стандартный UGC selfie",
+      "variants": 2,
+      "budget_recommendation": "₽20 000 на 5 дней",
+      "success_metric": "Thumbstop > 25%, video completion > 40%",
+      "priority": "P0"
+    },
+    {
+      "test_name": "Offer test: trial vs guarantee vs lead-magnet",
+      "hypothesis": "Гарантия 'вернём деньги за 6 недель' даст более качественный лид, чем trial",
+      "variants": 3,
+      "variants_detail": ["Trial 7 дней", "Guarantee money-back 6 недель", "PDF лид-магнит '3 причины ступора'"],
+      "budget_recommendation": "₽45 000 на 10 дней",
+      "success_metric": "CPL < ₽600, конверсия лид→оплата > 8%",
+      "priority": "P1"
+    },
+    {
+      "test_name": "Segment test: универсальный vs эмигранты vs перфекционисты",
+      "hypothesis": "Сегментированные крео под эмигрантов и перфекционистов дадут CTR в 1.3x выше универсальных",
+      "variants": 3,
+      "budget_recommendation": "₽30 000 на 7 дней",
+      "success_metric": "CTR > 1.8% в сегментных аудиториях, CPL ниже среднего",
+      "priority": "P1"
+    },
+    {
+      "test_name": "Format test: story (60 sec) vs short hook (15 sec)",
+      "hypothesis": "60-секундная история эксперта даст более высокую конверсию лид→оплата, даже при меньшем CTR",
+      "variants": 2,
+      "budget_recommendation": "₽25 000 на 7 дней",
+      "success_metric": "Lead→purchase > 12% (story) против baseline ~6%",
+      "priority": "P2"
+    }
+  ],
+  "confidence_note": "Паттерны базируются на 105 креативах × 4 бренда. Уровень доверия высокий для frequency_analysis (n=105) и для 'missing patterns' (0/105 — это абсолютная пустота). Идеи 1-5 — safe_bet (опираются на ясные пустоты), идеи 7-10 — wild_card (требуют валидации в тесте)."
+}

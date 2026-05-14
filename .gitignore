@@ -1,0 +1,27 @@
+# Зависимости и кеши
+node_modules/
+.cache/
+
+# Vercel
+.vercel
+deploy/.vercel
+
+# Сырые выгрузки исследования (тяжёлые, не нужны для контроля версий)
+data/raw_*
+data/landing_raw_*.md
+data/traffic_raw_*.md
+data/competitors_raw_*
+*.log
+*.tmp
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Системное
+state.json
+output/
+
+# Скриншоты для предпросмотра — в репо не нужны
+/tmp/lang-anxiety-screenshots/

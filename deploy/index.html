@@ -1,0 +1,1356 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Языковой барьер · Конкурентный анализ · 2026-05-12</title>
+<style>
+:root {
+  --bg: #fafaf9;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --muted: #6b7280;
+  --border: #e5e5e5;
+  --accent: #e11d48;
+  --accent-soft: #fce7ec;
+  --green: #10b981;
+  --amber: #f59e0b;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+nav.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 32px 24px;
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  background: var(--surface);
+}
+nav.sidebar .brand {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+nav.sidebar ol { list-style: none; padding: 0; margin: 0; counter-reset: nav; }
+nav.sidebar li { counter-increment: nav; margin: 0; }
+nav.sidebar a {
+  display: block;
+  padding: 8px 0 8px 28px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  border-left: 2px solid transparent;
+  transition: all 0.15s;
+}
+nav.sidebar a:before {
+  content: counter(nav);
+  position: absolute;
+  left: 8px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--muted);
+}
+nav.sidebar a:hover { color: var(--text); }
+nav.sidebar a.active { color: var(--accent); border-left-color: var(--accent); }
+main { padding: 56px 64px; max-width: 980px; }
+@media (max-width: 1000px) {
+  .layout { grid-template-columns: 1fr; }
+  nav.sidebar { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--border); }
+  main { padding: 32px 24px; }
+}
+section { margin: 0 0 96px; scroll-margin-top: 24px; }
+section:last-child { margin-bottom: 0; }
+h1 { font-size: 56px; font-weight: 800; line-height: 1.05; margin: 0 0 24px; letter-spacing: -0.02em; }
+h2 { font-size: 32px; font-weight: 700; margin: 0 0 24px; letter-spacing: -0.01em; border-bottom: 2px solid var(--text); padding-bottom: 12px; }
+h3 { font-size: 20px; font-weight: 600; margin: 40px 0 16px; }
+h4 { font-size: 17px; font-weight: 600; margin: 0 0 8px; }
+h5 { font-size: 14px; font-weight: 600; margin: 0 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+p { margin: 0 0 14px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+.mono { font-family: "SF Mono", Menlo, monospace; font-size: 13px; }
+code { background: #f3f4f6; padding: 2px 6px; border-radius: 3px; font-family: "SF Mono", Menlo, monospace; font-size: 0.9em; }
+
+/* Hero */
+.hero { margin-bottom: 72px; }
+.hero-tag { font-size: 12px; font-weight: 700; letter-spacing: 0.15em; color: var(--accent); margin-bottom: 16px; }
+.hero-sub { font-size: 18px; color: var(--muted); max-width: 700px; margin-bottom: 36px; }
+.hero-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 36px 0 24px; }
+.stat { padding: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
+.stat.accent { background: var(--accent); color: white; border-color: var(--accent); }
+.stat-n { font-size: 36px; font-weight: 800; line-height: 1; margin-bottom: 8px; letter-spacing: -0.02em; }
+.stat-l { font-size: 13px; opacity: 0.7; }
+.hero-meta { display: flex; gap: 12px; font-size: 14px; color: var(--muted); }
+
+/* Cards */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 24px; }
+.card h3 { margin-top: 0; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 720px) { .grid-2 { grid-template-columns: 1fr; } .hero-stats { grid-template-columns: repeat(2, 1fr); } }
+
+/* Callouts */
+.callout { padding: 16px 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid; }
+.callout-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 6px; }
+.callout p { margin: 0; }
+.callout.key { background: var(--accent-soft); border-left-color: var(--accent); }
+.callout.key .callout-label { color: var(--accent); }
+.callout.warn { background: #fef3c7; border-left-color: var(--amber); }
+.callout.warn .callout-label { color: var(--amber); }
+.callout.passed, .callout.pass { background: #d1fae5; border-left-color: var(--green); }
+.callout.passed .callout-label { color: var(--green); }
+.callout.danger { background: #fef2f2; border-left-color: var(--accent); }
+.callout.danger .callout-label { color: var(--accent); }
+
+/* TOP-5 grid */
+.top-grid { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 16px 0 24px; }
+.top-card { display: flex; gap: 16px; padding: 18px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
+.top-rank { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: white; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.top-body h4 { margin: 0 0 6px; }
+.top-body p { margin: 0; color: var(--muted); font-size: 14px; }
+
+/* Tags */
+.tag { display: inline-block; padding: 3px 10px; font-size: 11px; font-weight: 600; color: white; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.05em; }
+.pill-list { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.pill-list li { background: white; padding: 4px 10px; border-radius: 999px; font-size: 13px; }
+.pill-list code { background: transparent; padding: 0; font-size: 13px; }
+
+/* Data table */
+.data-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.data-table th { text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); padding: 12px 16px; background: #f9fafb; border-bottom: 1px solid var(--border); }
+.data-table td { padding: 14px 16px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.data-table tr:last-child td { border-bottom: 0; }
+
+/* Matrix */
+.matrix { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13px; background: var(--surface); border: 1px solid var(--border); }
+.matrix th { padding: 10px; text-align: center; background: #f9fafb; border-bottom: 1px solid var(--border); font-size: 12px; }
+.matrix tbody th { text-align: right; padding-right: 12px; background: #fafaf9; font-weight: 600; }
+.matrix td { padding: 10px; text-align: center; border: 1px solid var(--border); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* Bars */
+.bar-row { display: grid; grid-template-columns: 100px 1fr 40px; gap: 12px; align-items: center; margin: 10px 0; }
+.bar-name { font-weight: 600; font-size: 14px; }
+.bar { background: #f3f4f6; height: 8px; border-radius: 4px; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--accent); }
+.bar-val { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 14px; }
+
+/* Ideas grid */
+.ideas-grid, .lideas-grid, .landings-grid, .tests-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 16px; margin: 24px 0; }
+.idea-card, .lidea-card, .landing-card, .test-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+.idea-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.idea-id { font-size: 12px; font-weight: 700; color: var(--muted); }
+.idea-tags { display: flex; gap: 6px; }
+.idea-card h4 { font-size: 18px; margin-bottom: 16px; }
+.idea-line { display: grid; grid-template-columns: 110px 1fr; gap: 10px; font-size: 13px; margin: 6px 0; }
+.idea-line .lbl { color: var(--muted); font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.05em; padding-top: 2px; }
+.idea-foot { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); font-size: 12px; }
+
+/* Landing cards */
+.landing-card { padding: 24px; }
+.landing-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; gap: 16px; }
+.landing-head h4 { font-size: 18px; }
+.score-circle { background: var(--accent-soft); color: var(--accent); width: 56px; height: 56px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0; }
+.score-n { font-size: 18px; font-weight: 800; line-height: 1; }
+.score-l { font-size: 10px; opacity: 0.7; }
+.landing-hero { background: #fafaf9; border-radius: 6px; padding: 14px 16px; margin-bottom: 16px; }
+.lh-label { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 6px; }
+.lh-headline { font-weight: 600; margin-bottom: 6px; font-size: 15px; }
+.lh-sub { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+.lh-cta { font-size: 13px; margin: 0; }
+.landing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.landing-grid ul { margin: 0; padding-left: 18px; font-size: 13px; }
+.landing-grid li { margin: 4px 0; }
+
+/* Lidea cards (improvement ideas) */
+.lidea-card { display: flex; gap: 14px; }
+.lidea-rank { width: 32px; height: 32px; border-radius: 50%; background: var(--accent); color: white; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.lidea-body h4 { font-size: 15px; line-height: 1.4; }
+.lidea-body p { font-size: 13px; }
+.lidea-tags { display: flex; gap: 6px; margin-top: 8px; }
+
+/* Hypotheses */
+.hyp { display: flex; gap: 24px; padding: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; margin: 12px 0; }
+.hyp-num { font-size: 48px; font-weight: 800; color: var(--accent); flex-shrink: 0; line-height: 1; letter-spacing: -0.02em; }
+.hyp-body { flex: 1; }
+.hyp-body h3 { margin: 0 0 12px; font-size: 18px; }
+.verdict { display: inline-block; padding: 4px 12px; font-size: 12px; font-weight: 700; letter-spacing: 0.05em; border-radius: 4px; margin-bottom: 12px; }
+.verdict.pass { background: #d1fae5; color: #065f46; }
+.hyp-stats { display: flex; gap: 24px; margin: 12px 0; font-size: 14px; }
+.hyp-stats strong { font-size: 20px; color: var(--accent); display: block; }
+
+/* Tests */
+.test-card { padding: 20px; }
+.test-head { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+.test-head h4 { margin: 0; }
+.test-card p { font-size: 13px; margin: 6px 0; }
+
+/* Lists */
+ol.big-list { padding-left: 20px; }
+ol.big-list li { margin: 10px 0; }
+
+/* Method steps */
+.method-steps { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
+.method-step { display: flex; gap: 16px; padding: 16px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
+.method-step .ms-num { flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; background: var(--accent); color: white; font-weight: 700; display: flex; align-items: center; justify-content: center; font-variant-numeric: tabular-nums; }
+.method-step strong { color: var(--text); }
+.method-step em { color: var(--accent); font-style: normal; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav class="sidebar">
+    <div class="brand">Языковой барьер · 2026-05-12</div>
+    <ol><li><a href="#hero">Обзор</a></li><li><a href="#about">О чём это исследование</a></li><li><a href="#summary">Главные выводы</a></li><li><a href="#competitors">Карта конкурентов</a></li><li><a href="#antishkola">Разбор Anti-Shkola</a></li><li><a href="#creatives">Разбор рекламы</a></li><li><a href="#ideas">10 идей рекламы</a></li><li><a href="#traffic">Каналы продвижения</a></li><li><a href="#landings">Посадочные страницы</a></li><li><a href="#hypotheses">Гипотезы</a></li><li><a href="#tests">План тестов</a></li><li><a href="#emigrants">Эмигранты в EU и Израиле</a></li><li><a href="#meta">Источники</a></li></ol>
+  </nav>
+  <main>
+<section id="hero" class="hero">
+  <div class="hero-tag">КОНКУРЕНТНЫЙ АНАЛИЗ · 2026-05-12</div>
+  <h1>Языковой барьер: что делают конкуренты</h1>
+  <p class="hero-sub">Снятие психологического блока в говорении на иностранном языке. Карта брендов, разбор рекламы, каналы трафика, посадочные страницы, проверка гипотез.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n">20</div><div class="stat-l">брендов в карте</div></div>
+    <div class="stat"><div class="stat-n">105</div><div class="stat-l">рекламных объявлений</div></div>
+    <div class="stat"><div class="stat-n">5</div><div class="stat-l">сайтов в глубоком разборе</div></div>
+    <div class="stat accent"><div class="stat-n">3/3</div><div class="stat-l">гипотезы подтверждены</div></div>
+  </div>
+  <div class="hero-meta">
+    <span>Россия + СНГ + русскоязычные за рубежом; сравнение — англоязычный рынок</span>
+    <span>·</span>
+    <span>3 000 — 30 000 ₽/мес (массовый сегмент); сравнение — 30–300 $/мес</span>
+  </div>
+</section>
+
+<section id="about">
+  <h2>О чём это исследование</h2>
+
+  <h3>Какую боль анализируем</h3>
+  <p><strong>Языковой барьер в разговорной речи</strong> — психологическое состояние, при котором человек понимает иностранный язык, читает на нём, но в живом разговоре «застывает». В академической литературе это называют <em>Foreign Language Anxiety</em> (далее в отчёте — языковой барьер). Симптомы устойчивые и распознаваемые:</p>
+  <ul>
+    <li>«Всё понимаю — сказать не могу»</li>
+    <li>Страх допустить ошибку, страх осуждения собеседника</li>
+    <li>Ступор перед звонком, переговорами, разговором с носителем</li>
+    <li>Перфекционизм: «сначала выучу всё — потом заговорю» — годами</li>
+    <li>Физическая реакция: учащённое сердцебиение, потеют ладони, голос пропадает</li>
+  </ul>
+
+  <h3>Кто целевая аудитория</h3>
+  <div class="grid-2">
+    <div class="card">
+      <h4>Портрет клиента</h4>
+      <ul>
+        <li>Русскоязычные взрослые, 25–45 лет</li>
+        <li>Уровень изучаемого языка — A2–B2 (от «могу читать с словарём» до «понимаю фильмы, но молчу»)</li>
+        <li>Учат не первый год, часто 3–10 лет. Фрустрированы отсутствием результата именно в говорении</li>
+        <li>География: Россия, СНГ, русскоязычные за рубежом (релоканты, мигранты, репатрианты)</li>
+        <li>Готовы платить 3 000 – 30 000 ₽/мес за решение боли</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>Что для них важно</h4>
+      <ul>
+        <li>Снять психологический блок — не выучить ещё одну тему грамматики</li>
+        <li>Безопасная среда практики без оценок</li>
+        <li>Не «уроки», а «разговоры»</li>
+        <li>Эмоциональное «до и после» — а не «уровень B1 за 3 месяца»</li>
+        <li>Доверие к эксперту, который сам прошёл этот путь</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Кого считаем конкурентом</h3>
+  <div class="grid-2">
+    <div class="card">
+      <h4>Включаем в анализ</h4>
+      <ul>
+        <li>Тех, кто прямо адресует <strong>проблему блока в говорении</strong>, а не «выучи язык за 3 месяца»</li>
+        <li>Приложения с нейросетью для разговорной практики (TalkPal, Speak и аналоги)</li>
+        <li>Разговорные клубы без оценок</li>
+        <li>Платформы с носителями языка (Cambly, italki) — как образец для каналов и копирайтинга</li>
+        <li>Психологов-наставников, работающих со страхом речи (Машкова, Кашпур)</li>
+        <li>Англоязычных эксперт-блогеров: Lindsay Williams, Olly Richards — как образец воронки и контента</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>НЕ включаем</h4>
+      <ul>
+        <li>Массовые языковые школы общего профиля (Skyeng, EnglishDom, Tutor.com) — их продукт про грамматику и уровень, не про блок</li>
+        <li>Языковые приложения для самообучения (Duolingo, Babbel) — не работают с речью и страхом</li>
+        <li>Подготовку к экзаменам (IELTS, TOEFL) — другая боль, другая аудитория</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>По каким критериям отбирали топ-5</h3>
+  <p>Из 20 брендов на карте в глубокий разбор взяли пять, набравших баллы по четырём осям:</p>
+  <ol>
+    <li><strong>Соответствие нише</strong> — насколько прямо адресует языковой барьер, а не учит грамматике</li>
+    <li><strong>Маркетинговая активность</strong> — наличие живой рекламы в Meta Ad Library / TikTok Creative Center и видимое присутствие в каналах</li>
+    <li><strong>Релевантность аудитории</strong> — русскоязычный сегмент или прямая модель для повторения (англоязычный образец)</li>
+    <li><strong>Полнота воронки</strong> — есть посадочная страница, понятная цена, реклама, контент-каналы</li>
+  </ol>
+
+  <h3>Как анализировали — методология в 7 шагах</h3>
+  <div class="method-steps">
+    <div class="method-step"><span class="ms-num">1</span><div><strong>Карта конкурентов.</strong> Сканирование рынка через Exa-поиск: 20 брендов в 4 группах (прямые, косвенные, лидеры рынка, растущие нишевые). Сверка с обязательным списком из брифа (10 кандидатов на проверку).</div></div>
+    <div class="method-step"><span class="ms-num">2</span><div><strong>Сбор рекламы.</strong> Все активные и завершённые объявления топ-5 за последние 90 дней из библиотеки рекламы Meta (через Apify) и TikTok Creative Center. Итог — 105 объявлений с полным текстом, датами, форматами, регионами.</div></div>
+    <div class="method-step"><span class="ms-num">3</span><div><strong>Разбор каждого объявления.</strong> Каждое из 105 разложено на четыре элемента: <em>заход</em> (первая строка, что цепляет), <em>раскрытие</em> (тело сообщения), <em>призыв</em>, <em>предложение</em> (оффер). Размечено по типам боли клиента: страх / стыд / ступор / перфекционизм / мотивация / результат / удобство / функционал. Каждому объявлению проставлен скор 1–10.</div></div>
+    <div class="method-step"><span class="ms-num">4</span><div><strong>Поиск закономерностей.</strong> Кросс-брендовые повторяющиеся приёмы, A/B-тесты внутри одного бренда, долгоиграющие лидеры (то, что бренд крутит в рекламе 30+ дней без замены). Построена матрица «заход × боль» для поиска пустых ниш. Сгенерировано 10 идей объявлений в свободные ниши.</div></div>
+    <div class="method-step"><span class="ms-num">5</span><div><strong>Каналы трафика.</strong> Для каждого из топ-5 — распределение по источникам (платный, органика, прямой, реферальный), оценка месячного бюджета на рекламу, ключевые гео, видимость в России и СНГ, активные соцсети.</div></div>
+    <div class="method-step"><span class="ms-num">6</span><div><strong>Посадочные страницы.</strong> Разбор главной страницы каждого из топ-5: первый экран, структура секций, тип социальных доказательств, оффер и цены, формы заявки. Проверка гипотезы №3 — какие отзывы дают конкуренты.</div></div>
+    <div class="method-step"><span class="ms-num">7</span><div><strong>Финальный отчёт.</strong> Сборка выводов, проверка трёх гипотез из брифа, план приоритетных тестов.</div></div>
+  </div>
+
+  <div class="callout warn">
+    <div class="callout-label">Что важно помнить при чтении отчёта</div>
+    <p>Все цифры по трафику и рекламным бюджетам — оценочные (SimilarWeb, Semrush, Ahrefs закрыты платной подпиской). Объём рекламы в библиотеке Meta без авторизации ограничен (5–23 объявления на бренд). Полностью удалось выгрузить только Cambly через сервис Apify. Lindsay Does Languages платную рекламу не ведёт — анализировали только посадочную страницу и органические каналы. У Anti-Shkola в библиотеке рекламы Meta только украиноязычные креативы; русскоязычная реклама бренда, если она была, в выгрузку не попала.</p>
+  </div>
+</section>
+
+<section id="summary">
+  <h2>1. Главные выводы</h2>
+  <div class="callout key">
+    <div class="callout-label">Главная находка</div>
+    <p>Рынок языкового барьера чётко делится на два полюса: (1) приложения с нейросетью (TalkPal, Speak, Loora, Univerbal) с агрессивным ростом и прямым позиционированием через уверенность в речи — самый активный рекламный сегмент; (2) нишевые русскоязычные коучи (Lingua Strategy, Anna Melak, Kath English) с низкой видимостью и минимальным рекламным бюджетом. Разрыв между ними — возможная дыра: методика + психологическая работа с блоком в формате курса с русскоязычным позиционированием и маркетинговым масштабом, сравнимым с приложениями. Разговорные клубы (Real Talk Club, Born2Speak) закрывают потребность в безоценочной среде, но не дают системной работы с тревогой.</p>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Что делают конкуренты</h3>
+      <ul>
+        <li><strong>Приложения с нейросетью</strong> (TalkPal, Speak, Loora) — массовый продукт, но без работы со страхом</li>
+        <li><strong>Психологи-наставники</strong> (Машкова, Кашпур) — работа с эмоциями, но малые потоки клиентов</li>
+        <li><strong>Языковые школы</strong> — методика грамматики, психологический блок игнорируют</li>
+        <li><strong>Площадки с носителями</strong> (Cambly, italki) — практика речи, но без разбора страха</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Рыночные возможности</h3>
+      <ol><li>Поисковая выдача — незанятая ниша для русскоязычного рынка: Anti-Shkola на Tilda почти без органики, Cambly — кейс на турецком, не на русском. Качественный блог про языковой барьер мог бы захватить нулевую конкуренцию.</li><li>Telegram — Anti-Shkola единственный использует канал и бота. Другие крупные игроки (Cambly, Speak, TalkPal) в Telegram отсутствуют. Высокий потенциал для русскоязычной аудитории.</li><li>YouTube на русском — Lindsay Does Languages доказывает модель органического YouTube для ниши, но только на английском. Русскоязычного аналога нет.</li></ol>
+    </div>
+  </div>
+</section>
+
+<section id="competitors">
+  <h2>2. Карта конкурентов</h2>
+
+  <h3>Топ-5 для глубокого разбора</h3>
+  <div class="top-grid">
+<div class="top-card">
+  <div class="top-rank">1</div>
+  <div class="top-body">
+    <h4>TalkPal <a href="https://www.talkpal.ai/" target="_blank" class="muted small">↗</a></h4>
+    <p>Крупнейший прямой конкурент в сегменте приложений с нейросетью. Явное позиционирование через языковой барьер («говори уверенно», «без страха осуждения»), высокий рекламный бюджет в Meta / TikTok / Google. Обязателен для анализа креативов и закономерностей. В обязательном списке брифа: да.</p>
+  </div>
+</div>
+
+<div class="top-card">
+  <div class="top-rank">2</div>
+  <div class="top-body">
+    <h4>Speak <a href="https://www.speak.com/" target="_blank" class="muted small">↗</a></h4>
+    <p>Слоган прямо бьёт в боль языкового барьера («The app that gets you speaking» — «Приложение, которое заставит вас говорить»), крупное венчурное финансирование, агрессивный рост. Лучший кейс для изучения посадочной, воронки и рекламных хуков под языковой барьер. В обязательном списке брифа: да.</p>
+  </div>
+</div>
+
+<div class="top-card">
+  <div class="top-rank">3</div>
+  <div class="top-body">
+    <h4>Cambly <a href="https://cambly.com/?lang=ru" target="_blank" class="muted small">↗</a></h4>
+    <p>Лидер рынка с русскоязычным позиционированием. Эталон по рекламным бюджетам и каналам под русскоязычную аудиторию. Данные по трафику и рекламе в Meta — ценный ориентир для оценки рынка. В обязательном списке брифа: да.</p>
+  </div>
+</div>
+
+<div class="top-card">
+  <div class="top-rank">4</div>
+  <div class="top-body">
+    <h4>Lindsay Does Languages <a href="https://lindsaydoeslanguages.com/" target="_blank" class="muted small">↗</a></h4>
+    <p>Эталон англоязычного рынка по нишевому позиционированию под языковой барьер. Speaking Confidence Challenge — вирусный формат через сам продукт. Интересна для анализа контентной воронки, посадочных и структуры предложения под языковую тревожность. В обязательном списке брифа: да.</p>
+  </div>
+</div>
+
+<div class="top-card">
+  <div class="top-rank">5</div>
+  <div class="top-body">
+    <h4>Anti-Shkola / «Больше не буду молчать» <a href="https://anti-shkola.ru/marafon" target="_blank" class="muted small">↗</a></h4>
+    <p>Единственный русскоязычный конкурент с активным маркетингом и прямым попаданием в языковой барьер в названии продукта. Важен для анализа рекламных креативов и воронки именно на русскоязычную аудиторию. Ближайший прямой конкурент по региону.</p>
+  </div>
+</div>
+</div>
+
+  <div class="callout passed">
+    <div class="callout-label">Сверка по списку из брифа</div>
+    <p>В топ-5 — 4 из 10 кандидатов из обязательного списка брифа. Лена Машкова и Кристина Кашпур найдены только как репетиторы (не как отдельные продукты по языковому барьеру); рекомендуется ручная проверка их Instagram / Telegram.</p>
+  </div>
+
+  <h3>Полная карта — 20 брендов</h3>
+  <table class="data-table">
+    <thead><tr><th>Бренд</th><th>Группа</th><th>Позиционирование</th><th>Активность рекламы</th></tr></thead>
+    <tbody>
+<tr>
+  <td><strong>TalkPal</strong><br><a href="https://www.talkpal.ai/" target="_blank" class="muted">https://www.talkpal.ai/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>массовый</td>
+  <td>высокая</td>
+</tr>
+
+<tr>
+  <td><strong>Speak</strong><br><a href="https://www.speak.com/" target="_blank" class="muted">https://www.speak.com/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>массовый</td>
+  <td>высокая</td>
+</tr>
+
+<tr>
+  <td><strong>Loora</strong><br><a href="https://www.loora.com/" target="_blank" class="muted">https://www.loora.com/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>высокая</td>
+</tr>
+
+<tr>
+  <td><strong>Univerbal</strong><br><a href="https://www.univerbal.app/" target="_blank" class="muted">https://www.univerbal.app/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>средняя</td>
+</tr>
+
+<tr>
+  <td><strong>Cambly</strong><br><a href="https://cambly.com/?lang=ru" target="_blank" class="muted">https://cambly.com/?lang=ru</a></td>
+  <td><span class="tag" style="background:#888">лидер</span></td>
+  <td>массовый</td>
+  <td>высокая</td>
+</tr>
+
+<tr>
+  <td><strong>italki</strong><br><a href="https://www.italki.com/ru/" target="_blank" class="muted">https://www.italki.com/ru/</a></td>
+  <td><span class="tag" style="background:#888">лидер</span></td>
+  <td>массовый</td>
+  <td>высокая</td>
+</tr>
+
+<tr>
+  <td><strong>Lindsay Does Languages</strong><br><a href="https://lindsaydoeslanguages.com/" target="_blank" class="muted">https://lindsaydoeslanguages.com/</a></td>
+  <td><span class="tag" style="background:#888">лидер</span></td>
+  <td>нишевой</td>
+  <td>средняя</td>
+</tr>
+
+<tr>
+  <td><strong>StoryLearning / Olly Richards</strong><br><a href="https://storylearning.com/" target="_blank" class="muted">https://storylearning.com/</a></td>
+  <td><span class="tag" style="background:#888">лидер</span></td>
+  <td>нишевой</td>
+  <td>средняя</td>
+</tr>
+
+<tr>
+  <td><strong>Елена Кочева / Lingua Strategy</strong><br><a href="https://lingua-strategy.ru/" target="_blank" class="muted">https://lingua-strategy.ru/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>низкая</td>
+</tr>
+
+<tr>
+  <td><strong>Anna Melak / «Общаться свободно»</strong><br><a href="https://annamelak.com/kurs" target="_blank" class="muted">https://annamelak.com/kurs</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>низкая</td>
+</tr>
+
+<tr>
+  <td><strong>Lingvohack / языковой коучинг</strong><br><a href="https://lingvohack.ru/languagecoaching/" target="_blank" class="muted">https://lingvohack.ru/languagecoaching/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>низкая</td>
+</tr>
+
+<tr>
+  <td><strong>Maria Khaskelberg / снятие блоков</strong><br><a href="https://mariakhaskelberg.com/yazik" target="_blank" class="muted">https://mariakhaskelberg.com/yazik</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>низкая</td>
+</tr>
+
+<tr>
+  <td><strong>Anti-Shkola / «Больше не буду молчать»</strong><br><a href="https://anti-shkola.ru/marafon" target="_blank" class="muted">https://anti-shkola.ru/marafon</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>массовый</td>
+  <td>средняя</td>
+</tr>
+
+<tr>
+  <td><strong>Kath English / лингвокоуч</strong><br><a href="https://ru.kath-english.com/" target="_blank" class="muted">https://ru.kath-english.com/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>низкая</td>
+</tr>
+
+<tr>
+  <td><strong>Real Talk Club</strong><br><a href="https://www.realtalkclub.ru/" target="_blank" class="muted">https://www.realtalkclub.ru/</a></td>
+  <td><span class="tag" style="background:#0ea5e9">Косвенные (нейросети / разговорные клубы)</span></td>
+  <td>нишевой</td>
+  <td>низкая</td>
+</tr>
+
+<tr>
+  <td><strong>Born2Speak</strong><br><a href="https://born2speak.ru/" target="_blank" class="muted">https://born2speak.ru/</a></td>
+  <td><span class="tag" style="background:#0ea5e9">Косвенные (нейросети / разговорные клубы)</span></td>
+  <td>массовый</td>
+  <td>низкая</td>
+</tr>
+
+<tr>
+  <td><strong>SPK Clubs</strong><br><a href="https://spkclubs.ru/" target="_blank" class="muted">https://spkclubs.ru/</a></td>
+  <td><span class="tag" style="background:#0ea5e9">Косвенные (нейросети / разговорные клубы)</span></td>
+  <td>массовый</td>
+  <td>низкая</td>
+</tr>
+
+<tr>
+  <td><strong>Лена Машкова</strong><br><a href="https://profi.ru/profile/MashkovaEV3/" target="_blank" class="muted">https://profi.ru/profile/MashkovaEV3/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>неизвестна</td>
+</tr>
+
+<tr>
+  <td><strong>Кристина Кашпур</strong><br><a href="https://repetytor.online/ru/tutor/shapurko-hrystyna/" target="_blank" class="muted">https://repetytor.online/ru/tutor/shapurko-hrystyna/</a></td>
+  <td><span class="tag" style="background:#e11d48">Прямые конкуренты</span></td>
+  <td>нишевой</td>
+  <td>неизвестна</td>
+</tr>
+
+<tr>
+  <td><strong>LinguaPal.ai</strong><br><a href="https://www.linguapal.ai/" target="_blank" class="muted">https://www.linguapal.ai/</a></td>
+  <td><span class="tag" style="background:#f59e0b">Растущие / нишевые</span></td>
+  <td>растущий</td>
+  <td>низкая</td>
+</tr>
+</tbody>
+  </table>
+</section>
+
+<section id="antishkola">
+  <h2>2.5 Глубокий разбор: Anti-Shkola</h2>
+  <p class="muted">Anti-Shkola — единственный конкурент с одновременно русскоязычной посадочной страницей, активной рекламой и узнаваемым позиционированием через языковой барьер. Стоит изучить детально: они уже сделали ровно то, что обсуждается как наша гипотеза №1, и набили шишки. Главная находка разбора — у них расходятся посадочная и реклама. Посадочная глубокая и тонкая, реклама — массовая и расплывчатая. Это, парадоксально, наш шанс.</p>
+
+  <div class="callout key">
+    <div class="callout-label">Главный инсайт</div>
+    <p>Посадочная Anti-Shkola и их реклама в библиотеке Meta — про разные вещи. Сайт продаёт <strong>«снятие психологического блока через 5 типов барьера + диагностику»</strong>. Реклама продаёт <strong>«репетитор-носитель, гарантия, easy and fast»</strong> — и эта реклама на украинском, не на русском. Бренд не доносит до холодного трафика свою уникальность. Хороший продукт + средний маркетинг = окно для конкурента.</p>
+  </div>
+
+  <h3>Позиционирование посадочной (anti-shkola.ru)</h3>
+  <div class="grid-2">
+    <div class="card">
+      <h4>Что говорит сайт</h4>
+      <ul>
+        <li>Главный экран: <em>«Не курс. Маршрут к свободной речи»</em></li>
+        <li>Манифест в финале: <em>«Знаний достаточно. Не хватает смелости»</em></li>
+        <li>Основатель: Аника Брейн (полиглот, НИУ ВШЭ + Сорбонна), школа с 2006 года</li>
+        <li>Цифры доверия: 20 лет, 30 000+ учеников, 350+ носителей из 25 стран, 20 языков</li>
+        <li>Первый шаг — бесплатный 30-минутный разговор «без обязательств», параллельно есть бесплатный Telegram-бот диагностики барьера (3 минуты)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>Их типология языкового барьера — 5 типов</h4>
+      <ol>
+        <li><strong>Стоп-реакция</strong> — мозг блокирует речь при попытке заговорить</li>
+        <li><strong>Синдром умного молчания</strong> — перфекционизм: «сначала выучу всё, потом скажу»</li>
+        <li><strong>Барьер живой реакции</strong> — не успевает поймать темп разговора</li>
+        <li><strong>Барьер социальной смелости</strong> — страх осуждения собеседника</li>
+        <li><strong>Смешанный</strong> — несколько типов одновременно</li>
+      </ol>
+      <p class="small muted">Из 5 конкурентов в топ-5 только Anti-Shkola делает диагностику типа барьера. У всех остальных — единый продукт «практика речи».</p>
+    </div>
+  </div>
+
+  <h3>Реклама в библиотеке Meta — 23 объявления</h3>
+  <div class="grid-2">
+    <div class="card">
+      <h4>Структура рекламы</h4>
+      <ul>
+        <li><strong>Язык:</strong> украинский (а не русский). Заходы вроде «Давно хотів нарешті перейти на новий рівень англійської?»</li>
+        <li><strong>Заходы:</strong> вопрос — 8 шт., соцпруф — 8 шт., результат — 7 шт. (вопросы и соцпруф поровну)</li>
+        <li><strong>Призывы:</strong> бесплатный пробный — 12 шт., мягкий — 5 шт., соцсети — 6 шт.</li>
+        <li><strong>Предложения:</strong> бесплатный пробный — 15 шт., гарантия результата — 6 шт., скидка — 1, набор курсов — 1</li>
+        <li><strong>Эмоция:</strong> желание — 13 шт., доверие — 10 шт. (нет «страха», «стыда», «облегчения»)</li>
+        <li><strong>Боль:</strong> результат — 12 шт., функционал — 10 шт., мотивация — 1. Боль «языкового барьера» — 0 из 23</li>
+        <li><strong>Визуал:</strong> продуктовый — 13, пользовательское видео — 10</li>
+        <li><strong>Средние оценки:</strong> заход 6.04, тело 6.04, призыв 6.13, предложение 5.91 (агрегированный балл бренда — 6.05/10)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>Главный разрыв: посадочная ≠ реклама</h4>
+      <ul>
+        <li>На сайте — «снятие блока, типология барьера, диагностика». В рекламе — «топовий репетитор, гарантія результату, безкоштовний пробний урок»</li>
+        <li>5 типов барьера и Telegram-бот диагностики в рекламе вообще не упоминаются</li>
+        <li>Аудитория рекламы — украинцы A2–B2, ищущие репетитора английского. Это не та ЦА, для которой делалась посадочная</li>
+        <li>Холодный трафик попадает на сайт без уже сформированного интереса к «снятию блока» — конверсия страдает</li>
+        <li>Топ-5 объявлений по сумме оценок — все 27/40, все продают «гарантию» и «бесплатный урок». Уникальность бренда в рекламу не транслируется</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Что взять из их подхода в наше позиционирование</h3>
+  <ol class="big-list">
+    <li><strong>Типологию барьера как диагностику</strong> — 5 типов с понятными названиями. Это редкий приём в нише: даёт клиенту язык для описания своей боли и сразу показывает, что у нас есть метод. Можно сделать свой словарь (3–5 типов) и встроить его в лид-магнит «определи свой тип барьера за 3 минуты».</li>
+    <li><strong>Telegram-бот диагностики</strong> как первый шаг воронки. <code>antishkolaspeakout_bot</code> — пример, как заменить лид-форму на интерактивный диалог: барьер входа ниже, конверсия в подписку — выше. Ни TalkPal, ни Speak, ни Cambly так не делают.</li>
+    <li><strong>Манифест-фразу</strong> «Знаний достаточно. Не хватает смелости» как структурный приём в конце страницы. Прямо переводит проблему с «учить ещё больше» в «работать с другим». Аналог для нас: «Грамматика у вас есть. Не хватает того, что не учат в школе».</li>
+    <li><strong>Историю клиента через ситуацию,</strong> а не через уровень. У них кейс Валерия начинается с «На интервью я просто молчал» — это сцена, а не «уровень B2». Все конкуренты дают «достиг C1 за X месяцев» — мы можем дать «впервые ответил на собеседовании, не переходя на русский».</li>
+    <li><strong>Бесплатный разговор как точку входа</strong> вместо тестов и регистрации. У них дословно: «30 минут с носителем. Без обязательств. После звонка станет ясно, что именно вам нужно». Это снимает барьер «я ещё не готов учиться».</li>
+  </ol>
+
+  <h3>Где у них слабо — наши точки атаки</h3>
+  <ol class="big-list">
+    <li><strong>Реклама не переводит уникальность.</strong> Бренд тратит бюджет на украиноязычные «гарантия + репетитор» объявления, которые ничем не отличаются от 50 других школ. Если делать русскоязычную рекламу с прямым названием барьера («Понимаю всё — сказать не могу. Это снимается»), мы заходим в незанятое пространство там, где Anti-Shkola сам же его и оставил.</li>
+    <li><strong>Кейсов про снятие блока на главной только 2.</strong> На посадочной у них 18 секций, но социальное доказательство по ключевой теме (блок) представлено двумя историями. Нужно 5–7 — мы можем сделать сильнее.</li>
+    <li><strong>Цены в долларах</strong> на сайте, ориентированном на русскоязычную аудиторию. Лишний барьер.</li>
+    <li><strong>Нет видео-отзывов на главной</strong> — только текст и фото. В нише, где продукт продаётся через эмоцию «впервые свободно заговорил», отсутствие живого голоса клиента — большая упущенная возможность.</li>
+    <li><strong>Срочности нет.</strong> Ни таймера, ни ограниченных пакетов, ни сезонных скидок. Cambly это использует и единственный из топ-5. Anti-Shkola — нет.</li>
+    <li><strong>Школа широкая</strong> — 20 языков. Это даёт им объём, но размывает специализацию. Узкопрофильный продукт «именно языковой барьер, именно для русскоязычных, по одной системе» имеет потенциал отстройки.</li>
+  </ol>
+
+  <div class="callout warn">
+    <div class="callout-label">Оговорка к разбору</div>
+    <p>Данные — 23 объявления из библиотеки рекламы Meta за последние 90 дней (выборка без авторизации). Возможно, в неактивных кампаниях бренд делал русскоязычные креативы с другим позиционированием — это в выгрузку не попало. Балл 6.05/10 — наш собственный скор по 4 осям (заход / тело / призыв / предложение), не публичная метрика бренда.</p>
+  </div>
+</section>
+
+<section id="creatives">
+  <h2>3. Разбор рекламы — 105 объявлений</h2>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Средняя оценка качества рекламы</h3>
+      
+<div class="bar-row">
+  <div class="bar-name">TalkPal</div>
+  <div class="bar"><div class="bar-fill" style="width:63%"></div></div>
+  <div class="bar-val">6.38</div>
+</div>
+
+<div class="bar-row">
+  <div class="bar-name">AntiShkola</div>
+  <div class="bar"><div class="bar-fill" style="width:60%"></div></div>
+  <div class="bar-val">6.05</div>
+</div>
+
+<div class="bar-row">
+  <div class="bar-name">Speak</div>
+  <div class="bar"><div class="bar-fill" style="width:51%"></div></div>
+  <div class="bar-val">5.1</div>
+</div>
+
+<div class="bar-row">
+  <div class="bar-name">Cambly</div>
+  <div class="bar"><div class="bar-fill" style="width:45%"></div></div>
+  <div class="bar-val">4.53</div>
+</div>
+
+    </div>
+    <div class="card">
+      <h3>Самые частые заходы у конкурентов</h3>
+      <ul><li><strong>Результатный заход</strong> — 78 креативов <span class="muted">(74%)</span></li><li><strong>Заход через вопрос</strong> — 12 креативов <span class="muted">(11%)</span></li><li><strong>Соцпруф</strong> — 9 креативов <span class="muted">(9%)</span></li><li><strong>Тренд</strong> — 4 креатива <span class="muted">(4%)</span></li><li><strong>Заход через проблему</strong> — 0 креативов <span class="muted">(0%)</span></li></ul>
+    </div>
+  </div>
+
+  <h3>Заход × боль — где сосредоточены конкуренты</h3>
+  <p class="muted">Чем темнее ячейка, тем больше объявлений в этом сочетании захода и боли клиента. Пустые столбцы — свободные ниши.</p>
+  <table class="matrix">
+    <thead><tr><th>Заход \ Боль</th><th>удобство</th><th>страх</th><th>функционал</th><th>мотивация</th><th>результат</th><th>ступор</th></tr></thead>
+    <tbody><tr><th>соцпруф</th><td style="background:transparent;color:#1a1a1a">0</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:rgba(225, 29, 72, 0.07);color:#1a1a1a">2</td><td style="background:rgba(225, 29, 72, 0.03);color:#1a1a1a">1</td><td style="background:rgba(225, 29, 72, 0.27);color:#1a1a1a">8</td><td style="background:transparent;color:#1a1a1a">0</td></tr><tr><th>вопрос</th><td style="background:transparent;color:#1a1a1a">0</td><td style="background:rgba(225, 29, 72, 0.03);color:#1a1a1a">1</td><td style="background:rgba(225, 29, 72, 0.13);color:#1a1a1a">4</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:rgba(225, 29, 72, 0.23);color:#1a1a1a">7</td><td style="background:transparent;color:#1a1a1a">0</td></tr><tr><th>шок</th><td style="background:transparent;color:#1a1a1a">0</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:rgba(225, 29, 72, 0.03);color:#1a1a1a">1</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:rgba(225, 29, 72, 0.03);color:#1a1a1a">1</td></tr><tr><th>тренд</th><td style="background:transparent;color:#1a1a1a">0</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:rgba(225, 29, 72, 0.07);color:#1a1a1a">2</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:transparent;color:#1a1a1a">0</td></tr><tr><th>результат</th><td style="background:rgba(225, 29, 72, 0.03);color:#1a1a1a">1</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:rgba(225, 29, 72, 0.85);color:#fff">77</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:transparent;color:#1a1a1a">0</td><td style="background:transparent;color:#1a1a1a">0</td></tr></tbody>
+  </table>
+
+  <div class="callout danger">
+    <div class="callout-label">Полностью свободные ниши (0 из 105 объявлений)</div>
+    <ul class="pill-list"><li><code>Хук через проблему с прямой болью («Я понимаю всё, но при иностранце — ступор»)</code></li><li><code>«До и после» по эмоциям (от стыда → к свободе), а не по уровню языка</code></li><li><code>История от первого лица («я 8 лет учу — заговорила за 6 недель»)</code></li><li><code>Отзыв с фокусом на снятии блока, а не на грамматике</code></li><li><code>Срочность / дефицит мест (поток, набор, дедлайн)</code></li><li><code>Объяснение методики (как именно снимается блок)</code></li><li><code>Гарантия результата (есть только у Anti-Shkola)</code></li></ul>
+  </div>
+</section>
+
+<section id="ideas">
+  <h2>4. Десять идей для рекламы</h2>
+  <p class="muted">Каждая идея бьёт в одну из найденных свободных ниш: заход через боль клиента, эмоциональное «до и после», личная история, дефицит времени или мест, противопоставление приложениям с нейросетью. Подписи «надёжный / эксперимент» — это уровень риска: первый ставим на проверенные паттерны, второй — на гипотезы, которые могут выстрелить или провалиться.</p>
+  <div class="ideas-grid">
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#1</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">высокий потенциал</span>
+      <span class="tag" style="background:#64748b">надёжный</span>
+    </div>
+  </div>
+  <h4>Хук через проблему: «Понимаю всё — сказать не могу»</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«Я понимаю английский на 80%. А говорю — на 10%. Знакомо?»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Видео-селфи от первого лица: &#x27;Я 8 лет учила язык. На YouTube понимаю всё. Но при иностранце — ступор, потею, забываю слова, которые знаю.&#x27; Переход: &#x27;Я думала, дело в словах. Оказалось — в блоке. Снять его — 6 недель методики + работа с тревогой.&#x27;</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Узнать, как снимается блок →</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Бесплатная диагностика блока (15 мин) + первая практика</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Селфи-видео в духе пользовательского контента, вертикаль 9:16, без монтажа, разговорный тон, субтитры</span></div>
+  <div class="idea-foot">
+    <span class="muted">Русскоязычные 25–45 «понимаю — не говорю», перфекционисты</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#2</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">высокий потенциал</span>
+      <span class="tag" style="background:#64748b">надёжный</span>
+    </div>
+  </div>
+  <h4>«До и после» по эмоциям, а не по уровню</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«До: &#x27;Sorry, my English is not good&#x27;. После: спокойно заказываю кофе, шучу, не краснею.»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Разделённый экран: слева скованная женщина, отводит глаза, бормочет; справа — та же женщина, расслабленная, смеётся с барменом. Подпись: «Уровень тот же. Блока — нет».</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Хочу так же</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Бесплатная пробная неделя + диагностика блока</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Разделённый экран 50/50, реальная ученица (не модель), без правки звука</span></div>
+  <div class="idea-foot">
+    <span class="muted">Эмоциональные перфекционисты A2-B2</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#3</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">высокий потенциал</span>
+      <span class="tag" style="background:#64748b">надёжный</span>
+    </div>
+  </div>
+  <h4>Отзыв: «Сняла блок, а не выучила язык»</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«Я не учила новые слова. Я перестала бояться тех, что уже знала.»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Реальная ученица 38 лет: «У меня B2 был 5 лет. Все курсы — про слова и грамматику. Здесь сняли блок: я начала говорить за 3 недели на том же уровне, что был». Тег: «История блока, а не уровня».</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Прочитать историю</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Пробный + 1 разбор твоего блока с экспертом</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Говорящая голова 60 секунд, без сценария, плохая комнатная подсветка = аутентичность</span></div>
+  <div class="idea-foot">
+    <span class="muted">Самоопределяющиеся «учу годами»</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#4</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">высокий потенциал</span>
+      <span class="tag" style="background:#64748b">эксперимент</span>
+    </div>
+  </div>
+  <h4>Объяснение методики: «3 причины ступора, о которых не говорят на курсах»</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«Ступор в разговоре — это не нехватка слов. Это 3 механики мозга.»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>60-секундное объяснение: (1) перфекционизм — страх ошибки запирает речь, (2) разрыв между «понимаю слово» и «могу его использовать», (3) кортизоловый ступор. «Каждую причину снимаем отдельным упражнением».</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Получить PDF с упражнениями</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Лид-магнит PDF → недорогой пробный продукт</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Стиль маркерной доски, объясняющая говорящая голова + анимированные подписи</span></div>
+  <div class="idea-foot">
+    <span class="muted">Аналитики, B1-B2, любят системность</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#5</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">высокий потенциал</span>
+      <span class="tag" style="background:#64748b">надёжный</span>
+    </div>
+  </div>
+  <h4>История от первого лица — «я была вами»</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«У меня был блок 12 лет. C2 на бумаге, на собеседовании молчу.»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Эксперт-методолог рассказывает свою историю: была переводчиком на бумаге, не могла заказать кофе за границей. Что сделала, чтобы снять блок (без раскрытия методики — это в продукте). «Сейчас веду курс именно из этого опыта».</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Узнать методику</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Пробный + вебинар-знакомство</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Прямая речь эксперта в камеру, без декораций, документальный стиль</span></div>
+  <div class="idea-foot">
+    <span class="muted">Доверяющие людям, не платформам</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#6</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">средний потенциал</span>
+      <span class="tag" style="background:#64748b">надёжный</span>
+    </div>
+  </div>
+  <h4>Гарантия результата (повторить ход AntiShkola, но эмоциональный)</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«Если через 6 недель ты не заговоришь свободнее — мы вернём деньги.»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Прямой текст-плашка с условиями гарантии. Внизу мелким: &#x27;Метрика — не уровень, а минуты непрерывной речи без переключения на русский.&#x27;</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Посмотреть условия гарантии</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Возврат денег, если нет результата за 6 недель</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Чистый текст-карточка, корпоративная серьёзность</span></div>
+  <div class="idea-foot">
+    <span class="muted">Скептики, потратили деньги на курсы и не получили</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#7</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">средний потенциал</span>
+      <span class="tag" style="background:#64748b">эксперимент</span>
+    </div>
+  </div>
+  <h4>Срочность: набор закрытого потока</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«Поток 12. Закрытая группа 20 человек. Старт через 4 дня.»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Прямой формат: «Не нейросетевой бот 24/7. Живой поток с куратором и группой поддержки. Цена ниже частного коучинга в 5 раз».</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Забронировать место</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Пробная неделя + место в потоке по фиксированной цене до старта</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Карточка с обратным таймером, дата старта крупно</span></div>
+  <div class="idea-foot">
+    <span class="muted">Те, кому нужны рамки и обязательства</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#8</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">средний потенциал</span>
+      <span class="tag" style="background:#64748b">эксперимент</span>
+    </div>
+  </div>
+  <h4>Сегмент &#x27;мне стыдно при коллегах&#x27;</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«Я не боюсь иностранцев. Я боюсь говорить при русских коллегах, знающих английский.»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Видео: офисный созвон, женщина запинается на английском, чувствует, что коллеги слушают. «Публичный стыд за английский — отдельная боль. С ней мы работаем точечно».</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Снять стыд →</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Пробный + сценарий «безопасных созвонов»</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Имитация окна видео-звонка, переключение между лицом и реакциями коллег</span></div>
+  <div class="idea-foot">
+    <span class="muted">Корпоративные сотрудники 28-40, B1-B2</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#9</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">высокий потенциал</span>
+      <span class="tag" style="background:#64748b">эксперимент</span>
+    </div>
+  </div>
+  <h4>Эмигрант-сегмент: &#x27;живу за границей, молчу&#x27;</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«Я в Лиссабоне 2 года. Заказываю кофе по-английски и боюсь идти в банк.»</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Селфи-видео от первого лица на фоне европейской улицы. «Каждый день репетирую фразу для бариста. После — выгорание. Так не должно быть».</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Снять барьер для повседневной жизни</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Пробный + сценарии «банк / врач / школа ребёнка»</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Ходьба с камерой первого лица, реальные локации, без музыки</span></div>
+  <div class="idea-foot">
+    <span class="muted">Релоканты СНГ 28-45 в EU/UK/US</span>
+  </div>
+</div>
+
+<div class="idea-card">
+  <div class="idea-head">
+    <div class="idea-id">#10</div>
+    <div class="idea-tags">
+      <span class="tag" style="background:#64748b">высокий потенциал</span>
+      <span class="tag" style="background:#64748b">эксперимент</span>
+    </div>
+  </div>
+  <h4>Контр-позиционирование против нейросетевых собеседников</h4>
+  <div class="idea-line"><span class="lbl">Заход</span><span>«Нейросетевой бот не краснеет вместе с тобой. Поэтому он не учит снимать блок».</span></div>
+  <div class="idea-line"><span class="lbl">Раскрытие</span><span>Прямая отстройка от TalkPal / Speak: «Блок снимается в безопасных отношениях с человеком, а не в тренировке с роботом. Нейросеть хороша для отработки — не для переобучения психики».</span></div>
+  <div class="idea-line"><span class="lbl">Призыв</span><span>Сравнить подходы</span></div>
+  <div class="idea-line"><span class="lbl">Предложение</span><span>Бесплатный вебинар «Почему нейросеть не снимает блок» + пробный</span></div>
+  <div class="idea-line"><span class="lbl">Картинка</span><span>Карусель сравнения: нейросеть и живой коуч по 5 параметрам</span></div>
+  <div class="idea-foot">
+    <span class="muted">Те, кто пробовал TalkPal / Speak и не сдвинулся</span>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="traffic">
+  <h2>5. Каналы продвижения у топ-5</h2>
+  <table class="data-table">
+    <thead><tr><th>Бренд</th><th>Посещений в месяц</th><th>Платный / органический трафик</th><th>Присутствие в РФ/СНГ</th><th>Оценка бюджета рекламы</th></tr></thead>
+    <tbody>
+<tr>
+  <td><strong>TalkPal</strong></td>
+  <td>Прямых данных нет; косвенно: 6 млн пользователей (накопительно, ноябрь 2025), активный App Store / Google Play</td>
+  <td>—</td>
+  <td>Присутствует (180 стран), но отдельной русскоязычной локализации нет. Интерфейс на английском.</td>
+  <td>$50K–200K в месяц (оценка — агрессивная платная реклама в соцсетях и поиске, без венчурного финансирования)</td>
+</tr>
+
+<tr>
+  <td><strong>Speak</strong></td>
+  <td>Прямых данных нет; косвенно: единорог (оценка $1 млрд, декабрь 2024), 1 млрд произнесённых фраз (накопительно за 2024), 25 млн персонализированных уроков</td>
+  <td>—</td>
+  <td>Фактически отсутствует. Продукт на английском, фокус на Корею и Японию. Русскоязычная аудитория не является целевой.</td>
+  <td>$100K–500K в месяц (оценка — статус единорога, агрессивное глобальное расширение в 2025 и успешная кампания в Apple Ads)</td>
+</tr>
+
+<tr>
+  <td><strong>Cambly</strong></td>
+  <td>1,9–7,2 млн в месяц (разброс по источникам: ReviewBolt — 1,9 млн, parsers.vc — 7,2 млн, ExplodingTopics — 2,1 млн; наиболее вероятно 2–4 млн)</td>
+  <td>—</td>
+  <td>Активное. cambly.com/ru — полностью локализованная русскоязычная посадочная. 71 объявление в библиотеке рекламы Meta (по данным шага 2 анализа). Один из немногих международных конкурентов с прямым русскоязычным таргетингом.</td>
+  <td>$200K–500K в месяц (оценка — 71 активное объявление в Meta, глобальное присутствие, $60 млн привлечённых инвестиций)</td>
+</tr>
+
+<tr>
+  <td><strong>Lindsay Does Languages</strong></td>
+  <td>Аналитические сайты заблокированы. Оценка — 20–80 тыс. в месяц (нишевый англоязычный блог)</td>
+  <td>—</td>
+  <td>Отсутствует. Англоязычный рынок, русскоязычная аудитория не целевая.</td>
+  <td>$0 — только органический трафик</td>
+</tr>
+
+<tr>
+  <td><strong>Anti-Shkola</strong></td>
+  <td>Аналитические данные недоступны. Малый или средний русскоязычный сайт на Tilda.</td>
+  <td>—</td>
+  <td>Полное. Ядровый русскоязычный продукт. Основатель Аника Брейн — полиглот, НИУ ВШЭ + Сорбонна, работает с 2006 года (20 лет). 30 000+ учеников.</td>
+  <td>$5K–20K в месяц (оценка — 23 объявления в Meta, типичный бюджет для русскоязычной онлайн-школы такого масштаба)</td>
+</tr>
+</tbody>
+  </table>
+  <div class="callout warn">
+    <div class="callout-label">Замечание о данных</div>
+    <p>SimilarWeb, Semrush, Ahrefs — все закрыты платной подпиской и защитой от парсинга. TabStack не смог извлечь данные с этих платформ. Цифры трафика взяты из открытых источников (parsers.vc, reviewbolt.com, Wikipedia, статьи в прессе). Разбивка по каналам — оценочная на основе публичных кейсов и характерных моделей каналов.</p>
+  </div>
+  <h3>Свободные канальные возможности</h3>
+  <ol class="big-list"><li>Поисковая выдача — незанятая ниша для русскоязычного рынка: Anti-Shkola на Tilda почти без органики, Cambly — кейс на турецком, не на русском. Качественный русскоязычный блог про языковой барьер мог бы захватить нулевую конкуренцию.</li><li>Telegram — Anti-Shkola единственный использует канал и бота. Другие крупные игроки (Cambly, Speak, TalkPal) в Telegram отсутствуют. Высокий потенциал для русскоязычной аудитории.</li><li>YouTube на русском — Lindsay Does Languages доказывает модель органического YouTube для ниши, но только на английском. Русскоязычного аналога нет.</li><li>Email-воронка — Lindsay показывает, что письма + контент = устойчивый трафик без рекламы. Ни один русскоязычный конкурент в нише языкового барьера не строит почтовую базу системно.</li><li>Вирусный формат через сам продукт — челлендж Lindsay «28 за 28» работает как органический круг. Марафон Anti-Shkola — попытка того же, но без вирусной механики. Возможность создать русскоязычный аналог челленджа.</li></ol>
+</section>
+
+<section id="landings">
+  <h2>6. Разбор посадочных страниц топ-5</h2>
+  <div class="landings-grid">
+<div class="landing-card">
+  <div class="landing-head">
+    <div>
+      <h4>TalkPal</h4>
+      <a href="https://talkpal.ai" target="_blank" class="muted small">https://talkpal.ai</a>
+    </div>
+    <div class="score-circle"><div class="score-n">6.0</div><div class="score-l">/10</div></div>
+  </div>
+  <div class="landing-hero">
+    <div class="lh-label">ПЕРВЫЙ ЭКРАН</div>
+    <p class="lh-headline">«The fun and effective way to learn a language with AI!»</p>
+    <p class="lh-sub">«Talkpal превращает нейросеть в вашего личного языкового коуча — практикуйте говорение, аудирование, письмо и произношение в любое время, в любом месте» (перевод подписи под хедлайном).</p>
+    <p class="lh-cta">Кнопка: <strong>Get started</strong> («Начать»)</p>
+  </div>
+  <div class="landing-grid">
+    <div><h5>+ Сильные стороны</h5><ul><li>Максимальная ширина охвата — 80+ языков, 17 логотипов прессы</li><li>5 млн+ пользователей и оценка 4,7 — убедительные числа</li><li>14-дневный бесплатный пробный снижает барьер входа</li><li>Технологический авторитет через логотипы OpenAI / Nvidia / AWS</li></ul></div>
+    <div><h5>− Слабые места</h5><ul><li>Хедлайн «fun and effective» — общий, не адресует боль языкового барьера</li><li>Ноль отзывов о снятии психологического блока — только «классное приложение», «хороший фидбек»</li><li>Цены скрыты за регистрацией — трение без якорения ожиданий</li><li>Баннер cookies занимает весь экран при первом визите — убивает первый экран</li><li>Раздел методологии минималистичен: 3 пункта-функции без глубины</li></ul></div>
+  </div>
+</div>
+
+<div class="landing-card">
+  <div class="landing-head">
+    <div>
+      <h4>Speak</h4>
+      <a href="https://speak.com" target="_blank" class="muted small">https://speak.com</a>
+    </div>
+    <div class="score-circle"><div class="score-n">6.5</div><div class="score-l">/10</div></div>
+  </div>
+  <div class="landing-hero">
+    <div class="lh-label">ПЕРВЫЙ ЭКРАН</div>
+    <p class="lh-headline">«The most effective way to learn a language»</p>
+    <p class="lh-sub">«Говорите вслух, получайте мгновенную обратную связь и достигайте свободного владения с самым продвинутым в мире нейросетевым языковым репетитором» (перевод).</p>
+    <p class="lh-cta">Кнопка: <strong>Start Speaking →</strong> («Начать говорить»)</p>
+  </div>
+  <div class="landing-grid">
+    <div><h5>+ Сильные стороны</h5><ul><li>Манифест «You need to speak out loud» («Вам нужно говорить вслух») — сильное философское позиционирование</li><li>Один отзыв прямо про языковой барьер: «как личный репетитор, но без тревоги, которая возникает с реальным человеком» (пользователь mingorr81) — ценнейшее доказательство</li><li>Speak Tutor описан как персонаж (характер, мотивация) — очеловечивание нейросети</li><li>Раздел учебной программы показывает глубину продукта</li><li>Чистый, быстрый, некричащий дизайн</li></ul></div>
+    <div><h5>− Слабые места</h5><ul><li>Только 1 из 10+ отзывов касается психологического блока — остальные про «отлично», «эффективно»</li><li>Нет истории «до и после» по эмоциям — только результат («теперь я говорю»)</li><li>Цены полностью скрыты — нельзя оценить ценность без регистрации</li><li>Срочности нет</li><li>Нет раздела о методологии с конкретными шагами</li></ul></div>
+  </div>
+</div>
+
+<div class="landing-card">
+  <div class="landing-head">
+    <div>
+      <h4>Cambly</h4>
+      <a href="https://cambly.com" target="_blank" class="muted small">https://cambly.com</a>
+    </div>
+    <div class="score-circle"><div class="score-n">7.0</div><div class="score-l">/10</div></div>
+  </div>
+  <div class="landing-hero">
+    <div class="lh-label">ПЕРВЫЙ ЭКРАН</div>
+    <p class="lh-headline">«Learn real English. Make real progress.»</p>
+    <p class="lh-sub">«Любые уровни. Настоящие разговоры с носителями. Где угодно, когда угодно, 24/7» (перевод).</p>
+    <p class="lh-cta">Кнопка: <strong>Get started</strong> («Начать»)</p>
+  </div>
+  <div class="landing-grid">
+    <div><h5>+ Сильные стороны</h5><ul><li>«Progress, not perfection. Learn from mistakes, without fear or judgment» («Прогресс, а не перфекционизм. Учимся на ошибках без страха и осуждения») — единственный главный слоган среди конкурентов, прямо называющий страх языкового барьера</li><li>Верхняя плашка со скидкой 50% — сильный конверсионный триггер срочности</li><li>Цены видны на странице — прозрачность снижает барьер</li><li>Якорение: показывает цену «было / стало»</li><li>Визуально сильный, жёлтый бренд, легко запоминается</li></ul></div>
+    <div><h5>− Слабые места</h5><ul><li>Слоган «Progress, not perfection» есть, но отзывов о снятии блока нет — декларация без доказательства</li><li>Русскоязычной локализации нет вообще (перенаправление на английский с ошибкой)</li><li>Нет конкретных историй учеников на главной</li><li>Количество социальных доказательств минимальное (3 против 10–12 у конкурентов)</li><li>Методология слабо описана</li></ul></div>
+  </div>
+</div>
+
+<div class="landing-card">
+  <div class="landing-head">
+    <div>
+      <h4>Lindsay Does Languages</h4>
+      <a href="https://lindsaydoeslanguages.com" target="_blank" class="muted small">https://lindsaydoeslanguages.com</a>
+    </div>
+    <div class="score-circle"><div class="score-n">7.5</div><div class="score-l">/10</div></div>
+  </div>
+  <div class="landing-hero">
+    <div class="lh-label">ПЕРВЫЙ ЭКРАН</div>
+    <p class="lh-headline">«I don&#x27;t teach languages. I teach you how to learn a language.»</p>
+    <p class="lh-sub">«Да, вы можете выучить любой язык. Признаем: мы все велись на обещания "лучшего метода", которые ничего не дают» (перевод).</p>
+    <p class="lh-cta">Кнопка: <strong>SIGN ME UP! (free video training)</strong> («Записаться! Бесплатное видео-обучение»)</p>
+  </div>
+  <div class="landing-grid">
+    <div><h5>+ Сильные стороны</h5><ul><li>Хедлайн — провокационный манифест, сразу отстраивает от всех языковых школ</li><li>Двухступенчатая воронка: бесплатное видео → почтовая база → продукт — классика подхода без платной рекламы</li><li>Подписка по email с описанием («Language Sparks — письма, которые действительно хочется читать») — высокая конверсия в подписку</li><li>3 психологических обещания: уверенность / любовь к процессу / радость — адресует эмоциональный дефицит</li><li>Личный бренд с академической доказательной базой (магистр прикладной лингвистики)</li></ul></div>
+    <div><h5>− Слабые места</h5><ul><li>Ноль отзывов о снятии психологического блока — только описание «спокойная уверенность в своём процессе»</li><li>Нет истории «до и после» на главной (есть отдельная страница /results-testimonials, но не на посадочной)</li><li>Страница перегружена текстом, медленно грузится на мобильном</li><li>Срочность отсутствует полностью</li><li>Цены полностью непрозрачны на главной</li></ul></div>
+  </div>
+</div>
+
+<div class="landing-card">
+  <div class="landing-head">
+    <div>
+      <h4>Антишкола</h4>
+      <a href="https://anti-shkola.ru" target="_blank" class="muted small">https://anti-shkola.ru</a>
+    </div>
+    <div class="score-circle"><div class="score-n">8.5</div><div class="score-l">/10</div></div>
+  </div>
+  <div class="landing-hero">
+    <div class="lh-label">ПЕРВЫЙ ЭКРАН</div>
+    <p class="lh-headline">«Не курс. Маршрут к свободной речи.»</p>
+    <p class="lh-sub">20 языков. 350+ носителей. Маршрут под вашу цель: карьера, переезд, экзамен, дети или язык для жизни.</p>
+    <p class="lh-cta">Кнопка: <strong>Начать с бесплатного разговора</strong></p>
+  </div>
+  <div class="landing-grid">
+    <div><h5>+ Сильные стороны</h5><ul><li>Единственный нативно русскоязычный конкурент с детальной классификацией языкового барьера (5 типов) — прямое попадание в боль целевой аудитории</li><li>Кейс-истории про снятие блока (Валерий: «на интервью я просто молчал») — самое близкое доказательство к языковому барьеру среди всех 5 конкурентов</li><li>Бесплатный разговор как призыв — низкий барьер входа, не тест и не регистрация</li><li>Манифест основательницы («Знаний достаточно. Не хватает смелости») — сильное резюме проблемы</li><li>Структура «проблема → диагностика → решение → доказательства → цены» — классическая и убедительная</li></ul></div>
+    <div><h5>− Слабые места</h5><ul><li>Срочности нет совсем — нет таймеров, ограниченных пакетов, сезонных скидок</li><li>Страница очень длинная (18 секций) — прокрутка до цен может утомлять</li><li>Кейс-историй только 2 на главной — нужно 5–7 для сильного доказательства</li><li>Цены в долларах — для русскоязычной аудитории создаёт дополнительный барьер</li><li>Нет видеоформата (посадочная только текст + фото)</li></ul></div>
+  </div>
+</div>
+</div>
+
+  <h3>Сквозные наблюдения по всем пяти страницам</h3>
+  <ol class="big-list"><li>Все 5 конкурентов имеют отзывы, но только Anti-Shkola содержит истории именно о снятии психологического блока. 4 из 5 сфокусированы на «скорости обучения», «удобстве приложения», «эффективности метода» — гипотеза №3 подтверждена полностью.</li><li>Cambly — единственный с заходом через языковой барьер на первом экране («Progress, not perfection. Learn from mistakes, without fear or judgment»), но не подкрепляет его отзывами.</li><li>Speak имеет 1 отзыв про тревогу («без тревоги, которая возникает с реальным человеком») — явно случайный, не системный. Но этот отзыв — один из самых убедительных на всех 5 посадочных.</li><li>Все нейросетевые продукты (TalkPal, Speak) продают «свободное владение» и «обратную связь» — ни один явно не продаёт «снятие блока».</li><li>Лид-магниты используют только Lindsay (бесплатное видео) и Anti-Shkola (бесплатный звонок + Telegram-бот). TalkPal / Speak / Cambly используют бесплатный пробный вместо лид-магнита.</li><li>Срочность применяет только Cambly (верхняя плашка со скидкой 50%). 4 из 5 конкурентов работают без механик срочности.</li><li>Цены скрыты у TalkPal и Speak (нужно регистрироваться), видны у Cambly и Anti-Shkola. Прозрачность цен — конкурентное преимущество в сегменте.</li><li>Средняя длина страницы: 10–11 секций (TalkPal, Speak, Lindsay, Cambly). Anti-Shkola выбивается — 18 секций. Оптимальный диапазон: 8–10 секций.</li><li>Все 5 конкурентов удобно открываются с мобильного. Визуальный стиль: Cambly и Lindsay — жёлтый бренд; TalkPal — фиолетовый; Speak — минималистичный белый; Anti-Shkola — чёрный с фуксией.</li><li>Ни один конкурент не использует видеоотзыв на главной. Это белое пятно.</li></ol>
+
+  <h3>5 идей для улучшения собственной посадочной страницы</h3>
+  <div class="lideas-grid">
+<div class="lidea-card">
+  <div class="lidea-rank">1</div>
+  <div class="lidea-body">
+    <h4>Секция «3 истории снятия блока» с именем, профессией и конкретной ситуацией («я понимала всё, но на созвоне замирала»). Каждая история — 3–4 предложения, фото, результат через эмоцию («теперь сама начинаю разговор»).</h4>
+    <p class="muted">Основа: ни один из 5 конкурентов не делает это системно. Anti-Shkola близко, но только 2 кейса. У Speak и Cambly — слоган без доказательства.</p>
+    <div class="lidea-tags">
+      <span class="tag" style="background:#e11d48">эффект: высокий</span>
+      <span class="tag" style="background:#10b981">трудозатраты: низкий</span>
+    </div>
+  </div>
+</div>
+
+<div class="lidea-card">
+  <div class="lidea-rank">2</div>
+  <div class="lidea-body">
+    <h4>Лид-магнит «Диагностика вашего языкового барьера» — короткий тест (3 минуты, 5–7 вопросов) с персонализированным результатом и первым шагом. Вход через email или Telegram.</h4>
+    <p class="muted">Основа: Lindsay строит весь бизнес на почтовой базе. Anti-Shkola использует Telegram-бот диагностики. Ни TalkPal, ни Speak, ни Cambly не работают с диагностикой.</p>
+    <div class="lidea-tags">
+      <span class="tag" style="background:#e11d48">эффект: высокий</span>
+      <span class="tag" style="background:#f59e0b">трудозатраты: средний</span>
+    </div>
+  </div>
+</div>
+
+<div class="lidea-card">
+  <div class="lidea-rank">3</div>
+  <div class="lidea-body">
+    <h4>Хедлайн первого экрана прямо называет психологический барьер, а не «выучи язык». Шаблон: «[Симптом] — это не про способности. Это про [механизм]. Вот как это работает». Пример: «Ты всё понимаешь, но говорить страшно. Это называется языковой барьер — и он снимается».</h4>
+    <p class="muted">Основа: Cambly использует «без страха и осуждения» как слоган, но только в середине страницы. Anti-Shkola называет барьер на первом экране. Все англоязычные конкуренты избегают слова «страх» в хедлайне.</p>
+    <div class="lidea-tags">
+      <span class="tag" style="background:#e11d48">эффект: высокий</span>
+      <span class="tag" style="background:#10b981">трудозатраты: низкий</span>
+    </div>
+  </div>
+</div>
+
+<div class="lidea-card">
+  <div class="lidea-rank">4</div>
+  <div class="lidea-body">
+    <h4>Срочность на входе: ограниченное число мест в ближайшем потоке/группе или ранняя цена для первых N участников. Показывать в верхней плашке + повторить перед призывом.</h4>
+    <p class="muted">Основа: только Cambly использует срочность (скидка 50%). 4 из 5 конкурентов работают без неё — значит, срочность — редкое конкурентное преимущество в нише.</p>
+    <div class="lidea-tags">
+      <span class="tag" style="background:#f59e0b">эффект: средний</span>
+      <span class="tag" style="background:#10b981">трудозатраты: низкий</span>
+    </div>
+  </div>
+</div>
+
+<div class="lidea-card">
+  <div class="lidea-rank">5</div>
+  <div class="lidea-body">
+    <h4>Видеоотзыв (60–90 секунд) от реального ученика, рассказывающего о моменте прорыва: «До — я молчала на переговорах. После — позвонила сама и договорилась». Размещать перед блоком цен.</h4>
+    <p class="muted">Основа: ни один из 5 конкурентов не использует видеоотзыв на главной. Speak использует текстовые отзывы с датой — работает, но видео конвертирует сильнее в нише языкового барьера, где важен живой эмоциональный пример.</p>
+    <div class="lidea-tags">
+      <span class="tag" style="background:#e11d48">эффект: высокий</span>
+      <span class="tag" style="background:#f59e0b">трудозатраты: средний</span>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="hypotheses">
+  <h2>7. Проверка гипотез брифа</h2>
+
+  <div class="hyp">
+    <div class="hyp-num">№1</div>
+    <div class="hyp-body">
+      <h3>На русскоязычном рынке нет связки «методика + работа со страхом речи»</h3>
+      <div class="verdict pass">ПОДТВЕРЖДЕНА</div>
+      <p>Рынок поделён надвое: приложения с нейросетью (массовость без работы со страхом) и психологи-наставники (работа с эмоциями, но узкий поток клиентов). Anti-Shkola ближе всех к гибриду, но явной психологической методики не показывает.</p>
+    </div>
+  </div>
+
+  <div class="hyp">
+    <div class="hyp-num">№2</div>
+    <div class="hyp-body">
+      <h3>Реклама давит на «страх» и «стыд», но почти никто не показывает «до и после» по эмоциям</h3>
+      <div class="verdict pass">ПОДТВЕРЖДЕНА В КРАЙНЕЙ ФОРМЕ</div>
+      <div class="hyp-stats">
+        <div><strong>0</strong> из 105 — «до и после» по эмоциям</div>
+        <div><strong>0</strong> из 105 — «до и после» по уровню языка</div>
+      </div>
+      <p>Из 105 объявлений ни одно не показывает «до и после» — ни по эмоциям, ни по уровню языка. Это пустая ниша: визуальный приём, который очевидно работает в косметологии и фитнесе, в нише языкового барьера никто не применил.</p>
+    </div>
+  </div>
+
+  <div class="hyp">
+    <div class="hyp-num">№3</div>
+    <div class="hyp-body">
+      <h3>Посадочные страницы перегружены методикой и недодают историй именно о снятии блока</h3>
+      <div class="verdict pass">ПОДТВЕРЖДЕНА</div>
+      <p>Подтверждена. Все 5 посадочных используют отзывы о «скорости», «удобстве», «хорошем приложении». Только Anti-Shkola даёт истории именно о снятии блока (кейс Валерия: «на интервью я просто молчал»). Speak содержит 1 косвенный отзыв про тревогу («без тревоги, которая возникает с реальным человеком»). Cambly упоминает «без страха и осуждения» как слоган, но не в отзывах. У TalkPal и Lindsay — ноль доказательств снятия блока.</p>
+    </div>
+  </div>
+</section>
+
+<section id="tests">
+  <h2>8. План тестов — что запускать в первую очередь</h2>
+  <div class="tests-grid">
+<div class="test-card">
+  <div class="test-head">
+    <span class="tag" style="background:#e11d48">первая очередь</span>
+    <h4>Тест хуков: «проблема» против «результат» (главный)</h4>
+  </div>
+  <p><strong>Гипотеза:</strong> хук через проблему «Понимаю — не говорю» даст CTR в 1,5–2 раза выше, чем результатный «Заговори свободно», потому что отсутствует у 100% конкурентов</p>
+  <p><strong>Что считаем успехом:</strong> CTR &gt; 1,5%, CPM &lt; ₽300, удержание на первых 3 секундах &gt; 30%</p>
+  <p class="muted"><strong>Бюджет:</strong> ₽30 000 на 7 дней (Meta / ВКонтакте), ₽3–5K на гипотезу</p>
+</div>
+
+<div class="test-card">
+  <div class="test-head">
+    <span class="tag" style="background:#e11d48">первая очередь</span>
+    <h4>Тест визуала: эмоциональное «до и после» против говорящей головы</h4>
+  </div>
+  <p><strong>Гипотеза:</strong> разделённый экран с эмоциональным «до и после» даст удержание на первом кадре в 2 раза выше, чем стандартное селфи-видео</p>
+  <p><strong>Что считаем успехом:</strong> удержание на первом кадре &gt; 25%, досмотр &gt; 40%</p>
+  <p class="muted"><strong>Бюджет:</strong> ₽20 000 на 5 дней</p>
+</div>
+
+<div class="test-card">
+  <div class="test-head">
+    <span class="tag" style="background:#f59e0b">вторая очередь</span>
+    <h4>Тест предложения: пробный против гарантии против лид-магнита</h4>
+  </div>
+  <p><strong>Гипотеза:</strong> гарантия «вернём деньги за 6 недель» даст более качественный лид, чем пробный продукт</p>
+  <p><strong>Что считаем успехом:</strong> стоимость лида &lt; ₽600, конверсия лид → оплата &gt; 8%</p>
+  <p class="muted"><strong>Бюджет:</strong> ₽45 000 на 10 дней</p>
+</div>
+
+<div class="test-card">
+  <div class="test-head">
+    <span class="tag" style="background:#f59e0b">вторая очередь</span>
+    <h4>Тест сегмента: универсальный против эмигрантов против перфекционистов</h4>
+  </div>
+  <p><strong>Гипотеза:</strong> сегментированные креативы под эмигрантов и перфекционистов дадут CTR в 1,3 раза выше универсальных</p>
+  <p><strong>Что считаем успехом:</strong> CTR &gt; 1,8% в сегментных аудиториях, стоимость лида ниже среднего</p>
+  <p class="muted"><strong>Бюджет:</strong> ₽30 000 на 7 дней</p>
+</div>
+
+<div class="test-card">
+  <div class="test-head">
+    <span class="tag" style="background:#64748b">третья очередь</span>
+    <h4>Тест формата: история (60 секунд) против короткого хука (15 секунд)</h4>
+  </div>
+  <p><strong>Гипотеза:</strong> 60-секундная история эксперта даст более высокую конверсию лид → оплата, даже при меньшем CTR</p>
+  <p><strong>Что считаем успехом:</strong> конверсия лид → оплата &gt; 12% (история) против эталонных ~6%</p>
+  <p class="muted"><strong>Бюджет:</strong> ₽25 000 на 7 дней</p>
+</div>
+</div>
+</section>
+
+<section id="emigrants">
+  <h2>9. Русскоязычные эмигранты в Европе и Израиле</h2>
+  <p class="muted">Отдельный пласт конкурентов, который не попал в основную карту: локальные коучи и микро-школы, обслуживающие волну релокации 2022+. Работают не как глобальные сервисы, а как сообщества внутри Telegram-чатов эмигрантов конкретной страны.</p>
+
+  <div class="callout key">
+    <div class="callout-label">Главный вывод</div>
+    <p>Сегмент <strong>существует и активно растёт</strong>, но фрагментирован: микробренды одного человека, по 1-2 на страну. Боль <em>«понимаю, не говорю»</em> называют, но методически работают как обычные разговорные клубы или индивидуальные репетиторы. <strong>Психологической методики снятия блока не показывает никто</strong> — даже в этом сегменте.</p>
+  </div>
+
+  <h3>Конкретные игроки по странам</h3>
+  <table class="data-table">
+    <thead><tr><th>Страна / язык</th><th>Бренд</th><th>Формат</th><th>Цена</th><th>Главный канал</th><th>Что особенного</th></tr></thead>
+    <tbody>
+<tr>
+  <td><strong>Германия</strong><br><span class="muted small">немецкий</span></td>
+  <td><strong>Berliner Deutsch</strong><br><a href="https://berlinerdeutsch.ru" target="_blank" class="muted small">https://berlinerdeutsch.ru</a></td>
+  <td>Разговорные клубы Zoom, до 42 встреч/нед на A1, группы 3-6 чел</td>
+  <td>от 6 €/встреча, ~25-40 €/мес</td>
+  <td>Сайт + поиск Google</td>
+  <td class="muted">Низкий порог входа, ежедневная частота — снимает страх через регулярное воздействие</td>
+</tr>
+
+<tr>
+  <td><strong>Германия</strong><br><span class="muted small">немецкий</span></td>
+  <td><strong>Brandt Schule</strong><br><a href="https://t.me/brandtschule" target="_blank" class="muted small">https://t.me/brandtschule</a></td>
+  <td>Разговорные клубы, премиум-позиционирование «немецкий с удовольствием»</td>
+  <td>70 €/мес</td>
+  <td>Только Telegram-канал</td>
+  <td class="muted">Прямо адресует «понимаю — не говорю», работает изнутри Telegram-сообществ релокантов</td>
+</tr>
+
+<tr>
+  <td><strong>Израиль</strong><br><span class="muted small">иврит</span></td>
+  <td><strong>Сабабушка</strong><br><a href="https://sababushka.com/club" target="_blank" class="muted small">https://sababushka.com/club</a></td>
+  <td>4 или 8 разговорных клубов Zoom в неделю по 1.5 ч + словари и упражнения после каждой встречи</td>
+  <td>180-280 шек/мес (≈50-85 €)</td>
+  <td>Telegram-сообщество</td>
+  <td class="muted">Самая зрелая модель сообщества и материалов — сочетает речь, когнитивную обработку и социальную поддержку</td>
+</tr>
+
+<tr>
+  <td><strong>Израиль</strong><br><span class="muted small">иврит</span></td>
+  <td><strong>Yad L&#x27;Olim</strong><br><a href="https://www.yadlolim.org/hebrew-conversation-club" target="_blank" class="muted small">https://www.yadlolim.org/hebrew-conversation-club</a></td>
+  <td>Hebrew Conversation Club в 3 городах + онлайн, «среда без оценок для таких же репатриантов, как вы» (англ. non-judgemental environment with Olim like you)</td>
+  <td>бесплатно</td>
+  <td>НКО + сарафанное радио</td>
+  <td class="muted">Прямо называет страх осуждения; используется как воронка в платные программы партнёров</td>
+</tr>
+
+<tr>
+  <td><strong>Израиль</strong><br><span class="muted small">иврит</span></td>
+  <td><strong>Арье Миретский</strong><br><a href="https://www.youtube.com/@ivrit.tiktok" target="_blank" class="muted small">https://www.youtube.com/@ivrit.tiktok</a></td>
+  <td>Иврит через разбор израильских роликов в TikTok — живой сленг и культурный контекст</td>
+  <td>индивидуально</td>
+  <td>YouTube</td>
+  <td class="muted">Уникальный подход — аутентичный контент вместо учебника</td>
+</tr>
+
+<tr>
+  <td><strong>Сербия</strong><br><span class="muted small">сербский</span></td>
+  <td><strong>Centar Slovo</strong><br><a href="https://www.centarslovo.rs" target="_blank" class="muted small">https://www.centarslovo.rs</a></td>
+  <td>Аккредитованная школа A1-C2 в Белграде и онлайн, для ВНЖ</td>
+  <td>от 80 €/мес за группу</td>
+  <td>Сайт + офлайн в Белграде</td>
+  <td class="muted">Единственный аккредитованный игрок в сегменте — даёт юридическую ценность для статуса ВНЖ</td>
+</tr>
+
+<tr>
+  <td><strong>Сербия</strong><br><span class="muted small">сербский</span></td>
+  <td><strong>EasyPass</strong><br><a href="https://easypass.mk" target="_blank" class="muted small">https://easypass.mk</a></td>
+  <td>Онлайн-курсы сербского с прямым посылом «преодоление языкового барьера для русскоговорящих»</td>
+  <td>по запросу</td>
+  <td>Сайт + соцсети</td>
+  <td class="muted">Самое точное по копирайту попадание в боль — но микробизнес</td>
+</tr>
+
+<tr>
+  <td><strong>Любая</strong><br><span class="muted small">15 языков</span></td>
+  <td><strong>Ковчег</strong><br><a href="https://kovcheg.live" target="_blank" class="muted small">https://kovcheg.live</a></td>
+  <td>Благотворительные курсы языков для русскоязычных эмигрантов с антивоенной позицией</td>
+  <td>бесплатно</td>
+  <td>Сообщество эмигрантов</td>
+  <td class="muted">1500+ учеников, 15 языков, волонтёры. Лучшая входная точка для эмигрантов — конкурент по вниманию, не по цене</td>
+</tr>
+</tbody>
+  </table>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Что выделяет успешных</h3>
+      <ul>
+        <li>Telegram как первичный канал, не сайт</li>
+        <li>Малые группы 3-6 человек, гибкий график без обязательств</li>
+        <li>Прямое называние боли в позиционировании</li>
+        <li>Сочетание клуба + материалов + сообщества</li>
+        <li>Доступные цены (от бесплатного до 85 €/мес) — поправка на экономическую уязвимость после переезда</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Свободные ниши</h3>
+      <ol class="big-list"><li><strong>Польский</strong> для русскоязычных в Польше — есть только школы общего профиля (VARIA, GLOSSA), без специализации на боли релокантов</li><li><strong>Английский</strong> в Великобритании и Ирландии для русскоязычных — пусто, только государственные курсы ESOL (English for Speakers of Other Languages) и клубы в Meetup</li><li><strong>Греческий</strong> на Кипре, <strong>португальский</strong> в Португалии, <strong>испанский</strong> в Испании — русскоязычных нишевых коучей по сути нет</li><li><strong>Грузинский, армянский</strong> — только государственные программы для этнической диаспоры, не для новой волны эмигрантов</li></ol>
+    </div>
+  </div>
+
+  <div class="callout key">
+    <div class="callout-label">Стратегический вывод для продукта</div>
+    <p>Если методика работает <strong>с языковым барьером независимо от языка</strong>, открывается уникальное позиционирование: <em>«работаю со страхом речи, а не с конкретным языком — неважно немецкий у тебя или иврит»</em>. Никто из 8 найденных брендов так не позиционируется — все привязаны к одному языку и одной стране. Telegram-каналы релокантских сообществ — главный вход в этот сегмент.</p>
+  </div>
+</section>
+
+<section id="meta">
+  <h2>10. Источники и оговорки</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Файлы исследования</h3>
+      <ul class="mono">
+        <li><code>data/competitors.json</code> — 20 брендов в 4 группах</li>
+        <li><code>data/creatives.json</code> — 105 объявлений из библиотеки рекламы Meta</li>
+        <li><code>data/analysis.json</code> — заход / раскрытие / призыв / предложение по каждому из 105 объявлений</li>
+        <li><code>data/patterns.json</code> — 5 закономерностей + 10 идей</li>
+        <li><code>data/traffic.json</code> — каналы трафика топ-5</li>
+        <li><code>data/landings.json</code> — 5 посадочных страниц + 5 идей</li>
+        <li><code>data/landing_raw_antishkola.md</code> + <code>data/raw_ads_antishkola.json</code> — исходники для раздела 2.5</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Ограничения данных</h3>
+      <ul>
+        <li><strong>Библиотека рекламы Meta</strong> без авторизации отдаёт около 5–23 объявлений на бренд. Полностью удалось выгрузить только Cambly (71 объявление) через сервис Apify.</li>
+        <li><strong>SimilarWeb, Semrush, Ahrefs</strong> закрыты платной подпиской и защитой от автосбора. Цифры по трафику и бюджетам — оценочные.</li>
+        <li><strong>Lindsay Does Languages</strong> — платной рекламы нет, разбирали только посадочную страницу и органические каналы.</li>
+        <li><strong>Машкова и Кашпур</strong> через поиск как самостоятельные продукты не нашлись — только в виде репетиторов на агрегаторах.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted small">Сборка отчёта: 7 шагов, 7 субагентов. Дата исследования — 2026-05-12.</p>
+</section>
+</main>
+</div>
+<script>
+const sections = document.querySelectorAll('section');
+const links = document.querySelectorAll('nav.sidebar a');
+const linkMap = {};
+links.forEach(l => { linkMap[l.getAttribute('href').slice(1)] = l; });
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if (en.isIntersecting) {
+      links.forEach(l => l.classList.remove('active'));
+      const link = linkMap[en.target.id];
+      if (link) link.classList.add('active');
+    }
+  });
+}, { rootMargin: '-30% 0px -65% 0px' });
+
+sections.forEach(s => observer.observe(s));
+</script>
+</body>
+</html>

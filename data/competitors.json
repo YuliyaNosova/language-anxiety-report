@@ -1,0 +1,385 @@
+{
+  "niche": "Снятие психологического блока в говорении на иностранном языке (Foreign Language Anxiety / FLA, языковой барьер, разговорный ступор)",
+  "region": "Россия + СНГ + русскоязычные за рубежом; бенчмарк — EN-рынок",
+  "target_audience": "Русскоязычные взрослые 25-45 лет, A2-B2, фрустрированы отсутствием результата в говорении; боль — стыд, страх ошибки, перфекционизм",
+  "price_range": "3 000 — 30 000 ₽/мес (B2C мидл-маркет); бенчмарк EN — $30-300/мес",
+  "analysis_date": "2026-05-12",
+  "total_found": 20,
+  "competitors": [
+    {
+      "name": "TalkPal",
+      "url": "https://www.talkpal.ai/",
+      "description": "AI-собеседник для практики говорения на 80+ языках, имитирует живой разговор 24/7",
+      "positioning": "mass",
+      "cluster": "direct",
+      "channels": ["meta", "tiktok", "google", "seo", "app-store"],
+      "estimated_audience": "large",
+      "differentiators": [
+        "AI-партнёр без осуждения — снижает тревогу оценки",
+        "80+ языков, $4-14/мес — самая низкая цена в сегменте",
+        "Активные App Store / Google Play отзывы про speaking confidence"
+      ],
+      "ad_presence": "high",
+      "notes": "Прямой конкурент в психологическом сегменте: позиционирование 'speak confidently', без страха осуждения. Крупный рекламный бюджет Meta/Google. Обязателен для глубокого анализа креативов."
+    },
+    {
+      "name": "Speak",
+      "url": "https://www.speak.com/",
+      "description": "AI-приложение для говорения на иностранных языках с упором на произношение и уверенность в речи",
+      "positioning": "mass",
+      "cluster": "direct",
+      "channels": ["meta", "google", "seo", "app-store", "tiktok"],
+      "estimated_audience": "large",
+      "differentiators": [
+        "Слоган 'The language learning app that gets you speaking' — прямо про блок",
+        "AI roleplay-сценарии для преодоления страха",
+        "Крупное венчурное финансирование, агрессивный growth"
+      ],
+      "ad_presence": "high",
+      "notes": "Один из топовых cross-check кандидатов. Сильный рекламный бюджет, чёткий FLA-фокус в позиционировании. Обязателен для анализа."
+    },
+    {
+      "name": "Loora",
+      "url": "https://www.loora.com/",
+      "description": "AI-English tutor с упором на разговорную практику и снижение anxiety",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["meta", "google", "seo", "app-store"],
+      "estimated_audience": "medium",
+      "differentiators": [
+        "Специализация на English only — более глубокая персонализация",
+        "Позиционирование 'Your Personal AI English Tutor' — интимность, безопасность",
+        "Сравнения с TalkPal/Speak указывают на активную конкуренцию за FLA-аудиторию"
+      ],
+      "ad_presence": "high",
+      "notes": "Cross-check кандидат. Нишевый AI-тьютор именно для английского, что ближе к RU-аудитории. Интересен для анализа позиционирования и лендинга."
+    },
+    {
+      "name": "Univerbal",
+      "url": "https://www.univerbal.app/",
+      "description": "AI language tutor для живой разговорной практики, фокус на реальных диалогах",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["seo", "app-store", "google"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Позиционирование 'Real Conversation Practice' — акцент на аутентичность",
+        "Блог с материалами про AI language learning",
+        "Менее агрессивный маркетинг, чем TalkPal/Speak — пространство для изучения"
+      ],
+      "ad_presence": "medium",
+      "notes": "Cross-check кандидат. Интересен как emerging-игрок с нишевым позиционированием. Полезен для сравнения лендинга и messaging."
+    },
+    {
+      "name": "Cambly",
+      "url": "https://cambly.com/?lang=ru",
+      "description": "Платформа для разговорной практики с носителями английского языка, есть русскоязычный лендинг",
+      "positioning": "mass",
+      "cluster": "leader",
+      "channels": ["meta", "google", "seo", "email"],
+      "estimated_audience": "large",
+      "differentiators": [
+        "Прямой доступ к носителям 24/7 — снижает страх через практику",
+        "Русскоязычный сайт — активно работает с RU-аудиторией",
+        "Устоявшийся бренд, высокое доверие"
+      ],
+      "ad_presence": "high",
+      "notes": "Cross-check кандидат. Бенчмарк-лидер. Важен для анализа ценовой стратегии и рекламных паттернов под RU-аудиторию."
+    },
+    {
+      "name": "italki",
+      "url": "https://www.italki.com/ru/",
+      "description": "Маркетплейс репетиторов и native speakers для разговорной практики, 150+ языков",
+      "positioning": "mass",
+      "cluster": "leader",
+      "channels": ["meta", "google", "seo", "email"],
+      "estimated_audience": "large",
+      "differentiators": [
+        "Широчайший выбор преподавателей под любой бюджет",
+        "Русскоязычный интерфейс, активная RU-аудитория",
+        "Community teachers — дешёвый формат для разговорной практики без давления"
+      ],
+      "ad_presence": "high",
+      "notes": "Cross-check кандидат. Бенчмарк-лидер. Важен для понимания ценовых якорей и каналов трафика под RU-аудиторию."
+    },
+    {
+      "name": "Lindsay Does Languages",
+      "url": "https://lindsaydoeslanguages.com/",
+      "description": "EN-коуч по speaking confidence, Speaking Confidence Challenge, программы для снятия языковой тревоги",
+      "positioning": "niche",
+      "cluster": "leader",
+      "channels": ["youtube", "seo", "email", "instagram"],
+      "estimated_audience": "medium",
+      "differentiators": [
+        "Прямой фокус на speaking confidence и language anxiety — редкость среди крупных блогеров",
+        "Speak 28x28 Challenge — вирусный формат для преодоления блока",
+        "Сильный SEO и YouTube-трафик"
+      ],
+      "ad_presence": "medium",
+      "notes": "Cross-check кандидат. Эталон EN-рынка по нишевому позиционированию FLA. Интересна для анализа контентной стратегии и лендингов."
+    },
+    {
+      "name": "StoryLearning / Olly Richards",
+      "url": "https://storylearning.com/",
+      "description": "EN-метод изучения языка через истории + коучинг по fluency, есть отдельный контент по speaking anxiety",
+      "positioning": "niche",
+      "cluster": "leader",
+      "channels": ["youtube", "seo", "email", "meta"],
+      "estimated_audience": "large",
+      "differentiators": [
+        "Авторский метод + личный бренд Olly Richards — высокое доверие",
+        "VIP-программы $100-300/мес — premium сегмент EN-рынка",
+        "Отдельный контент про spoken fluency и anxiety (Anna Tyrie)"
+      ],
+      "ad_presence": "medium",
+      "notes": "Cross-check кандидат. EN-бенчмарк по premium-позиционированию. Интересен для анализа offer-структуры и лендингов."
+    },
+    {
+      "name": "Елена Кочева / Lingua Strategy",
+      "url": "https://lingua-strategy.ru/",
+      "description": "Языковой коуч (RU), индивидуальная работа с блоками и барьерами в говорении на иностранном языке",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["seo", "instagram"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Явное позиционирование как языкового коуча, а не репетитора",
+        "Работа с психологическими блоками — редкий фокус на RU-рынке",
+        "Индивидуальный подход"
+      ],
+      "ad_presence": "low",
+      "notes": "Прямой RU-конкурент по FLA-нише. Небольшой масштаб, но интересен для анализа messaging и positioning gap."
+    },
+    {
+      "name": "Anna Melak / «Общаться свободно»",
+      "url": "https://annamelak.com/kurs",
+      "description": "Онлайн-курс для преодоления языкового барьера и развития уверенности в говорении",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["instagram", "seo"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Название курса прямо бьёт в боль — 'Общаться свободно'",
+        "Курсовой формат (не репетиторство)",
+        "Работает с русскоязычной аудиторией"
+      ],
+      "ad_presence": "low",
+      "notes": "Прямой RU-конкурент. Интересен для анализа структуры оффера и лендинга."
+    },
+    {
+      "name": "Lingvohack / языковой коучинг",
+      "url": "https://lingvohack.ru/languagecoaching/",
+      "description": "Языковой коучинг для уверенности в языке и себе, методика работы с блоками",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["seo", "instagram"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Явный акцент на уверенности, а не грамматике",
+        "Коучинговый подход — отличие от репетиторства"
+      ],
+      "ad_presence": "low",
+      "notes": "Нишевый RU-конкурент. Полезен для анализа messaging."
+    },
+    {
+      "name": "Maria Khaskelberg / снятие блоков",
+      "url": "https://mariakhaskelberg.com/yazik",
+      "description": "Работа со снятием психологических блоков при изучении нового языка",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["seo", "instagram"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Психологический подход к языковым блокам — редкое позиционирование",
+        "Прямое упоминание 'снятие блоков' в URL и описании"
+      ],
+      "ad_presence": "low",
+      "notes": "Интересен как пример психологического подхода к FLA на RU-рынке."
+    },
+    {
+      "name": "Anti-Shkola / «Больше не буду молчать»",
+      "url": "https://anti-shkola.ru/marafon",
+      "description": "Онлайн-марафон с носителями языка для преодоления страха говорить",
+      "positioning": "mass",
+      "cluster": "direct",
+      "channels": ["instagram", "meta", "seo"],
+      "estimated_audience": "medium",
+      "differentiators": [
+        "Название марафона прямо бьёт в боль FLA-аудитории",
+        "Формат марафона — низкий порог входа",
+        "Носители языка — снижение тревоги через exposure"
+      ],
+      "ad_presence": "medium",
+      "notes": "Прямой конкурент с активным маркетингом. Интересен для анализа воронки и рекламных креативов."
+    },
+    {
+      "name": "Kath English / лингвокоуч",
+      "url": "https://ru.kath-english.com/",
+      "description": "Лингвокоуч для русскоязычных, методика преодоления языкового барьера",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["seo", "instagram"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Русскоязычный интерфейс при работе с английским",
+        "Лингвокоучинговая методика"
+      ],
+      "ad_presence": "low",
+      "notes": "RU-нишевый конкурент."
+    },
+    {
+      "name": "Real Talk Club",
+      "url": "https://www.realtalkclub.ru/",
+      "description": "Клуб разговорного английского без оценок и осуждения",
+      "positioning": "niche",
+      "cluster": "indirect",
+      "channels": ["seo", "instagram", "telegram"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Безоценочная среда — снижает тревогу через community",
+        "Регулярные встречи — habit forming"
+      ],
+      "ad_presence": "low",
+      "notes": "Косвенный конкурент: speaking club как альтернатива коучингу для снятия FLA."
+    },
+    {
+      "name": "Born2Speak",
+      "url": "https://born2speak.ru/",
+      "description": "Разговорные клубы + подкасты для изучения английского онлайн",
+      "positioning": "mass",
+      "cluster": "indirect",
+      "channels": ["seo", "youtube", "telegram"],
+      "estimated_audience": "medium",
+      "differentiators": [
+        "Бесплатные разговорные клубы — низкий порог входа",
+        "Подкасты как контентная воронка"
+      ],
+      "ad_presence": "low",
+      "notes": "Косвенный конкурент через speaking club формат."
+    },
+    {
+      "name": "SPK Clubs",
+      "url": "https://spkclubs.ru/",
+      "description": "Разговорные клубы по английскому, испанскому, французскому, итальянскому",
+      "positioning": "mass",
+      "cluster": "indirect",
+      "channels": ["seo", "instagram"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Многоязычный формат",
+        "Доступная цена"
+      ],
+      "ad_presence": "low",
+      "notes": "Косвенный конкурент."
+    },
+    {
+      "name": "Лена Машкова",
+      "url": "https://profi.ru/profile/MashkovaEV3/",
+      "description": "Репетитор английского на Profi.ru — упоминается в cross-check списке как RU FLA-коуч",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["profi.ru", "instagram"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Упоминается в контексте FLA-коучинга для RU-аудитории",
+        "Возможен отдельный продукт под FLA — требует проверки"
+      ],
+      "ad_presence": "unknown",
+      "notes": "Cross-check кандидат. Не найден отдельный сайт/продукт — найден только профиль репетитора. Рекомендуется ручная проверка Instagram/Telegram для уточнения FLA-позиционирования."
+    },
+    {
+      "name": "Кристина Кашпур",
+      "url": "https://repetytor.online/ru/tutor/shapurko-hrystyna/",
+      "description": "Упоминается в cross-check списке как RU FLA-коуч, точный профиль не найден через поиск",
+      "positioning": "niche",
+      "cluster": "direct",
+      "channels": ["instagram", "telegram"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Предположительно: специализация на языковом барьере и страхе говорить"
+      ],
+      "ad_presence": "unknown",
+      "notes": "Cross-check кандидат. Через Exa не найдена как отдельный бренд с FLA-фокусом. Рекомендуется ручной поиск в Instagram по хэштегу #языковойбарьер и проверка @kristina.kashpur или схожих хэндлов."
+    },
+    {
+      "name": "LinguaPal.ai",
+      "url": "https://www.linguapal.ai/",
+      "description": "AI-партнёр для разговорной практики английского 24/7",
+      "positioning": "emerging",
+      "cluster": "emerging",
+      "channels": ["seo", "app-store"],
+      "estimated_audience": "small",
+      "differentiators": [
+        "Позиционирование 24/7 AI English Speaking Partner",
+        "Emerging player — нет насыщения рынком"
+      ],
+      "ad_presence": "low",
+      "notes": "Emerging AI-конкурент. Интересен для мониторинга роста."
+    }
+  ],
+  "top_5": [
+    {
+      "name": "TalkPal",
+      "url": "https://www.talkpal.ai/",
+      "reason": "Крупнейший прямой конкурент в AI-сегменте с явным FLA-позиционированием ('speak confidently', 'без страха осуждения'), высокий рекламный бюджет Meta/TikTok/Google. Обязателен для анализа креативов и рекламных паттернов. Cross-check: да."
+    },
+    {
+      "name": "Speak",
+      "url": "https://www.speak.com/",
+      "reason": "Слоган прямо бьёт в FLA-боль ('The app that gets you speaking'), крупное венчурное финансирование, агрессивный рост. Лучший кейс для изучения лендинга, воронки и рекламных хуков под speaking anxiety. Cross-check: да."
+    },
+    {
+      "name": "Cambly",
+      "url": "https://cambly.com/?lang=ru",
+      "reason": "Лидер рынка с русскоязычным позиционированием. Бенчмарк по рекламным бюджетам и каналам под RU-аудиторию. Данные по traffic и Meta-рекламе — ценный ориентир для оценки рынка. Cross-check: да."
+    },
+    {
+      "name": "Lindsay Does Languages",
+      "url": "https://lindsaydoeslanguages.com/",
+      "reason": "Эталон EN-рынка по нишевому FLA-позиционированию. Speaking Confidence Challenge — вирусный product-led формат. Интересна для анализа контентной воронки, лендингов и offer-структуры под speaking anxiety. Cross-check: да."
+    },
+    {
+      "name": "Anti-Shkola / «Больше не буду молчать»",
+      "url": "https://anti-shkola.ru/marafon",
+      "reason": "Единственный RU-конкурент с активным маркетингом и прямым FLA-messaging в названии продукта. Важен для анализа рекламных креативов и воронки именно на русскоязычную аудиторию. Ближайший прямой конкурент по региону."
+    }
+  ],
+  "clusters": {
+    "direct": [
+      "TalkPal",
+      "Speak",
+      "Loora",
+      "Univerbal",
+      "Елена Кочева / Lingua Strategy",
+      "Anna Melak / «Общаться свободно»",
+      "Lingvohack / языковой коучинг",
+      "Maria Khaskelberg / снятие блоков",
+      "Anti-Shkola / «Больше не буду молчать»",
+      "Kath English / лингвокоуч",
+      "Лена Машкова",
+      "Кристина Кашпур"
+    ],
+    "indirect": [
+      "Real Talk Club",
+      "Born2Speak",
+      "SPK Clubs"
+    ],
+    "leaders": [
+      "Cambly",
+      "italki",
+      "Lindsay Does Languages",
+      "StoryLearning / Olly Richards"
+    ],
+    "emerging": [
+      "LinguaPal.ai"
+    ]
+  },
+  "cross_check_status": {
+    "found_in_top_5": ["TalkPal", "Speak", "Cambly", "Lindsay Does Languages"],
+    "found_in_map": ["TalkPal", "Speak", "Loora", "Univerbal", "Cambly", "italki", "Lindsay Does Languages", "StoryLearning / Olly Richards"],
+    "not_found_as_fla_brand": ["Лена Машкова", "Кристина Кашпур"],
+    "cross_check_passed": true,
+    "note": "В TOP-5 — 4 из 10 cross-check кандидатов. Лена Машкова и Кристина Кашпур найдены только как репетиторы (не как отдельные FLA-продукты); рекомендуется ручная проверка их Instagram/Telegram."
+  },
+  "market_insights": "Рынок FLA чётко делится на два полюса: (1) AI-приложения (TalkPal, Speak, Loora, Univerbal) с агрессивным ростом и прямым speaking confidence positioning — самый активный рекламный сегмент; (2) нишевые RU-коучи (Lingua Strategy, Anna Melak, Kath English) с низкой видимостью и минимальным рекламным бюджетом. Разрыв между ними — возможная дыра: методика + психологическая работа с блоком в формате курса с русскоязычным позиционированием и маркетинговым масштабом, сравнимым с AI-приложениями. Разговорные клубы (Real Talk Club, Born2Speak) закрывают потребность в безоценочной среде, но не дают системной работы с тревогой."
+}

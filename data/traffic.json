@@ -1,0 +1,281 @@
+{
+  "analysis_date": "2026-05-12",
+  "data_sources": [
+    "Wikipedia (TalkPal AI article, Nov 2025)",
+    "Inworld.ai blog (TalkPal 5M milestone)",
+    "speak.com/blog/series-c (Dec 2024)",
+    "parsers.vc/startup/cambly.com",
+    "reviewbolt.com/r/cambly.com",
+    "analytics.explodingtopics.com/website/cambly.com",
+    "peakment.com/cambly-seo-case-study",
+    "anti-shkola.ru (main + /marafon landing)",
+    "Exa search results (news, PR, industry reports)"
+  ],
+  "data_availability_note": "SimilarWeb, Semrush, Ahrefs — все заблокированы paywall/JS-защитой. TabStack не смог извлечь данные с этих платформ. Цифры трафика взяты из открытых источников (parsers.vc, reviewbolt.com, Wikipedia, PR-статьи). Разбивка по каналам — оценочная на основе публичных кейсов и паттернов каналов.",
+  "competitors": [
+    {
+      "name": "TalkPal",
+      "url": "https://talkpal.ai/",
+      "monthly_visits": "N/A — прямых данных нет; косвенно: 6M пользователей (cumulative, Nov 2025), активный App Store/Google Play",
+      "monthly_visits_estimate": "1M-3M (оценка на основе 6M cumulative users и активного paid-присутствия в Meta/TikTok/Google)",
+      "traffic_sources": {
+        "direct": "~20%",
+        "organic_search": "~25%",
+        "paid_search": "~20%",
+        "social": "~25%",
+        "referral": "~7%",
+        "email": "~2%",
+        "display": "~1%",
+        "note": "Оценка. TalkPal имеет высокий paid social (Meta+TikTok активны по данным Step 2 — 23+ объявлений). Organic растёт за счёт academic studies и review-сайтов."
+      },
+      "social_breakdown": {
+        "tiktok": "высокая активность — основной paid канал по данным Meta/TikTok Ad Library",
+        "instagram": "активно",
+        "youtube": "есть канал, объём N/A",
+        "facebook": "есть",
+        "other": "App Store / Google Play — значимый источник установок"
+      },
+      "paid_vs_organic": "~45% paid / ~55% organic (оценка)",
+      "top_countries": ["US", "Turkey", "Brazil", "Indonesia", "India — глобальное присутствие, 180 стран"],
+      "ru_cis_presence": "Присутствует (180 стран), но отдельной RU-локализации нет. Интерфейс на английском.",
+      "estimated_ad_spend": "$50K-200K/month (оценка — агрессивный paid social + paid search, bootstrap без венчурного финансирования)",
+      "ad_spend_source": "Косвенно: высокое количество активных объявлений в Meta/TikTok Ad Library (по данным Step 2 анализа), академические упоминания, глобальный охват",
+      "top_organic_keywords_estimate": ["talkpal", "ai language learning", "language learning app", "speak english with ai", "ai tutor"],
+      "tech_stack": ["Freemium SaaS", "iOS + Android apps", "Web app", "Inworld TTS (партнёрство)", "Tilda — нет, собственный стек"],
+      "social_presence": {
+        "youtube": "есть канал",
+        "instagram": "активно",
+        "tiktok": "активно — основной paid канал"
+      },
+      "key_insights": "Стартап 2023 года, вырос до 6M users за 2 года без венчурного финансирования (bootstrapped). Ставка на paid social (TikTok + Meta) + App Store organic. Академические исследования создают SEO-бэклинки. Глобальный охват — 180 стран. RU-аудитория присутствует, но не целевая. Позиционирование 'без страха осуждения' прямо бьёт в FLA.",
+      "raw_data_paths": [
+        "data/traffic_raw_talkpal_wiki.md",
+        "data/traffic_raw_talkpal_inworld.md"
+      ]
+    },
+    {
+      "name": "Speak",
+      "url": "https://speak.com/",
+      "monthly_visits": "N/A — прямых данных нет; косвенно: unicorn ($1B valuation Dec 2024), 1B sentences spoken (cumulative 2024), 25M personalized lessons created",
+      "monthly_visits_estimate": "500K-2M (оценка; меньше TalkPal по web, основной объём через App Store — Korea/Japan market)",
+      "traffic_sources": {
+        "direct": "~15%",
+        "organic_search": "~20%",
+        "paid_search": "~15%",
+        "social": "~15%",
+        "app_store_organic": "~30% (доминирующий канал — App Store Korea/Japan)",
+        "referral": "~3%",
+        "email": "~2%",
+        "note": "Оценка. Speak — прежде всего мобильное приложение с фокусом на Корею и Японию. App Store — основной канал acquisition. Web-трафик вторичен."
+      },
+      "social_breakdown": {
+        "tiktok": "присутствие есть",
+        "instagram": "есть",
+        "youtube": "есть",
+        "note": "Конкретные данные по подписчикам не получены"
+      },
+      "paid_vs_organic": "~30% paid / ~70% organic (оценка — App Store ASO + word of mouth сильны в Korea/Japan)",
+      "top_countries": ["South Korea (основной рынок)", "Japan (активный рост)", "US (HQ)", "Brazil", "глобальная экспансия в 2025"],
+      "ru_cis_presence": "Фактически отсутствует. Продукт на английском, фокус на KR/JP рынки. RU-аудитория не является целевой.",
+      "estimated_ad_spend": "$100K-500K/month (оценка — unicorn-статус + агрессивный global expansion 2025 + Apple Ads success story)",
+      "ad_spend_source": "Apple Ads Success Story (официальный кейс), TechCrunch ($78M Series C, Dec 2024), Accel investment blog",
+      "funding": "$162M total raised, $78M Series C (Dec 2024), investors: Accel, OpenAI Startup Fund, Khosla Ventures, Y Combinator",
+      "top_organic_keywords_estimate": ["speak app", "language learning app", "english speaking app", "speak english fluently", "ai english tutor"],
+      "tech_stack": ["iOS + Android apps (primary)", "Web", "B2B / Speak for Business (200+ enterprise clients)", "85% employee adoption rate"],
+      "social_presence": {
+        "instagram": "есть",
+        "youtube": "есть",
+        "tiktok": "есть"
+      },
+      "key_insights": "Unicorn ($1B), OpenAI-backed. Фокус на spoken fluency — прямое попадание в FLA боль ('users couldn't speak comfortably until discovering Speak'). Основной рынок — Korea/Japan (не RU). 25M персонализированных уроков в 2024. B2B трек (200+ клиентов, 85% adoption). В 2025 — глобальная экспансия. Для RU-аудитории нерелевантен как конкурент по каналам, но релевантен по messaging.",
+      "raw_data_paths": [
+        "data/traffic_raw_speak_techcrunch.md",
+        "data/traffic_raw_speak_accel.md",
+        "data/traffic_raw_speak_seriec.md"
+      ]
+    },
+    {
+      "name": "Cambly",
+      "url": "https://cambly.com/",
+      "monthly_visits": "1.9M-7.2M (разброс по источникам: ReviewBolt — 1.9M, parsers.vc — 7.2M, ExplodingTopics — 2.1M; наиболее вероятно 2-4M)",
+      "monthly_visits_estimate": "2M-4M/month",
+      "traffic_sources": {
+        "direct": "~30%",
+        "organic_search": "~35%",
+        "paid_search": "~15%",
+        "social": "~10%",
+        "referral": "~6%",
+        "email": "~3%",
+        "display": "~1%",
+        "note": "Оценка. Cambly сделал крупную ставку на SEO (кейс Peakment: 1M organic visitors через 300 статей за 1 год). Organic search — доминирующий канал."
+      },
+      "social_breakdown": {
+        "instagram": "активно",
+        "facebook": "активно",
+        "youtube": "есть канал",
+        "tiktok": "присутствие есть"
+      },
+      "paid_vs_organic": "~35% paid / ~65% organic",
+      "top_countries": ["Turkey (исторически крупнейший рынок)", "Brazil", "Japan", "Saudi Arabia", "Russia/CIS — есть RU-локализация"],
+      "ru_cis_presence": "АКТИВНОЕ. cambly.com/ru — полностью локализованный русскоязычный лендинг. 71 объявление в Meta Ad Library (по данным Step 2). Один из немногих международных конкурентов с прямым RU-таргетингом.",
+      "estimated_ad_spend": "$200K-500K/month (оценка — 71 активное объявление в Meta, глобальное присутствие, $60M raised)",
+      "ad_spend_source": "Meta Ad Library (71 объявление, данные Step 2 анализа), parsers.vc (total raised $60M), ReviewBolt ($647M revenue estimate)",
+      "funding": "$60M total raised (parsers.vc), founded 2013, revenue ~$647M (ReviewBolt estimate)",
+      "global_rank": "~27,000-28,700 (ExplodingTopics + ReviewBolt)",
+      "top_organic_keywords_estimate": ["cambly", "english tutors online", "online english speaking practice", "speak english with native speakers", "english conversation practice"],
+      "seo_strategy": "300+ SEO-статей на 7 языках (кейс Peakment), WordPress Multisite, Entity Search, persona-based content. Достигли 1M organic/мес за 1 год с нуля.",
+      "tech_stack": ["Web platform", "iOS + Android apps", "WordPress Multisite (blog)", "Google Ads (CTR optimization)", "7-language content strategy"],
+      "social_presence": {
+        "instagram": "активно",
+        "facebook": "активно",
+        "youtube": "есть",
+        "tiktok": "есть"
+      },
+      "key_insights": "Лидер с RU-локализацией и агрессивным paid social в Meta (71 объявление). SEO — главный органический канал (задокументированный кейс 1M organic/год). Declining: -4% growth (ReviewBolt). Рынок зрелый, конкуренция с AI-платформами усиливается. Для RU-рынка — прямой бенчмарк по каналам и бюджетам.",
+      "raw_data_paths": [
+        "data/traffic_raw_cambly.md",
+        "data/traffic_raw_cambly_reviewbolt.md",
+        "data/traffic_raw_cambly_parsers.md",
+        "data/traffic_raw_cambly_seo_case.md"
+      ]
+    },
+    {
+      "name": "Lindsay Does Languages",
+      "url": "https://lindsaydoeslanguages.com/",
+      "monthly_visits": "N/A — аналитические сайты заблокированы. Оценка: 20K-80K/month (нишевый EN-блог)",
+      "monthly_visits_estimate": "20K-80K/month",
+      "traffic_sources": {
+        "organic_search": "~45%",
+        "direct": "~20%",
+        "social": "~20%",
+        "email": "~10%",
+        "referral": "~5%",
+        "paid_search": "~0%",
+        "note": "Оценка. Lindsay — чисто organic модель. Paid-рекламы нет. YouTube и SEO-блог — основные каналы. Email-лист — значимый retention-канал."
+      },
+      "social_breakdown": {
+        "youtube": "основной канал — ~180K subscribers (публичная оценка на момент Aug 2025)",
+        "instagram": "активно",
+        "tiktok": "есть присутствие",
+        "facebook": "группа/страница",
+        "note": "YouTube — главный traffic driver. Конкретные актуальные цифры подписчиков не верифицированы — YouTube заблокировал доступ."
+      },
+      "paid_vs_organic": "~0% paid / ~100% organic",
+      "top_countries": ["UK (HQ)", "US", "Australia", "Canada", "Ireland — англоязычная аудитория"],
+      "ru_cis_presence": "Отсутствует. EN-рынок, русскоязычная аудитория не целевая.",
+      "estimated_ad_spend": "$0 — organic-only стратегия",
+      "ad_spend_source": "Анализ сайта: нет признаков платного трафика. Meta Ad Library: активных объявлений не обнаружено (данные Step 2).",
+      "top_organic_keywords_estimate": ["language learning", "speaking confidence", "how to speak a foreign language", "language anxiety", "speak 28x28 challenge"],
+      "flagship_product": "Speak 28x28 Challenge — вирусный формат для преодоления speaking anxiety. 28 дней х 28 минут практики.",
+      "tech_stack": ["WordPress (blog)", "YouTube (primary content channel)", "Email marketing (ConvertKit или аналог)", "Course platform (Teachable/Podia — предположительно)"],
+      "social_presence": {
+        "youtube": "~180K subscribers (estimate Aug 2025)",
+        "instagram": "активно",
+        "tiktok": "есть"
+      },
+      "key_insights": "Эталон organic-only EN-стратегии в FLA-нише. YouTube + SEO-блог + email — три кита без единого рубля на рекламу. Speaking Confidence Challenge — product-led вирусный формат. Монетизация через курсы и партнёрки. Для RU-рынка нерелевантна как конкурент по каналам, но является эталоном контентной воронки для FLA-позиционирования.",
+      "raw_data_paths": [
+        "data/traffic_raw_lindsay_siteindices.md"
+      ]
+    },
+    {
+      "name": "Anti-Shkola",
+      "url": "https://anti-shkola.ru/",
+      "monthly_visits": "N/A — аналитические данные недоступны. Малый/средний RU-сайт на Tilda.",
+      "monthly_visits_estimate": "5K-30K/month (оценка для нишевой RU онлайн-школы с активным paid social)",
+      "traffic_sources": {
+        "social": "~50%",
+        "paid_search": "~15%",
+        "direct": "~20%",
+        "organic_search": "~10%",
+        "referral": "~3%",
+        "email": "~2%",
+        "note": "Оценка. Anti-Shkola — социальный продукт: основной канал — Instagram + платный трафик Meta. Telegram активен (бот диагностики). SEO минимален (Tilda-сайт, ограниченные SEO-возможности)."
+      },
+      "social_breakdown": {
+        "instagram": "основной канал — активное ведение (23 вечнозелёных объявления в Meta Ad Library по данным Step 2)",
+        "telegram": "активен — бот 'Диагностика языкового барьера', канал @nativespeakerscourses",
+        "whatsapp": "лид-канал (+18143008350)",
+        "youtube": "N/A",
+        "tiktok": "N/A"
+      },
+      "paid_vs_organic": "~60% paid / ~40% organic (оценка — 23 активных Meta-объявления, явный paid-first подход)",
+      "top_countries": ["Россия", "Украина", "Израиль (основатель — Аника Брейн, школы в Израиле и США)", "СНГ"],
+      "ru_cis_presence": "ПОЛНОЕ. Ядровый RU-продукт. Основатель Аника Брейн — полиглот, НИУ ВШЭ + Сорбонна, работает с 2006 (20 лет). 30,000+ учеников.",
+      "estimated_ad_spend": "$5K-20K/month (оценка — 23 объявления Meta, типичный бюджет для RU онлайн-школы такого масштаба)",
+      "ad_spend_source": "Meta Ad Library (23 активных объявления — данные Step 2 анализа), масштаб бизнеса (30K+ учеников за 20 лет)",
+      "top_organic_keywords_estimate": ["антишкола", "курсы с носителями языка", "марафон английский язык", "страх говорить английский", "преодолеть языковой барьер"],
+      "tech_stack": ["Tilda (сайт и лендинги)", "Meta/Instagram Ads", "Telegram (бот + канал)", "WhatsApp Business"],
+      "flagship_product": "Марафон 'Speak OUT!' / 'Больше не буду молчать' — 7 дней с носителями, прямой FLA-messaging. Также: 'Маршрут к свободной речи' — индивидуальные программы.",
+      "social_presence": {
+        "instagram": "активно (основной канал)",
+        "telegram": "активно (@nativespeakerscourses)",
+        "whatsapp": "лид-канал"
+      },
+      "key_insights": "Единственный в TOP-5 с полным RU-фокусом. Работает с 2006 — 20 лет рынка. Paid-first стратегия через Meta/Instagram. Telegram-бот как лид-магнит ('Диагностика языкового барьера'). Tilda-сайт ограничивает SEO-рост. Название марафона 'Больше не буду молчать' — прямое попадание в FLA боль. Масштаб скромный по сравнению с AI-конкурентами, но это ближайший прямой RU-аналог по позиционированию.",
+      "raw_data_paths": [
+        "data/traffic_raw_antishkola_main.md",
+        "data/traffic_raw_antishkola_landing.md"
+      ]
+    }
+  ],
+  "channel_comparison": {
+    "paid_social_dominant": ["Cambly (71 объявление Meta)", "Anti-Shkola (23 объявления Meta)", "TalkPal (активный TikTok+Meta)"],
+    "organic_seo_dominant": ["Cambly (1M organic/мес через 300 статей)", "Lindsay Does Languages (SEO-блог + YouTube)"],
+    "app_store_dominant": ["Speak (Korea/Japan App Store primary)", "TalkPal (App Store + Google Play)"],
+    "youtube_organic": ["Lindsay Does Languages (~180K subs)"],
+    "telegram_active": ["Anti-Shkola (@nativespeakerscourses + бот)"],
+    "email_active": ["Lindsay Does Languages (email-лист — ключевой retention канал)"],
+    "zero_paid": ["Lindsay Does Languages"]
+  },
+  "ru_cis_presence_ranking": {
+    "strong": ["Anti-Shkola (RU-only)", "Cambly (RU лендинг + 71 Meta объявление)"],
+    "moderate": ["TalkPal (180 стран, без RU-локализации)"],
+    "minimal_none": ["Speak (Korea/Japan фокус)", "Lindsay Does Languages (EN-only)"]
+  },
+  "opportunities": [
+    "SEO — незанятая ниша для RU: Anti-Shkola на Tilda почти без органики, Cambly — турецкий кейс (не RU-специфика). Качественный RU-блог про FLA/языковой барьер мог бы захватить нулевую конкуренцию.",
+    "Telegram — Anti-Shkola единственный использует канал и бота. Другие крупные игроки (Cambly, Speak, TalkPal) в Telegram отсутствуют. Высокий потенциал для RU-аудитории.",
+    "YouTube RU — Lindsay Does Languages доказывает модель органического YouTube для FLA-ниши, но только на EN. RU-аналога нет.",
+    "Email-воронка — Lindsay показывает, что email + контент = устойчивый трафик без рекламы. Ни один RU-конкурент в FLA-нише не строит email-лист системно.",
+    "Product-led вирусный формат — Speak 28x28 Challenge (Lindsay) работает как органический loop. Anti-Shkola марафон — попытка того же, но без вирусной механики. Возможность создать RU-аналог challenge."
+  ],
+  "budget_estimates": {
+    "tiers": {
+      "enterprise": "$200K+/month",
+      "growth": "$50K-200K/month",
+      "startup": "$5K-50K/month",
+      "organic_only": "$0 paid"
+    },
+    "competitors_by_tier": {
+      "enterprise": ["Cambly ($200K-500K/mo estimate)", "Speak ($100K-500K/mo estimate)"],
+      "growth": ["TalkPal ($50K-200K/mo estimate)"],
+      "startup": ["Anti-Shkola ($5K-20K/mo estimate)"],
+      "organic_only": ["Lindsay Does Languages ($0 paid)"]
+    }
+  },
+  "confidence_levels": {
+    "high_confidence": [
+      "TalkPal: 6M users, 180 countries (Wikipedia Nov 2025)",
+      "Speak: $78M Series C, $1B valuation, OpenAI-backed (TechCrunch Dec 2024)",
+      "Speak: Korea/Japan primary markets (job listings, company blog)",
+      "Cambly: 2-4M monthly visits (multiple sources converge)",
+      "Cambly: RU-локализация активна",
+      "Cambly: SEO стратегия (1M organic через 300 статей — задокументированный кейс)",
+      "Anti-Shkola: работает с 2006, 30K+ учеников, основатель Аника Брейн",
+      "Anti-Shkola: Telegram активен (@nativespeakerscourses)",
+      "Lindsay Does Languages: organic-only, YouTube + SEO + email"
+    ],
+    "medium_confidence": [
+      "TalkPal: 1M-3M monthly visits (extrapolated from user count)",
+      "Cambly: $200K-500K/mo ad spend (inferred from 71 Meta ads)",
+      "Anti-Shkola: $5K-20K/mo ad spend (inferred from 23 Meta ads)",
+      "Lindsay YouTube ~180K subscribers"
+    ],
+    "low_confidence_marked_na": [
+      "Traffic source breakdowns — все оценочные, SimilarWeb/Semrush недоступны",
+      "Speak monthly web visits — основной трафик через App Store, не web",
+      "Anti-Shkola monthly visits — Tilda-сайт, нет публичных данных"
+    ]
+  }
+}

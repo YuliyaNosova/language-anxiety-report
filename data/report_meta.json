@@ -1,0 +1,27 @@
+{
+  "report_date": "2026-05-12",
+  "niche": "Foreign Language Anxiety",
+  "branch": "both",
+  "google_doc": {
+    "id": "1onK9YunumeBi4n77cvU7Qxv5emC9No8hB5ImdQtpl-c",
+    "url": "https://docs.google.com/document/d/1onK9YunumeBi4n77cvU7Qxv5emC9No8hB5ImdQtpl-c"
+  },
+  "google_sheet": {
+    "id": "1Px3gOaU-KIEGTqF2RB2jIRx6Z0Mr33c60b_NPlYf0e0",
+    "url": "https://docs.google.com/spreadsheets/d/1Px3gOaU-KIEGTqF2RB2jIRx6Z0Mr33c60b_NPlYf0e0"
+  },
+  "executive_summary": "Рынок снятия языкового блока разделён на 4 кластера (20 конкурентов). Прямой FLA-маркетинг только у Anti-Shkola (RU). 86/105 креативов давят на functional pain, 0/105 показывают эмоциональный before/after — главная рыночная дыра.",
+  "key_findings": [
+    "Гипотеза #1 (гибрид методика+психология редок) — ПОДТВЕРЖДЕНА: 0 полноценных гибридов с RU-маркетингом, кроме частично Anti-Shkola.",
+    "Гипотеза #2 — ПОДТВЕРЖДЕНА в зеркальном виде: before/after по эмоциям = 0/105 креативов.",
+    "Гипотеза #3 — ПОДТВЕРЖДЕНА: только Anti-Shkola даёт истории про снятие блока; остальные продают «скорость/удобство».",
+    "Anti-Shkola (score 8.5/10) — главный RU-бенчмарк, единственный с FLA-маркетингом и Telegram-воронкой.",
+    "Lindsay Does Languages — эталон zero-paid organic (YouTube ~180K subs + email)."
+  ],
+  "top_opportunity": "Гибрид «методика + психологическая работа с блоком» с RU-маркетингом и эмоциональным before/after — позиция полностью свободна.",
+  "recommended_next_steps": [
+    "P0: split-test problem-хук vs result-хук + секция «3 истории снятия блока» на лендинге.",
+    "P0: before/after split-screen креатив по эмоциям (никто не делает).",
+    "P1: Telegram-воронка по модели Anti-Shkola + UGC от RU-учеников 25-45 A2-B2."
+  ]
+}

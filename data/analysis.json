@@ -1,0 +1,4189 @@
+{
+  "analysis_date": "2026-05-12",
+  "total_analyzed": 105,
+  "creatives": [
+    {
+      "id": "ad_1844974336419638",
+      "brand": "TalkPal",
+      "text": "🚀 Say hello to AI language learning!\n✅ Learn 57+ languages on one platform\n✅ Get dynamic content tailored just for you\n✅ Speak confidently in any situation\nReady, set, explore! 🌍 Sign up now and start your journey today!\nTALKPAL.AI\nSpeak Any Language Fluently\n14 days free trial",
+      "hook": {
+        "type": "social_proof",
+        "text": "🚀 Say hello to AI language learning!",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "list",
+        "text": "🚀 Say hello to AI language learning!\n✅ Learn 57+ languages on one platform\n✅ Get dynamic content tailored just for you\n✅ Speak confidently in any situation\nReady, set, explore! 🌍 Sign up now and start your journey today!",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "free trial",
+        "score": 7,
+        "notes": "Free trial"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "desire",
+      "target_segment": "Self-learners A2-B2, ищут AI-разговор",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "hook",
+      "weakness": "body"
+    },
+    {
+      "id": "ad_834793116139089",
+      "brand": "TalkPal",
+      "text": "Want to speak any language fluently?\nTalkpal lets you chat with an AI tutor in 57+ languages, debate interesting characters & get real-time feedback!\nReady to revolutionize your skills? Sign up now and start speaking like a pro today!",
+      "hook": {
+        "type": "question",
+        "text": "Want to speak any language fluently?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Want to speak any language fluently?\nTalkpal lets you chat with an AI tutor in 57+ languages, debate interesting characters & get real-time feedback!\nReady to revolutionize your skills? Sign up now and start speaking lik",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "desire",
+      "target_segment": "Self-learners A2-B2, ищут AI-разговор",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_883722730683252",
+      "brand": "TalkPal",
+      "text": "🚀 Say hello to AI language learning!\n✅ Learn 57+ languages on one platform\n✅ Get dynamic content tailored just for you\n✅ Speak confidently in any situation\nReady, set, explore! 🌍 Sign up now and start your journey today!\nTALKPAL.AI\nSpeak Any Language Fluently\n14 days free trial",
+      "hook": {
+        "type": "social_proof",
+        "text": "🚀 Say hello to AI language learning!",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "list",
+        "text": "🚀 Say hello to AI language learning!\n✅ Learn 57+ languages on one platform\n✅ Get dynamic content tailored just for you\n✅ Speak confidently in any situation\nReady, set, explore! 🌍 Sign up now and start your journey today!",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "free trial",
+        "score": 7,
+        "notes": "Free trial"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "desire",
+      "target_segment": "Self-learners A2-B2, ищут AI-разговор",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "hook",
+      "weakness": "body"
+    },
+    {
+      "id": "ad_737685059435239",
+      "brand": "TalkPal",
+      "text": "🚀 Ready to speak with confidence in a new language? With Talkpal, get personalized lessons, interactive exercises, and real-time feedback. Transform your learning experience – sign up now!\nTALKPAL.AI\nLearn Any Language You Want\n14 days free trial\nSign Up",
+      "hook": {
+        "type": "shock",
+        "text": "🚀 Ready to speak with confidence in a new language? With Talkpal, get personalized lessons, interactive exercises, and real-time feedback. Transform your learni",
+        "score": 6,
+        "notes": "Эмоциональный/тизерный хук"
+      },
+      "body": {
+        "type": "demo",
+        "text": "🚀 Ready to speak with confidence in a new language? With Talkpal, get personalized lessons, interactive exercises, and real-time feedback. Transform your learning experience – sign up now!\nTALKPAL.AI\nLearn Any Language Y",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "free trial",
+        "score": 7,
+        "notes": "Free trial"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Self-learners A2-B2, ищут AI-разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.5,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_648770544439866",
+      "brand": "TalkPal",
+      "text": "🚀 Revolutionize Your Language Skills with Talkpal\n✅ Chat with the AI tutor in 57+ languages\n✅ Debate with different interesting characters\n✅ Enhance your skills with real-time AI feedback\nReady to take the leap? Sign up today!\nMaster Any Language Faster\nInstall Now",
+      "hook": {
+        "type": "social_proof",
+        "text": "🚀 Revolutionize Your Language Skills with Talkpal",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "list",
+        "text": "🚀 Revolutionize Your Language Skills with Talkpal\n✅ Chat with the AI tutor in 57+ languages\n✅ Debate with different interesting characters\n✅ Enhance your skills with real-time AI feedback\nReady to take the leap? Sign up ",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Self-learners A2-B2, ищут AI-разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6,
+      "standout_element": "hook",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_25744751225137355",
+      "brand": "Speak",
+      "text": "Learn English through basic conversations and questions everyday with this app. Download and Try it now\nPLAY.GOOGLE.COM\nLunaSpeak - The Speaking AI Coach\nInstall now",
+      "hook": {
+        "type": "trend",
+        "text": "Learn English through basic conversations and questions everyday with this app. Download and Try it now",
+        "score": 6,
+        "notes": "Привязка к AI-тренду"
+      },
+      "body": {
+        "type": "list",
+        "text": "Learn English through basic conversations and questions everyday with this app. Download and Try it now\nPLAY.GOOGLE.COM\nLunaSpeak - The Speaking AI Coach\nInstall now",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Self-learners A2-B1, мобильный AI-tutor",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_993278378920897",
+      "brand": "Speak",
+      "text": "Learn a new language for FREE 😍📕🤩",
+      "hook": {
+        "type": "result",
+        "text": "Learn a new language for FREE 😍📕🤩",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Learn a new language for FREE 😍📕🤩",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Self-learners A2-B1, мобильный AI-tutor",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_2349564588880421",
+      "brand": "Speak",
+      "text": "Everyone around you is learning a new language with AI. Don't get left behind — start today!",
+      "hook": {
+        "type": "trend",
+        "text": "Everyone around you is learning a new language with AI. Don't get left behind — start today!",
+        "score": 6,
+        "notes": "Привязка к AI-тренду"
+      },
+      "body": {
+        "type": "list",
+        "text": "Everyone around you is learning a new language with AI. Don't get left behind — start today!",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Self-learners A2-B1, мобильный AI-tutor",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_887576970427687",
+      "brand": "Speak",
+      "text": "This ad was run by an account or Page that we later disabled for not following our Advertising Standards.",
+      "hook": {
+        "type": "result",
+        "text": "This ad was run by an account or Page that we later disabled for not following our Advertising Standards.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "This ad was run by an account or Page that we later disabled for not following our Advertising Standards.",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Self-learners A2-B1, мобильный AI-tutor",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_624771340431923",
+      "brand": "Speak",
+      "text": "Learn a new language for FREE 😍📕🤩\nPLAY.GOOGLE.COM\nFree Language Learning App😍\nInstall now",
+      "hook": {
+        "type": "result",
+        "text": "Learn a new language for FREE 😍📕🤩",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Learn a new language for FREE 😍📕🤩\nPLAY.GOOGLE.COM\nFree Language Learning App😍\nInstall now",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Self-learners A2-B1, мобильный AI-tutor",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.5,
+      "standout_element": "cta",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_890029443669549",
+      "brand": "Speak",
+      "text": "Stop overcomplicating it. 5 apps. 3 methods. 10 YouTube channels. And still stuck. 🤯 Here's the simple way: pick one Read2Speak ebook, open it, read 20 minutes, close it. Done for the day. Your whole path from zero to C2 fits in 3 ebooks. 📖 Simple works. Complicated doesn't. ✅ Take a screenshot. You'll need this. ✨ Keep it simple. Start today. 🔥",
+      "hook": {
+        "type": "shock",
+        "text": "Stop overcomplicating it. 5 apps. 3 methods. 10 YouTube channels. And still stuck. 🤯 Here's the simple way: pick one Read2Speak ebook, open it, read 20 minutes,",
+        "score": 6,
+        "notes": "Эмоциональный/тизерный хук"
+      },
+      "body": {
+        "type": "list",
+        "text": "Stop overcomplicating it. 5 apps. 3 methods. 10 YouTube channels. And still stuck. 🤯 Here's the simple way: pick one Read2Speak ebook, open it, read 20 minutes, close it. Done for the day. Your whole path from zero to C2",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "fear",
+      "target_segment": "Self-learners A2-B1, мобильный AI-tutor",
+      "pain_tags": [
+        "stupor"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_927887179651683",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_2201609160616254",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1251109626464766",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_3357207234451966",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_4023585501274560",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | www.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.5,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_906345492372417",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1871900450195491",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_2201855780588503",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1853727835287286",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_4190702571147935",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1601478117592344",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1011206434772823",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1258410529797515",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1888197778508235",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | www.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.5,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1144520564481638",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_552694150610721",
+      "brand": "Cambly",
+      "text": "Investir em conhecimento nunca é cedo demais! Se você tem um adolescente em casa, incentive-o a explorar novos aprendizados. Essas habilidades são essenciais para o crescimento pessoal e profissional.\n\nComenta aqui 2 habilidades que seu filho precisa desenvolver! 💕 |   | instagram.com",
+      "hook": {
+        "type": "result",
+        "text": "Investir em conhecimento nunca é cedo demais! Se você tem um adolescente em casa, incentive-o a explorar novos aprendizados. Essas habilidades são essenciais pa",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Investir em conhecimento nunca é cedo demais! Se você tem um adolescente em casa, incentive-o a explorar novos aprendizados. Essas habilidades são essenciais para o crescimento pessoal e profissional.\n\nComenta aqui 2 hab",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_571445128899830",
+      "brand": "Cambly",
+      "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms where you create your own profile and attract students who register with the platfo | [Free Download] How to Get Your Own Students Online | teacher.boweistrategy.com",
+      "hook": {
+        "type": "result",
+        "text": "There are 3 options to teach ESL online:",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms whe",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "exclusive",
+        "text": "exclusive access",
+        "score": 6,
+        "notes": "Эксклюзивный доступ"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_949175298106690",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1635678957662474",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_947802818248440",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1441189557632644",
+      "brand": "Cambly",
+      "text": "Tired of trading ⏳ time for 💵 money? You don’t need another draining job. You need flexible income that works around your life. 🌸\n\nHere are 5 beginner-friendly ways to earn online (even in 30-min pockets):\n1️⃣ Captioning – Add subtitles to videos. Start with 👉 Rev.com or 3PlayMedia.com\n2️⃣ English T | instagram.com",
+      "hook": {
+        "type": "question",
+        "text": "Tired of trading ⏳ time for 💵 money? You don’t need another draining job. You need flexible income that works around your life. 🌸",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Tired of trading ⏳ time for 💵 money? You don’t need another draining job. You need flexible income that works around your life. 🌸\n\nHere are 5 beginner-friendly ways to earn online (even in 30-min pockets):\n1️⃣ Captioning",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1088259109528327",
+      "brand": "Cambly",
+      "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms where you create your own profile and attract students who register with the platfo | [Free Download] How to Get Your Own Students Online | teacher.boweistrategy.com",
+      "hook": {
+        "type": "result",
+        "text": "There are 3 options to teach ESL online:",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms whe",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "exclusive",
+        "text": "exclusive access",
+        "score": 6,
+        "notes": "Эксклюзивный доступ"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1460298645302569",
+      "brand": "Cambly",
+      "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms where you create your own profile and attract students who register with the platfo | [Free Download] How to Get Your Own Students Online | teacher.boweistrategy.com",
+      "hook": {
+        "type": "result",
+        "text": "There are 3 options to teach ESL online:",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms whe",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "exclusive",
+        "text": "exclusive access",
+        "score": 6,
+        "notes": "Эксклюзивный доступ"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_920161000849883",
+      "brand": "Cambly",
+      "text": "No viniste a este país a sobrevivir.\n\nViniste a crecer.\n\nPero sigues trabajando como si no supieras nada.\n\nCuando en realidad:\nya tienes conocimiento que se puede vender online.\n\nIdiomas. Habilidades. Experiencia.\n\nEl problema no es el dinero.\nEs la forma en la que te estás viendo.\n\nSi quieres que t | Reconstruyendo Con Caro | instagram.com",
+      "hook": {
+        "type": "result",
+        "text": "No viniste a este país a sobrevivir.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "No viniste a este país a sobrevivir.\n\nViniste a crecer.\n\nPero sigues trabajando como si no supieras nada.\n\nCuando en realidad:\nya tienes conocimiento que se puede vender online.\n\nIdiomas. Habilidades. Experiencia.\n\nEl pr",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1218294969942375",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_684201264204999",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_588068364302145",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_2284197418701617",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1309836881029288",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1507001934357830",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1210424844323923",
+      "brand": "Cambly",
+      "text": "🌍 Teach From Anywhere and Share What You Know! 🎓💻\n\nYou don’t need to be a certified teacher to start tutoring online — you just need skills you already have.\n✅ Good at math? Help students prep for exams.\n✅ Speak another language? Teach conversational lessons.\n✅ Love writing or science? Students ever | instagram.com | instagram.com",
+      "hook": {
+        "type": "result",
+        "text": "🌍 Teach From Anywhere and Share What You Know! 🎓💻",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "🌍 Teach From Anywhere and Share What You Know! 🎓💻\n\nYou don’t need to be a certified teacher to start tutoring online — you just need skills you already have.\n✅ Good at math? Help students prep for exams.\n✅ Speak another ",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "convenience"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_423973127477410",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1264909611728406",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_846050704698065",
+      "brand": "Cambly",
+      "text": "⏰ Short on time?\n\nDon’t worry — I’ve got you 🤝✅\nHere’s the list… and a bonus income idea that changed everything for me. 👇🏼\n\n📌 Before you scroll, save this so you can come back to it later — and make sure to follow me @compassways.digital for more real ways to earn from home 💻🏡\n\n1. Captioning Jobs ( | stan.store",
+      "hook": {
+        "type": "question",
+        "text": "⏰ Short on time?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "⏰ Short on time?\n\nDon’t worry — I’ve got you 🤝✅\nHere’s the list… and a bonus income idea that changed everything for me. 👇🏼\n\n📌 Before you scroll, save this so you can come back to it later — and make sure to follow me @c",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_383739838958618",
+      "brand": "Cambly",
+      "text": "It's time to put our money where our mouth is.\n\nThis morning, the CEOs of 145 American companies called on congress to pass legislation to restrict our 2nd Amendment rights.\n\nPlease take a moment to show these companies (and their shareholders) that the gesture made by their chief executives won't g",
+      "hook": {
+        "type": "result",
+        "text": "It's time to put our money where our mouth is.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "It's time to put our money where our mouth is.\n\nThis morning, the CEOs of 145 American companies called on congress to pass legislation to restrict our 2nd Amendment rights.\n\nPlease take a moment to show these companies ",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_665720402933279",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | play.google.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1207247903924256",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_4057325341149938",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_2350070528727666",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_857001954112410",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | www.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.5,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_26235535912812656",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_571141078952634",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1771274357136183",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_771523792612730",
+      "brand": "Cambly",
+      "text": "30 Side Hustle Ideas You Can Start with Little Experience",
+      "hook": {
+        "type": "result",
+        "text": "30 Side Hustle Ideas You Can Start with Little Experience",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "30 Side Hustle Ideas You Can Start with Little Experience",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1162517102514883",
+      "brand": "Cambly",
+      "text": "Хотите, чтобы ребёнок свободно говорил по-английски и без страха поступил за границу?\n\nХорошая новость — для этого не нужно ждать старших классов.\nНачинать можно уже сейчас, и не со скучными учебниками, а интерактивными онлайн-программами, где английский становится языком жизни.\n\nКакие платформы раб | www.instagram.com",
+      "hook": {
+        "type": "question",
+        "text": "Хотите, чтобы ребёнок свободно говорил по-английски и без страха поступил за границу?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "Хотите, чтобы ребёнок свободно говорил по-английски и без страха поступил за границу?\n\nХорошая новость — для этого не нужно ждать старших классов.\nНачинать можно уже сейчас, и не со скучными учебниками, а интерактивными ",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "bundle",
+        "text": "course/marathon bundle",
+        "score": 6,
+        "notes": "Пакет/марафон/курс"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "fear",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "fear"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.5,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1828313387858458",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_594821906993185",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1390444748966346",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.mixdrama.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1806829013583678",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | play.google.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1030085115754601",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_675617045628920",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_874686634823465",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1090024023181302",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.mixdrama.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1298059302216857",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_706927845025906",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1725357685025977",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1471638677987106",
+      "brand": "Cambly",
+      "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some learners. Practicing with 1-2 learners and a native tutor will motivate them more | 50% OFF: English for your career | cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Best Discount of the Year is live! Native English Tutors now 50% off on annual subscriptions.\n\nSome learners need real conversation under pressure, while others need a structured path. Peer groups can also empower some l",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "offer",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1399622857741573",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.mixdrama.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_707758788412937",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.mixdrama.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1724041734914748",
+      "brand": "Cambly",
+      "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms where you create your own profile and attract students who register with the platfo | [Free Download] How to Get Your Own Students Online | teacher.boweistrategy.com",
+      "hook": {
+        "type": "result",
+        "text": "There are 3 options to teach ESL online:",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms whe",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "exclusive",
+        "text": "exclusive access",
+        "score": 6,
+        "notes": "Эксклюзивный доступ"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1009114471422528",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1059417296397475",
+      "brand": "Cambly",
+      "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms where you create your own profile and attract students who register with the platfo | [Free Download] How to Get Your Own Students Online | teacher.boweistrategy.com",
+      "hook": {
+        "type": "result",
+        "text": "There are 3 options to teach ESL online:",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms whe",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "exclusive",
+        "text": "exclusive access",
+        "score": 6,
+        "notes": "Эксклюзивный доступ"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1085924946977425",
+      "brand": "Cambly",
+      "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms where you create your own profile and attract students who register with the platfo | [Free Download] How to Get Your Own Students Online | teacher.boweistrategy.com",
+      "hook": {
+        "type": "result",
+        "text": "There are 3 options to teach ESL online:",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms whe",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "exclusive",
+        "text": "exclusive access",
+        "score": 6,
+        "notes": "Эксклюзивный доступ"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1937426530426825",
+      "brand": "Cambly",
+      "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms where you create your own profile and attract students who register with the platfo | [Free Download] How to Get Your Own Students Online | teacher.boweistrategy.com",
+      "hook": {
+        "type": "result",
+        "text": "There are 3 options to teach ESL online:",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms whe",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "exclusive",
+        "text": "exclusive access",
+        "score": 6,
+        "notes": "Эксклюзивный доступ"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_738563272473373",
+      "brand": "Cambly",
+      "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms where you create your own profile and attract students who register with the platfo | [Free Download] How to Get Your Own Students Online | teacher.boweistrategy.com",
+      "hook": {
+        "type": "result",
+        "text": "There are 3 options to teach ESL online:",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "There are 3 options to teach ESL online:\n\n1. Work with online ESL companies that provide you with students and lesson plans to follow, such as VIPKid, GoGoKid, DaDa, iTutorGroup, etc.\n\n2. Work on freelancer platforms whe",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "direct",
+        "text": "sign up / install / register",
+        "score": 7,
+        "notes": "Прямой призыв к действию"
+      },
+      "offer": {
+        "type": "exclusive",
+        "text": "exclusive access",
+        "score": 6,
+        "notes": "Эксклюзивный доступ"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_2099624283895065",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.mixdrama.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1201249551785768",
+      "brand": "Cambly",
+      "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de celle-ci, Kimberly. Consumée par le chagrin et la rage, Hazel juge Jace et Canda | La quête de justice d'une mère après une perte tragique. | w2a.reelshort.com",
+      "hook": {
+        "type": "result",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "demo",
+        "text": "Après la mort tragique de leur fille Alyssa dans l'effondrement d'un centre de jeunesse, Hazel cherche à obtenir justice et à se venger de son mari pompier Jace, qui a préféré sauver son ex-amante Candace et la fille de ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1996772081053134",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_3981337078833457",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_2296068464135782",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_2319901005087690",
+      "brand": "Cambly",
+      "text": "{{product.brand}} | {{product.name}} | try.cambly.com",
+      "hook": {
+        "type": "result",
+        "text": "Cambly Cambly",
+        "score": 3,
+        "notes": "Динамический каталожный шаблон, нет копирайта"
+      },
+      "body": {
+        "type": "list",
+        "text": "Cambly",
+        "score": 3,
+        "notes": "Шаблон каталога, не нарратив"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit",
+        "score": 3,
+        "notes": "Нет явного CTA в шаблоне"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "n/a",
+        "score": 3,
+        "notes": "Шаблон, оффер не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Adults 25-45, ищут native-tutor разговор",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": true,
+      "overall_score": 3,
+      "standout_element": "hook",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_841471632390768",
+      "brand": "AntiShkola",
+      "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчання на інтерактивній платформі зі словником, домашкою, яку хочеться робити та зворотнім звʼязком від репетитора\n✔️Гарантія результату - якщо після курсу не отримаєш очікуваного результату - навчайся безкоштовно\nБезкоштовний пробний урок вже чекає на тебе за посиланням 🇬🇧\n✅ Перейди ",
+      "hook": {
+        "type": "question",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчанн",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "guarantee",
+        "text": "guarantee",
+        "score": 8,
+        "notes": "Гарантия результата / возврата"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "offer",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1902632930686019",
+      "brand": "AntiShkola",
+      "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчання на інтерактивній платформі зі словником, домашкою, яку хочеться робити та зворотнім звʼязком від репетитора\n✔️Гарантія результату - якщо після курсу не отримаєш очікуваного результату - навчайся безкоштовно\nБезкоштовний пробний урок вже чекає на тебе за посиланням 🇬🇧\n✅ Перейди ",
+      "hook": {
+        "type": "question",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчанн",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "guarantee",
+        "text": "guarantee",
+        "score": 8,
+        "notes": "Гарантия результата / возврата"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "offer",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1245370806698922",
+      "brand": "AntiShkola",
+      "text": "Пиши нам + у директ та отримай знижку до -50% на пакет навчання на честь Чорної пʼятниці 😈\nА ти знав, який переклад у пісні Billie Eilish “Birds of a feather”?\nПодивись відосик від Лі, під який не зможеш не підтанцьовувати 🤩\nА щоб краще розуміти англомовні пісні, запишись на пробний урок, написавши нам у Direct👆\nWWW.INSTAGRAM.COM\nAntiSchool Online - английский онлайн\nVisit Instagram profile",
+      "hook": {
+        "type": "result",
+        "text": "Пиши нам + у директ та отримай знижку до -50% на пакет навчання на честь Чорної пʼятниці 😈",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Пиши нам + у директ та отримай знижку до -50% на пакет навчання на честь Чорної пʼятниці 😈\nА ти знав, який переклад у пісні Billie Eilish “Birds of a feather”?\nПодивись відосик від Лі, під який не зможеш не підтанцьовува",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "discount",
+        "text": "discount %",
+        "score": 7,
+        "notes": "Скидка"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.2,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_9754020991301021",
+      "brand": "AntiShkola",
+      "text": "MET GALA 2025\nрозберемо сьогодні з вами корисну лексику 😎👇🏻\n1. Dress up —\nвдягатися нарядно\nПриклад: We love to dress up for special occasions.\n— Ми любимо наряджатися на особливі події.\n2. Glow up —\nперетворитися на краще, розквітнути, стати красивішим, стильнішим, впевненішим у собі (зовнішньо й внутрішньо).",
+      "hook": {
+        "type": "result",
+        "text": "MET GALA 2025",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "MET GALA 2025\nрозберемо сьогодні з вами корисну лексику 😎👇🏻\n1. Dress up —\nвдягатися нарядно\nПриклад: We love to dress up for special occasions.\n— Ми любимо наряджатися на особливі події.\n2. Glow up —\nперетворитися на кра",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 4.8,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_35418143937776538",
+      "brand": "AntiShkola",
+      "text": "\"Найбільша школа англійської мови шукає саме тебе 🫵\nАнтиШкола випустила вже більше 60.000 студентів, за статистикою, кожний третій - рекомендує навчання своїм друзям та знайомим\nТрішки про нас:\n🏆 Репетитор допоможе досягти мети швидко, а головне ефективно\n🌏 Можеш навчатись вдома, в кав’ярні, на відпочинку – де завгодно\n🗓 Гучний графік навчання та широкий вибір форматів\n⭐️До речі, оцінка нашого курсу на сайті Enguide.ua (http://enguide.ua/) — 4.6 від задоволених студентів\nТому не марнуйте час, а ",
+      "hook": {
+        "type": "social_proof",
+        "text": "\"Найбільша школа англійської мови шукає саме тебе 🫵",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "list",
+        "text": "\"Найбільша школа англійської мови шукає саме тебе 🫵\nАнтиШкола випустила вже більше 60.000 студентів, за статистикою, кожний третій - рекомендує навчання своїм друзям та знайомим\nТрішки про нас:\n🏆 Репетитор допоможе досяг",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "free trial",
+        "score": 7,
+        "notes": "Free trial"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "hook",
+      "weakness": "body"
+    },
+    {
+      "id": "ad_1085352830263540",
+      "brand": "AntiShkola",
+      "text": "Записуйся на безкоштовний пробний урок та отримай персональний план для свого рівня англійської 😼\nЙой, а ти б відповів на запитання під таким адреналіном? 😅\nНічого, АнтиШкола тебе до всього підготує 😎\nА поки – запамʼятовуй:\n🇺🇸 forget - forgot, forgotten\n🇺🇦 забувати\n🇺🇸 go - went, gone\n🇺🇦 іти",
+      "hook": {
+        "type": "result",
+        "text": "Записуйся на безкоштовний пробний урок та отримай персональний план для свого рівня англійської 😼",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Записуйся на безкоштовний пробний урок та отримай персональний план для свого рівня англійської 😼\nЙой, а ти б відповів на запитання під таким адреналіном? 😅\nНічого, АнтиШкола тебе до всього підготує 😎\nА поки – запамʼятов",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "free trial",
+        "score": 7,
+        "notes": "Free trial"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.2,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1957535931733667",
+      "brand": "AntiShkola",
+      "text": "У чому ж жарт?\nСцена з “Friends”\n— Джої з новою модною сумкою. Рейчел каже:\n“unis*x!”\n(«уніс*кс», тобто сумка підходить і чоловікам, і жінкам)\nА Джої у своєму стилі відповідає:\n“Maybe you need s*x. I had s*x a couple days ago.”\n(«Може, це тобі потрібен с*кс. У мене був кілька днів тому»)",
+      "hook": {
+        "type": "question",
+        "text": "У чому ж жарт?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "testimonial",
+        "text": "У чому ж жарт?\nСцена з “Friends”\n— Джої з новою модною сумкою. Рейчел каже:\n“unis*x!”\n(«уніс*кс», тобто сумка підходить і чоловікам, і жінкам)\nА Джої у своєму стилі відповідає:\n“Maybe you need s*x. I had s*x a couple day",
+        "score": 7,
+        "notes": "Цитата-отзыв в теле"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.2,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_1128101372281333",
+      "brand": "AntiShkola",
+      "text": "Переходь за посилання у біо та записуйся на пробний урок 🇬🇧\nТа не плутай базу базну англійської 😎\nWWW.INSTAGRAM.COM\nAntiSchool Online - английский онлайн\nVisit Instagram profile",
+      "hook": {
+        "type": "result",
+        "text": "Переходь за посилання у біо та записуйся на пробний урок 🇬🇧",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "list",
+        "text": "Переходь за посилання у біо та записуйся на пробний урок 🇬🇧\nТа не плутай базу базну англійської 😎\nWWW.INSTAGRAM.COM\nAntiSchool Online - английский онлайн\nVisit Instagram profile",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "free trial",
+        "score": 7,
+        "notes": "Free trial"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.2,
+      "standout_element": "cta",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_24552080534449553",
+      "brand": "AntiShkola",
+      "text": "Коли знаєш англійську, світ стає простішим. Бренди, фільми, пісні — усе зрозуміло без перекладу😉\nПиши «IDIOM» у коментарях, щоб отримати чек-лист з крутими виразами та записуйся на безкоштовний пробний урок!\nINSTAGRAM.COM\nАнтиШкола ONLINE (@antischool_online) • Instagram photos and videos\nVisit Instagram Profile\nINSTAGRAM.COM\nАнтиШкола ONLINE (@antischool_online) • Instagram photos and videos\nVisit Instagram Profile",
+      "hook": {
+        "type": "result",
+        "text": "Коли знаєш англійську, світ стає простішим. Бренди, фільми, пісні — усе зрозуміло без перекладу😉",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "testimonial",
+        "text": "Коли знаєш англійську, світ стає простішим. Бренди, фільми, пісні — усе зрозуміло без перекладу😉\nПиши «IDIOM» у коментарях, щоб отримати чек-лист з крутими виразами та записуйся на безкоштовний пробний урок!\nINSTAGRAM.CO",
+        "score": 7,
+        "notes": "Цитата-отзыв в теле"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "free trial",
+        "score": 7,
+        "notes": "Free trial"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.5,
+      "standout_element": "body",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1161176872272139",
+      "brand": "AntiShkola",
+      "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання знають відповідь тічери з АнтиШколи, щоб навчання було у задоволення 🤤\n🔥 Розробили 90+ програм, тому наш викладач буде підбирати заняття спеціально для тебе, спираючись на рівень знань, інтереси та твій графік\n🏆 Тічер допоможе досягти мети швидко, а головне – ефективно\n🇺🇸 Вивчаєш",
+      "hook": {
+        "type": "social_proof",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "demo",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "social",
+        "text": "join community",
+        "score": 6,
+        "notes": "Призыв через комьюнити"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "hook",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_1074640617492750",
+      "brand": "AntiShkola",
+      "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання знають відповідь тічери з АнтиШколи, щоб навчання було у задоволення 🤤\n🔥 Розробили 90+ програм, тому наш викладач буде підбирати заняття спеціально для тебе, спираючись на рівень знань, інтереси та твій графік\n🏆 Тічер допоможе досягти мети швидко, а головне – ефективно\n🇺🇸 Вивчаєш",
+      "hook": {
+        "type": "social_proof",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "list",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання ",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "social",
+        "text": "join community",
+        "score": 6,
+        "notes": "Призыв через комьюнити"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.5,
+      "standout_element": "hook",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_1127722355940008",
+      "brand": "AntiShkola",
+      "text": "😂 Пиши «10» і отримай 10 чек-листів, щоб підтягнути англійську і не потрапити в таку ситуацію\nINSTAGRAM.COM\nAntiSchool Online - английский онлайн\nVisit Instagram profile",
+      "hook": {
+        "type": "result",
+        "text": "😂 Пиши «10» і отримай 10 чек-листів, щоб підтягнути англійську і не потрапити в таку ситуацію",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "testimonial",
+        "text": "😂 Пиши «10» і отримай 10 чек-листів, щоб підтягнути англійську і не потрапити в таку ситуацію\nINSTAGRAM.COM\nAntiSchool Online - английский онлайн\nVisit Instagram profile",
+        "score": 7,
+        "notes": "Цитата-отзыв в теле"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5,
+      "standout_element": "body",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_2510072809369780",
+      "brand": "AntiShkola",
+      "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання знають відповідь тічери з АнтиШколи, щоб навчання було у задоволення 🤤\n🔥 Розробили 90+ програм, тому наш викладач буде підбирати заняття спеціально для тебе, спираючись на рівень знань, інтереси та твій графік\n🏆 Тічер допоможе досягти мети швидко, а головне – ефективно\n🇺🇸 Вивчаєш",
+      "hook": {
+        "type": "social_proof",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "demo",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "social",
+        "text": "join community",
+        "score": 6,
+        "notes": "Призыв через комьюнити"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "hook",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_4115714265366631",
+      "brand": "AntiShkola",
+      "text": "🇺🇦 Якщо відкладав вивчення англійської не один раз, уважно читайте далі\nІснує безліч причин, але основна — відсутність інтересу після перших занять. Кудись зникає мотивація і сила волі.\n💚 Щоб виправити цю ситуацію, АнтиШкола створила 90+ програм для вивчення англійської мови: кожен студент може обирати цікаві теми уроків, а не займатися за однаковими шаблонними курсами.\nНаприклад:\n- Англійська для IT\n- Підготовка до IELTS\n- Англійський для дітей 6-16 років\n- Англійська для життя у інших країнах",
+      "hook": {
+        "type": "social_proof",
+        "text": "🇺🇦 Якщо відкладав вивчення англійської не один раз, уважно читайте далі",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "list",
+        "text": "🇺🇦 Якщо відкладав вивчення англійської не один раз, уважно читайте далі\nІснує безліч причин, але основна — відсутність інтересу після перших занять. Кудись зникає мотивація і сила волі.\n💚 Щоб виправити цю ситуацію, АнтиШ",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "implicit cta",
+        "score": 4,
+        "notes": "CTA размыт"
+      },
+      "offer": {
+        "type": "bundle",
+        "text": "course/marathon bundle",
+        "score": 6,
+        "notes": "Пакет/марафон/курс"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "motivation"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "hook",
+      "weakness": "cta"
+    },
+    {
+      "id": "ad_777448728682101",
+      "brand": "AntiShkola",
+      "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчання на інтерактивній платформі зі словником, домашкою, яку хочеться робити та зворотнім звʼязком від репетитора\n✔️Гарантія результату - якщо після курсу не отримаєш очікуваного результату - навчайся безкоштовно\nБезкоштовний пробний урок вже чекає на тебе за посиланням 🇬🇧\n✅ Перейди ",
+      "hook": {
+        "type": "question",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчанн",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "guarantee",
+        "text": "guarantee",
+        "score": 8,
+        "notes": "Гарантия результата / возврата"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "offer",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_862907273026757",
+      "brand": "AntiShkola",
+      "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчання на інтерактивній платформі зі словником, домашкою, яку хочеться робити та зворотнім звʼязком від репетитора\n✔️Гарантія результату - якщо після курсу не отримаєш очікуваного результату - навчайся безкоштовно\nБезкоштовний пробний урок вже чекає на тебе за посиланням 🇬🇧\n✅ Перейди ",
+      "hook": {
+        "type": "question",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчанн",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "guarantee",
+        "text": "guarantee",
+        "score": 8,
+        "notes": "Гарантия результата / возврата"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "offer",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1295091565208034",
+      "brand": "AntiShkola",
+      "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання знають відповідь тічери з АнтиШколи, щоб навчання було у задоволення 🤤\n🔥 Розробили 90+ програм, тому наш викладач буде підбирати заняття спеціально для тебе, спираючись на рівень знань, інтереси та твій графік\n🏆 Тічер допоможе досягти мети швидко, а головне – ефективно\n🇺🇸 Вивчаєш",
+      "hook": {
+        "type": "social_proof",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "demo",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "social",
+        "text": "join community",
+        "score": 6,
+        "notes": "Призыв через комьюнити"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "hook",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_24857435710593787",
+      "brand": "AntiShkola",
+      "text": "✍🏻 «48» у коментарях та отримай\n48 безкоштовних уроків та корисні чек-листи, які покращать твою англійську🇬🇧\nINSTAGRAM.COM\nAntiSchool Online - английский онлайн\nVisit Instagram profile",
+      "hook": {
+        "type": "result",
+        "text": "✍🏻 «48» у коментарях та отримай",
+        "score": 5,
+        "notes": "Хук общий, без острой боли"
+      },
+      "body": {
+        "type": "testimonial",
+        "text": "✍🏻 «48» у коментарях та отримай\n48 безкоштовних уроків та корисні чек-листи, які покращать твою англійську🇬🇧\nINSTAGRAM.COM\nAntiSchool Online - английский онлайн\nVisit Instagram profile",
+        "score": 7,
+        "notes": "Цитата-отзыв в теле"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "free trial",
+        "score": 7,
+        "notes": "Free trial"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.5,
+      "standout_element": "body",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_3080302282149889",
+      "brand": "AntiShkola",
+      "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчання на інтерактивній платформі зі словником, домашкою, яку хочеться робити та зворотнім звʼязком від репетитора\n✔️Гарантія результату - якщо після курсу не отримаєш очікуваного результату - навчайся безкоштовно\nБезкоштовний пробний урок вже чекає на тебе за посиланням 🇬🇧\n✅ Перейди ",
+      "hook": {
+        "type": "question",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчанн",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "guarantee",
+        "text": "guarantee",
+        "score": 8,
+        "notes": "Гарантия результата / возврата"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "offer",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_1897786451143751",
+      "brand": "AntiShkola",
+      "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчання на інтерактивній платформі зі словником, домашкою, яку хочеться робити та зворотнім звʼязком від репетитора\n✔️Гарантія результату - якщо після курсу не отримаєш очікуваного результату - навчайся безкоштовно\nБезкоштовний пробний урок вже чекає на тебе за посиланням 🇬🇧\n✅ Перейди ",
+      "hook": {
+        "type": "question",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "\"Давно хотів нарешті перейти на новий рівень англійської?\nНавчаючись в  Антишколі, це можна буде зробити дуже easy and fast😎\nНа тебе чекає:\n✔️Топовий репетитор з України або носій мови, якого обереш самостійно\n✔️ Навчанн",
+        "score": 6,
+        "notes": "Буллеты фич/выгод"
+      },
+      "cta": {
+        "type": "free",
+        "text": "free trial / free lesson",
+        "score": 7,
+        "notes": "Free trial / бесплатный урок"
+      },
+      "offer": {
+        "type": "guarantee",
+        "text": "guarantee",
+        "score": 8,
+        "notes": "Гарантия результата / возврата"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 6.8,
+      "standout_element": "offer",
+      "weakness": "hook"
+    },
+    {
+      "id": "ad_3926449737663868",
+      "brand": "AntiShkola",
+      "text": "Добре володієш англійською мовою? 🇬🇧\nОтримуй можливість викладати з АнтиШколою\n🔥️ Індвивідуальні та групові заняття\n🥰️ Навчання для дорослих та дітей\n🤍️ Формуємо персональний план розвитку репетитора\nЧекаємо твою заявку, щоб через тиждень отримати вже перших студентів разом з АнтиШколою!🤍️\nНам потрібен саме ти\nLearn More",
+      "hook": {
+        "type": "question",
+        "text": "Добре володієш англійською мовою? 🇬🇧",
+        "score": 6,
+        "notes": "Открывается вопросом, тянет любопытство"
+      },
+      "body": {
+        "type": "list",
+        "text": "Добре володієш англійською мовою? 🇬🇧\nОтримуй можливість викладати з АнтиШколою\n🔥️ Індвивідуальні та групові заняття\n🥰️ Навчання для дорослих та дітей\n🤍️ Формуємо персональний план розвитку репетитора\nЧекаємо твою заявку,",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "soft",
+        "text": "learn more",
+        "score": 5,
+        "notes": "Мягкий CTA"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "trust",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "functional"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5,
+      "standout_element": "hook",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_918885413517689",
+      "brand": "AntiShkola",
+      "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання знають відповідь тічери з АнтиШколи, щоб навчання було у задоволення 🤤\n🔥 Розробили 90+ програм, тому наш викладач буде підбирати заняття спеціально для тебе, спираючись на рівень знань, інтереси та твій графік\n🏆 Тічер допоможе досягти мети швидко, а головне – ефективно\n🇺🇸 Вивчаєш",
+      "hook": {
+        "type": "social_proof",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "demo",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання ",
+        "score": 6,
+        "notes": "Видео-демо продукта"
+      },
+      "cta": {
+        "type": "social",
+        "text": "join community",
+        "score": 6,
+        "notes": "Призыв через комьюнити"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "ugc",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.8,
+      "standout_element": "hook",
+      "weakness": "offer"
+    },
+    {
+      "id": "ad_710866161868979",
+      "brand": "AntiShkola",
+      "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання знають відповідь тічери з АнтиШколи, щоб навчання було у задоволення 🤤\n🔥 Розробили 90+ програм, тому наш викладач буде підбирати заняття спеціально для тебе, спираючись на рівень знань, інтереси та твій графік\n🏆 Тічер допоможе досягти мети швидко, а головне – ефективно\n🇺🇸 Вивчаєш",
+      "hook": {
+        "type": "social_proof",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся",
+        "score": 7,
+        "notes": "Социальное доказательство через числа/отзывы"
+      },
+      "body": {
+        "type": "list",
+        "text": "🇺🇦  В АнтиШколі заговорили англійською 19к+ студентів, приєднуйся\nНе можеш визначити мету навчання англійської?\nЩоразу зубриш те, що не потрібно?\nУ звичайній школі викладачі не звертали увагу на speaking?\nНа всі питання ",
+        "score": 5,
+        "notes": "Тело-описание без яркой структуры"
+      },
+      "cta": {
+        "type": "social",
+        "text": "join community",
+        "score": 6,
+        "notes": "Призыв через комьюнити"
+      },
+      "offer": {
+        "type": "trial",
+        "text": "implicit trial",
+        "score": 4,
+        "notes": "Оффер явно не сформулирован"
+      },
+      "visual_style": "product",
+      "emotional_trigger": "desire",
+      "target_segment": "Адульты СНГ/UA, A2-B2, марафоны",
+      "pain_tags": [
+        "result"
+      ],
+      "is_dynamic_template": false,
+      "overall_score": 5.5,
+      "standout_element": "hook",
+      "weakness": "offer"
+    }
+  ],
+  "top_10_creatives": [
+    "ad_1844974336419638",
+    "ad_883722730683252",
+    "ad_841471632390768",
+    "ad_1902632930686019",
+    "ad_35418143937776538",
+    "ad_777448728682101",
+    "ad_862907273026757",
+    "ad_3080302282149889",
+    "ad_1897786451143751",
+    "ad_737685059435239"
+  ],
+  "element_distribution": {
+    "hooks": {
+      "problem": 0,
+      "result": 78,
+      "shock": 2,
+      "social_proof": 11,
+      "question": 12,
+      "trend": 2
+    },
+    "bodies": {
+      "before-after": 0,
+      "demo": 38,
+      "testimonial": 4,
+      "list": 63,
+      "story": 0,
+      "educational": 0
+    },
+    "ctas": {
+      "direct": 12,
+      "soft": 72,
+      "urgency": 0,
+      "free": 15,
+      "social": 6
+    },
+    "offers": {
+      "discount": 12,
+      "bundle": 2,
+      "trial": 77,
+      "free_shipping": 0,
+      "guarantee": 6,
+      "exclusive": 8
+    }
+  },
+  "pain_distribution": {
+    "result": 15,
+    "functional": 86,
+    "stupor": 1,
+    "convenience": 1,
+    "fear": 1,
+    "motivation": 1
+  },
+  "hook_x_pain_matrix": {
+    "social_proof": {
+      "result": 8,
+      "functional": 2,
+      "motivation": 1
+    },
+    "question": {
+      "result": 7,
+      "functional": 4,
+      "fear": 1
+    },
+    "shock": {
+      "functional": 1,
+      "stupor": 1
+    },
+    "trend": {
+      "functional": 2
+    },
+    "result": {
+      "functional": 77,
+      "convenience": 1
+    }
+  },
+  "hypothesis_2_check": {
+    "before_after_total": 0,
+    "before_after_emotional": 0,
+    "before_after_level_only": 0,
+    "verdict": "Опровергнута: эмоциональных before/after не меньше уровневых"
+  },
+  "by_brand_avg_score": {
+    "AntiShkola": 6.05,
+    "Cambly": 4.53,
+    "Speak": 5.1,
+    "TalkPal": 6.38
+  }
+}
