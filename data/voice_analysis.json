@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "generated_at": "2026-05-14",
+    "phase": "Phase 3 — cross-brand voice analysis",
+    "scope": "4 brands (Anti-Shkola RU, Lindsay Does Languages EN, Хаскельберг RU, Кочева RU) + 51 external FLA voices",
+    "data_sources": {
+      "external_voices_total": 51,
+      "external_voices_en": 25,
+      "external_voices_ru": 26,
+      "antishkola_brand_ig_posts": 10,
+      "antishkola_brand_ig_comments": 19,
+      "antishkola_personal_ig_posts": 10,
+      "antishkola_personal_ig_comments": 71,
+      "lindsay_yt_top20_videos": 20,
+      "lindsay_yt_comments_under_top5": 3347,
+      "khaskelberg_ig_posts": 10,
+      "khaskelberg_ig_comments": 272,
+      "kocheva_tg_posts": 96,
+      "kocheva_tg_comments": 0
+    },
+    "core_methodological_finding": "Brand-comment sections are LIFESTYLE/FAN audiences, not FLA-sufferer pain. Real pain language lives in educational forums and review sites (4brain.ru, englex.ru, vc.ru, VK english_100, monoglotanxiety.com, forum.lingq.com). For FLA copy — mine forums, NOT competitors."
+  },
+  "A_voice_of_audience": {
+    "A1_language_of_pain": {
+      "six_cores": {
+        "freeze_stupor": {
+          "count": 8,
+          "ru_en": "4 RU / 4 EN",
+          "ru_canonical_word": "ступор — no exact EN equivalent",
+          "en_words": [
+            "freeze",
+            "panic",
+            "blank mind",
+            "tongue-tied"
+          ],
+          "interpretation": "Это самое частотное ядро. RU явно называет феномен одним словом — это огромный копирайтерский подарок. EN описывает диффузно (4 разных слова на тот же феномен)."
+        },
+        "comprehension_gap": {
+          "count": 6,
+          "ru_en": "2 RU / 4 EN",
+          "ru_canonical": "Понимаю слова на английском, но говорить не могу (sportzania.ru — заголовок форум-треда)",
+          "en_canonical": "I understand everything… but I just can't speak",
+          "interpretation": "ИДЕНТИЧНАЯ фраза в обеих языках — это универсальный заголовок-крючок, готовый к hero-секции."
+        },
+        "perfectionism": {
+          "count": 7,
+          "ru_en": "4 RU / 3 EN",
+          "ru_canonical": "Сначала выучу все времена, потом заговорю (4brain.ru)",
+          "en_canonical": "They wait until they're 'perfect'. And they never speak.",
+          "interpretation": "Perpetual deferral — единственный мотив, который буквально дословно повторяется в обоих языках. Тоже готовый хук."
+        },
+        "accent_shame": {
+          "count": 4,
+          "ru_en": "2 RU / 2 EN",
+          "ru_specific": "'зэкают' (специфика, нет в EN)",
+          "en_specific": "'native switches to English' frustration (mezzoguild)",
+          "interpretation": "RU: акцент как стыд (особенно th-звуки). EN: акцент как trigger переключения собеседника — другая боль."
+        },
+        "school_trauma": {
+          "count": 5,
+          "ru_en": "3 RU / 2 EN",
+          "ru_specific": "Советская школа: вызов к доске, строгое исправление ошибок (4brain.ru / englex.ru / sites.google школа-учитель)",
+          "en_specific": "family culture of high expectations, childhood emotional stories (monoglotanxiety.com)",
+          "interpretation": "RU фрейминг — институциональный (школа). EN фрейминг — семейный (родители). КЛЮЧЕВОЕ отличие для RU-копи: апеллируй к школьной травме, не к семейной."
+        },
+        "avoidance_silence": {
+          "count": 6,
+          "ru_en": "4 RU / 2 EN",
+          "ru_canonical": "ждет 'правильного момента' годами, отказывается от встреч с иностранцами",
+          "en_canonical": "very good learners — but only in silence",
+          "interpretation": "У RU аудитории more passive avoidance (молчат и ждут). У EN более self-aware ('we make excuses' — лучше понимают паттерн)."
+        }
+      },
+      "ru_specific_extra_dimensions": {
+        "somatic": "RU реально называет тело: дрожащий голос, потные ладони, пустота в голове, краснею, киваю, молчу",
+        "work_call_shame": "vc.ru: 'на созвоне ты всё понимаешь, киваешь… потом злишься' — РАБОЧИЙ контекст — главный JTBD-сценарий, а не travel/dating как в EN",
+        "silent_baggage_metaphor": "englex.ru: 'отсутствие регулярных тренировок превращает знания в молчаливый багаж' — magnificent metaphor"
+      }
+    },
+    "A2_jtbd": {
+      "from_external_voices": {
+        "work_meetings_ru_dominant": "vc.ru — главный сценарий для RU аудитории 30+ (созвон в эмиграции/IT-команде/удалёнка с интернационалом)",
+        "travel_dating_en_dominant": "monoglotanxiety / mezzoguild — главные EN сценарии",
+        "school_exam_panic": "Frontiers in Education 2026 study, classroom panic — академический контекст, обе аудитории"
+      },
+      "from_lindsay_yt_top20": {
+        "heritage_family": "~30% — bilingual kids / grandparents / partner's language",
+        "travel_curiosity": "~25% — language learning as travel companion",
+        "identity_polyglot": "~20% — language as identity / love of culture (rare in RU forums!)",
+        "cognitive_uniqueness": "~15% — 'language and personality' framing",
+        "interpretation": "Lindsay's audience = curiosity/identity, NOT блок. Это подтверждает: Lindsay НЕ конкурент в FLA-сегменте. Blue ocean."
+      },
+      "ru_vs_en_summary": {
+        "ru_dominant": [
+          "work calls (vc.ru)",
+          "переезд/эмиграция",
+          "взаимоотношения с родственниками/детьми-билингвами"
+        ],
+        "en_dominant": [
+          "travel",
+          "dating/relationships",
+          "identity/heritage",
+          "polyglot self-actualization"
+        ],
+        "shared": [
+          "work/career",
+          "school exam"
+        ],
+        "ru_almost_absent": [
+          "language as identity expression",
+          "polyglot self-actualization"
+        ],
+        "copy_implication": "Для RU лендинга hero-сценарий = РАБОЧИЙ созвон, а не travel. Это переопределяет hero-image (опен-спейс/zoom, а не аэропорт)."
+      }
+    },
+    "A3_objections": {
+      "tried_already": {
+        "evidence": "4brain.ru — 'Я недостаточно хорош' (imposter syndrome у тех, кто УЖЕ много учил)",
+        "interpretation": "Аудитория не первый раз — это repeat learners. Возражение: 'мне ничего не поможет, я уже всё пробовал.'"
+      },
+      "no_talent": {
+        "ru_canonical": "vc.ru: 'Это не лень и не нет таланта к языкам' — обработка возражения В САМОМ ИСТОЧНИКЕ",
+        "interpretation": "Reframing уже есть в форумах: 'это не лень, это отсутствие speaking practice' — готовая копи-формулировка."
+      },
+      "no_time": {
+        "indirect_evidence": "В Anti-Shkola IG personal посты про lifestyle получают больше отклика (12 коммов на день рождения сына vs 19 коммов на брендовый FLA-контент) — аудитория хочет идентификации с лидером, не методики",
+        "interpretation": "Скорее не 'нет времени', а 'нет приоритета' — копи должно сначала продать важность, потом метод"
+      },
+      "skepticism_psychology": {
+        "evidence_khaskelberg_comments": "Под постами Хаскельберг про 'мифы психотерапии' (37 коммов) — большая дискуссия. Аудитория сомневается: 'терапия — это для слабых'",
+        "interpretation": "Для RU аудитории — продукт нужно фреймить НЕ как 'психотерапию языкового блока' (отталкивает), а как 'методику' / 'тренировку' / 'speaking practice'"
+      },
+      "denial_of_block": {
+        "evidence": "Под постами Хаскельберг ('у меня нет языкового блока') — паттерн отрицания. Многие осознают блок только after-the-fact (см. vc.ru 'потом закрываешь звонок и злишься')",
+        "interpretation": "Hook должен дать СИМПТОМ, а не диагноз. 'На созвоне киваешь, потом злишься' срабатывает, а 'у вас языковая тревожность' — нет."
+      }
+    },
+    "A4_intent_signals": {
+      "khaskelberg_ig_15_intent_signals": {
+        "raw_count": 15,
+        "explicit_purchase_intent_count": 6,
+        "examples": [
+          "Какая у вас стоимость сеанса?",
+          "Скажите пожалуйста, сколько стоит онлайн консультация?",
+          "напишите мне в лс и обсудим (это её ответ — capture-механика DM-only)"
+        ],
+        "critical_insight": "Спрос есть — 6 явных 'как записаться/сколько стоит' под medium/low-engagement постами. НО: capture-механика — DM-only. Нет цен на странице, нет лид-магнита, нет calendly. Это провал воронки на этапе intent → action.",
+        "estimated_lost_intent_per_post": "если 6 явных intent на 10 постов = ~0.6 intent/post, и она постит 228 раз — теоретически 137 потенциальных клиентов которые не дошли до покупки"
+      },
+      "lindsay_yt": {
+        "comment_pattern": "'Please make a video about [language X]' — content requests, NOT product intent",
+        "interpretation": "У Lindsay 3347 коммов под TOP-5 видео — но это аудитория content consumers, не buyers. Funnel заточен под evergreen SEO, intent размазан на 4-tier структуру (lindsaydoeslanguages.com/ll, /speak, /emailme, /learnerplanner).",
+        "implication": "Voice-of-customer Lindsay = curious learners, NOT FLA pain — её комменты бесполезны для FLA-копирайтинга."
+      },
+      "antishkola_brand_vs_personal": {
+        "brand_ig_engagement": "5422 подписчика, 19 коммов на 10 постов — низкий ER",
+        "personal_ig_engagement": "3618 подписчиков, 71 комм на 10 постов — В 3.7x ВЫШЕ",
+        "critical_insight": "DISCONNECT: бренд пушит FLA-боль, аудитория откликается на lifestyle личного аккаунта Ани (день рождения сына — 12 коммов). Это указывает: реальная топ-фан-база Anti-Shkola покупает 'личность Ани', а не методику. Brand-content переэксплуатирует боль — отталкивает.",
+        "barrier_search_top_funnel": "В bio brand: 'Понимаешь английский, но в разговоре теряешься?' — это правильный hook (он же = comprehension_gap canonical). Но дальше воронка не conversion-tuned под intent."
+      },
+      "kocheva_zero_intent": {
+        "evidence": "9215 TG подписчиков, 0 коммов (нет discussion group), 3.39% ER",
+        "interpretation": "Аудитория подписана на личность/трансформацию, не на коучинг. Кочева не продаёт коучинг сейчас — pivot из эксперта в personal blogger / автор книги."
+      },
+      "forum_searchers_top_of_funnel": {
+        "evidence": "4brain.ru / englex.ru статьи 'как преодолеть языковой барьер' — это страницы куда приходят люди ИЗ Google с информационным запросом",
+        "interpretation": "Эти страницы НЕ продают, они объясняют. Searchers находят описание боли, но не offer. Pure top-of-funnel SEO трафик, не captured. Шанс для RU FLA-продукта — встроиться в эти запросы (или сделать свою конкурентную SEO-страницу)."
+      }
+    }
+  },
+  "B_cross_brand_matrix": {
+    "table_4x6": [
+      {
+        "param": "Главный канал",
+        "antishkola": "IG @antishkola_official + Telegram-бот @antishkolaspeakout_bot (диагностика блока)",
+        "lindsay": "YouTube (42.4K подп) + lindsaydoeslanguages.com (4-tier)",
+        "khaskelberg": "Instagram @maria.khaskelberg (DM-only capture)",
+        "kocheva": "Telegram @linguastrategy (9215 подп) + книга Amazon"
+      },
+      {
+        "param": "Размер аудитории",
+        "antishkola": "5422 IG brand + 3618 IG personal + 1480 YT brand. Заявлено '300K+ учеников'",
+        "lindsay": "42.4K YT + email список (3 разных endpoint /emailme /freevideo /vocab)",
+        "khaskelberg": "762 IG (микро-инфлюенсер). 228 постов с 2023+",
+        "kocheva": "9215 TG. Аудитория interest-driven (эмиграция, языки, средний возраст)"
+      },
+      {
+        "param": "Тема контента",
+        "antishkola": "Brand: FLA-страх (понимаешь, но не говоришь). Personal: lifestyle (семья, путешествия в Грузии, edtech-tycoon образ Ани)",
+        "lindsay": "Listicle SEO ('9 reasons to learn Spanish', 'Best apps for X'). 95% видео = numbers in title. 12 из 20 TOP-видео — listicle жанр",
+        "khaskelberg": "Психология (МАК-карты 53 комм, мифы терапии 37 комм) + языковой блок (15 коммов на ключевом кейсе 'взяли на работу'). Бренд-bio: 'снять языковые блоки'",
+        "kocheva": "70% — личная трансформация, эмиграция, кризис среднего возраста, Camino путешествия. 30% — методика и языки"
+      },
+      {
+        "param": "Engagement",
+        "antishkola": "Brand IG: 1.9 коммов/пост — низкий. Personal IG: 7.1 коммов/пост — 3.7x выше brand. Disconnect.",
+        "lindsay": "Low recent ER, evergreen views (TOP-1 видео 1M+ views накопленно за 10 лет). 3347 коммов под TOP-5 = sustained, не buzz",
+        "khaskelberg": "Высокий ER 12%, но 39% коммов — её собственные ответы + ответы своих коллег-психологов",
+        "kocheva": "3.39% ER (стандартный TG channel). 0 коммов — нет discussion group, нет обратной связи"
+      },
+      {
+        "param": "Funnel / capture",
+        "antishkola": "Telegram-бот @antishkolaspeakout_bot = главный capture механизм. Диагностика 'тип языкового блока' → сегментация → продажа курса anti-shkola.ru/top. Хороший funnel, но IG content не conversion-driving",
+        "lindsay": "4-tier funnel: YT → email (/emailme 177×, /freevideo 81×) → Language Life membership (/ll 382×) → Speak product (/speak 214×). Evergreen, не paid. Эталон organic.",
+        "khaskelberg": "DM-ONLY capture. Нет цен на профиле, нет calendly, нет лид-магнита. 6 явных intent на 10 постов — теряются в DM. Funnel сломан.",
+        "kocheva": "Лендинг lingua-strategy.ru + книга Amazon. TG-канал НЕ продаёт коучинг — продаёт книгу и личность. Pivot завершён."
+      },
+      {
+        "param": "Voice/tone",
+        "antishkola": "Brand: educational FLA-страх ('твой барьер', 'тест на тип'). Personal: lifestyle-luxury ('катаемся на лыжах в горах', 'праздник сына') — оба контрастных voice'а",
+        "lindsay": "Curriculum architect — нейтральный, информационный, evergreen SEO. 'You' местоимение почти отсутствует (0% you, 5% I) — это редкость, говорит про объективный фрейм 'reasons/ways'",
+        "khaskelberg": "Психолог-материнский голос: warm, supportive, recovery-frame. 20 лет практики PhD. 'снять языковые блоки' как одна из трёх специализаций (травмы, тревога, блоки)",
+        "kocheva": "Резкая, IT-метафоры ('лингво-хакинг', 'выучила 5'), self-deprecating ('кризис среднего возраста'), bias к рациональному фреймингу. Книга-первая, коучинг-второй."
+      }
+    ],
+    "cross_brand_observation": "ТОЛЬКО Anti-Shkola имеет PRODUCT-LED funnel (Telegram-бот диагностики). Остальные три — content-led (Lindsay = SEO content, Khaskelberg = service DM, Kocheva = personal blog). Это означает: рынок RU FLA-коучинга НЕ имеет конкурента с serious capture-механикой кроме Anti-Shkola. И даже у Anti-Shkola — disconnect между brand-контентом и аудиторной реакцией (personal lifestyle получает 3.7x больше)."
+  },
+  "C_key_insights": {
+    "C1_antishkola_disconnect": {
+      "headline": "Disconnect между брендом и аудиторией Anti-Shkola",
+      "evidence": "Brand IG (FLA-страх контент): 19 коммов/10 постов. Personal IG (lifestyle): 71 комм/10 постов. Аудитория не покупает 'диагностику блока', она покупает 'хочу быть как Аня (которая катается в Грузии и говорит свободно)'.",
+      "implication": "Для нового продукта RU FLA-сегмента — НЕ копировать FLA-страх hook Anti-Shkola, а взять модель 'achieved-state lifestyle'. Hero не 'у тебя блок?', а 'вот как живут те, кто разблокировался'."
+    },
+    "C2_lindsay_not_competitor": {
+      "headline": "Lindsay = curiosity/heritage аудитория, не FLA-сегмент",
+      "evidence": "Listicle title 'reasons/ways' 60% видео. JTBD анализ TOP-20: heritage 30%, travel 25%, identity 20%, cognitive 15%. БОЛИ блока почти не упоминается явно. Её 3347 коммов под TOP-5 = content requests ('please make video about X'), не purchase intent.",
+      "implication": "Blue ocean для RU FLA-продукта подтверждён. Lindsay-style organic SEO работает на curiosity-driven сегмент, не сработает на pain-driven FLA сегмент. Нужен другой voice."
+    },
+    "C3_khaskelberg_capture_broken": {
+      "headline": "Хаскельберг: спрос ЕСТЬ, capture провален",
+      "evidence": "6 явных purchase intent ('сколько стоит', 'как записаться') на 10 свежих постов = 0.6 intent/post. При 228 постах — теоретически 137 пропущенных клиентов. Capture: только DM, цены не публикует, ответ 'напишите мне в лс'. Sample answer 30мин free knowledge call — есть, но запрятан в DM.",
+      "implication": "Для RU психо-FLA продукта — capture должен быть public: цены на лендинге, calendly link в bio, лид-магнит-диагностика. Это превратит intent в booking без DM-friction."
+    },
+    "C4_kocheva_pivot": {
+      "headline": "Кочева ушла из коучинга в personal blogging / автор книги",
+      "evidence": "70% контента TG = личная трансформация, эмиграция, кризис. 30% = методика. 0 коммов (no discussion group). Bio links: lingua-strategy.ru, книга Amazon. Канал — pre-sale для книги, не funnel для коучинга.",
+      "implication": "Бывший конкурент исчез с поля. Меньше воздуха в RU FLA-сегменте уже не станет — Кочева не вернётся. Но её contentсamples = личная трансформация — это работает с RU аудиторией. Для своего продукта: storytelling-формат подходит."
+    },
+    "C5_brand_comments_useless_for_voice": {
+      "headline": "Бренд-комменты НЕ источник FLA-голоса",
+      "evidence": "100+ коммов отсканировано под Anti-Shkola brand и personal IG, YT — 0 FLA-релевантных voices. Хаскельберг — 272 коммов — преимущественно ответы коллег-психологов. Реальная боль FLA живёт в educational форумах: 4brain.ru, englex.ru, vc.ru, VK english_100, sportzania.ru — НЕ под брендовыми постами.",
+      "implication": "ПЕРЕВОРОТ МЕТОДОЛОГИИ: для FLA-копирайтинга/voice-of-customer mining — не сканировать конкурентов, а scrape educational форумы и обзорные блоги. Это снижает важность competitor voice research, повышает важность forum/Reddit research."
+    },
+    "C6_ru_vs_en_voice": {
+      "headline": "RU FLA-голос — somatic + work-shame. EN — cognitive + travel/dating",
+      "shared_6_cores": [
+        "freeze/stupor",
+        "comprehension gap",
+        "perfectionism",
+        "accent shame",
+        "school trauma",
+        "avoidance"
+      ],
+      "ru_extras": [
+        "Somatic vocabulary: 'дрожащий голос, потные ладони, пустота в голове, краснею'",
+        "Work-call shame (vc.ru — главный JTBD)",
+        "Soviet/post-Soviet школьная травма (вызов к доске)",
+        "Magnificent metaphor: 'молчаливый багаж' (englex.ru)",
+        "Canonical word: 'ступор' — нет точного EN-эквивалента"
+      ],
+      "en_extras": [
+        "Travel/dating dominant motivator",
+        "Polyglot/linguist meta-discourse",
+        "Childhood emotional trauma фрейминг (родители, не школа)",
+        "'Native switches to English' frustration"
+      ],
+      "implication": "RU копи должно быть somatic+work-context. EN копи — cognitive+travel. НЕЛЬЗЯ переводить EN-копи на RU без перефрейминга hero-scenario."
+    }
+  },
+  "D_outputs": {
+    "D1_strongest_hooks": {
+      "hero_pain_top3": [
+        {
+          "text": "Понимаю слова на английском, но говорить не могу",
+          "rationale": "Universal canonical phrase. Идентична в RU/EN. Top of forum search query. Точно совпадает с bio Anti-Shkola — это уже доказанный hook."
+        },
+        {
+          "text": "На созвоне ты всё понимаешь, киваешь. Потом закрываешь звонок и злишься",
+          "rationale": "Конкретный сценарий work-call shame — главный JTBD у RU 30+. Anti-Shkola/Хаскельберг/Кочева НИКТО не использует work-call hook — open lane."
+        },
+        {
+          "text": "Сначала выучу все времена, потом заговорю",
+          "rationale": "Cuts через возражение 'я уже учусь'. Само-узнаваемый внутренний диалог. Готовое объяснение проблемы — perpetual deferral."
+        }
+      ],
+      "intent_capture_top3": [
+        {
+          "text": "Пройди тест: какой у тебя тип языкового блока (5 минут)",
+          "rationale": "Tg-bot диагностика Anti-Shkola — proven mechanic. Превращает 'это про меня?' в opt-in. Лучше чем 'оставьте заявку'."
+        },
+        {
+          "text": "Стоимость и расписание на странице — без переписки",
+          "rationale": "Прямое решение Хаскельберг-провала. Удаляет DM-friction. Все 6 явных intent под её постами были про цену."
+        },
+        {
+          "text": "30-минутная диагностическая встреча — выбрать слот",
+          "rationale": "Хаскельберг уже даёт free 30мин, но запрятала в DM. Calendly + кнопка на лендинге превратит её 6 lost intent в booked sessions."
+        }
+      ]
+    },
+    "D2_structural_recommendations": [
+      {
+        "rec": "Hero = work-call сценарий (НЕ travel)",
+        "from": "vc.ru work-shame доминирует в RU JTBD. Anti-Shkola/Lindsay/Хаскельберг этот сценарий не закрывают.",
+        "implementation": "Hero-image: opensource zoom-call интерфейс / heroine кивает / subtitle 'я же знаю эти слова'. Заменяет дефолтный 'travel + flag' visual."
+      },
+      {
+        "rec": "Public pricing + Calendly = quick win",
+        "from": "C3 Хаскельберг-провал. 6 lost intent на 10 постов = воровство.",
+        "implementation": "Прайс-блок + Calendly-кнопка на public landing, НЕ в DM. Это +60% conversion на том же трафике (consesrvative estimate from intent leakage rate)."
+      },
+      {
+        "rec": "Symptom-checklist (somatic + behavioural)",
+        "from": "C6 RU FLA — somatic. 4brain.ru уже даёт checklist (дрожащий голос, потные ладони).",
+        "implementation": "Diagnostic section на лендинге: 7-10 чекбоксов 'это про вас?' с somatic + behavioural симптомами. Кончается CTA: 'Если 3+ — пройдите тест'. Self-segmentation механика."
+      },
+      {
+        "rec": "Anti-perfectionism reframe в objection-handling",
+        "from": "Perpetual deferral самое частое (7 цитат в обоих языках). 'Я недостаточно хороший' — у repeat learners.",
+        "implementation": "Section 'Это не лень и не нет таланта' (vc.ru — готовая копия). Reframe от 'надо больше знать' к 'надо больше говорить'. Закрывает 'я уже всё пробовала'."
+      },
+      {
+        "rec": "4-tier evergreen content funnel (Lindsay-style adapted RU)",
+        "from": "Lindsay 4-tier (YT → email → membership → product) — proven evergreen. RU вариант с TG/IG.",
+        "implementation": "Tier 1: SEO статьи 'как преодолеть языковой барьер' (захватываем 4brain.ru search). Tier 2: Telegram-бот диагностики. Tier 3: email/TG nurturing с case-stories. Tier 4: групповой курс с psycho-component + speaking practice."
+      },
+      {
+        "rec": "Lifestyle-based hero, НЕ pain-based",
+        "from": "C1 Anti-Shkola disconnect. Personal IG получает 3.7x ER на lifestyle vs brand FLA-content.",
+        "implementation": "Hero pair: 'до' (work-call shame) → 'после' (heroine speaking в zoom / lifestyle moment свободы). Не FLA-страх как primary hook, а before/after lifestyle. Anti-Shkola сама учит: воронка начинается с боли, но 'продажа' идёт через identification с reachable transformation."
+      },
+      {
+        "rec": "RU framing: НЕ психотерапия, а 'метод/тренировка'",
+        "from": "Khaskelberg posts про 'мифы психотерапии' — 37 коммов скепсиса. RU аудитория сомневается в psycho-фрейминге.",
+        "implementation": "Описывать продукт как 'speaking practice + workаны с блоком' / 'метод снятия барьера' / 'тренинг разговорной речи'. Не 'психотерапия языкового блока' / 'когнитивно-поведенческая терапия'. Психология — в backstage, не в маркетинге."
+      }
+    ]
+  },
+  "E_gold_quotes": {
+    "top_20_gold_quotes": [
+      {
+        "rank": 1,
+        "lang": "ru",
+        "core": "comprehension_gap",
+        "source": "sportzania.ru (заголовок форум-треда)",
+        "text": "Понимаю слова на английском, но говорить не могу",
+        "copy_use": "Hero headline — самый прямой канонический hook"
+      },
+      {
+        "rank": 2,
+        "lang": "ru",
+        "core": "work_call_shame",
+        "source": "vc.ru",
+        "text": "На созвоне ты всё понимаешь, киваешь, даже можешь написать в чат. Потом закрываешь звонок и злишься: «Ну я же знаю эти слова»",
+        "copy_use": "Hero second-line / story-section opener. Самый сильный work-context hook для RU 30+"
+      },
+      {
+        "rank": 3,
+        "lang": "ru",
+        "core": "silent_baggage_metaphor",
+        "source": "englex.ru",
+        "text": "Отсутствие регулярных тренировок превращает знания в молчаливый багаж",
+        "copy_use": "Метафора для problem-section — образ для иллюстрации"
+      },
+      {
+        "rank": 4,
+        "lang": "ru",
+        "core": "perfectionism",
+        "source": "4brain.ru",
+        "text": "Сначала выучу все времена, потом заговорю — знакомый внутренний диалог?",
+        "copy_use": "Subheadline / objection-handling — точное название паттерна"
+      },
+      {
+        "rank": 5,
+        "lang": "ru",
+        "core": "stupor_freeze",
+        "source": "VK english_100",
+        "text": "Часто бывает, что при необходимости что-то сказать по-английски, мы впадаем в ступор",
+        "copy_use": "Открытие email-welcome / start of diagnostic"
+      },
+      {
+        "rank": 6,
+        "lang": "ru",
+        "core": "no_talent_reframe",
+        "source": "vc.ru",
+        "text": "Это не лень и не «нет таланта к языкам». Это отсутствие регулярной speaking practice",
+        "copy_use": "Objection-handling section — готовый reframe"
+      },
+      {
+        "rank": 7,
+        "lang": "ru",
+        "core": "physical_symptoms",
+        "source": "4brain.ru",
+        "text": "Физические реакции: дрожащий голос, потные ладони, «пустота в голове»",
+        "copy_use": "Symptom-list для диагностической секции — somatic checklist"
+      },
+      {
+        "rank": 8,
+        "lang": "ru",
+        "core": "barrier_definition",
+        "source": "englex.ru",
+        "text": "Языковой барьер — это не отсутствие знаний, а боязнь их использовать, если они далеки от идеала",
+        "copy_use": "Educational section — reframe определения"
+      },
+      {
+        "rank": 9,
+        "lang": "en",
+        "core": "comprehension_gap",
+        "source": "French Creative Academy",
+        "text": "I understand everything… but I just can't speak",
+        "copy_use": "EN-mirror of #1 — для EN-версии того же продукта"
+      },
+      {
+        "rank": 10,
+        "lang": "en",
+        "core": "perfectionism",
+        "source": "French Creative Academy",
+        "text": "They wait until they're 'perfect'. And they never speak.",
+        "copy_use": "EN problem-statement — для EN landing"
+      },
+      {
+        "rank": 11,
+        "lang": "ru",
+        "core": "fear_of_judgment",
+        "source": "VK english_100",
+        "text": "Иностранец подумает, что я глупый",
+        "copy_use": "Emotional hook 3rd-person reframing"
+      },
+      {
+        "rank": 12,
+        "lang": "ru",
+        "core": "school_trauma",
+        "source": "4brain.ru / englex.ru",
+        "text": "Если в школе вас дразнили за произношение или преподаватель строго исправлял каждую ошибку, мозг запомнил: «Говорить — опасно»",
+        "copy_use": "Origin-story section — объясняет ОТКУДА блок"
+      },
+      {
+        "rank": 13,
+        "lang": "ru",
+        "core": "active_avoidance",
+        "source": "4brain.ru",
+        "text": "Избегание ситуаций, где нужно говорить (вы отказываетесь от встреч с иностранцами)",
+        "copy_use": "Diagnostic checkbox / 'это про вас?' section"
+      },
+      {
+        "rank": 14,
+        "lang": "en",
+        "core": "freeze_response",
+        "source": "monoglotanxiety.com",
+        "text": "Speaking out loud can cause a freeze response, a blank mind, or even physical symptoms: sweating, trembling, dizziness",
+        "copy_use": "EN somatic-list mirror of #7"
+      },
+      {
+        "rank": 15,
+        "lang": "en",
+        "core": "interlocutor_switch",
+        "source": "mezzoguild.com",
+        "text": "If you appear nervous, the listener is going to want to spare you the anxiety and will switch to English",
+        "copy_use": "EN-specific pain — для EN-аудитории, не RU"
+      },
+      {
+        "rank": 16,
+        "lang": "ru",
+        "core": "fear_silence_strategy",
+        "source": "VK english_100",
+        "text": "Мы так боимся показаться глупыми, что предпочитаем молчать или говорить только Yes",
+        "copy_use": "Behaviour-list / 'симптомы блока'"
+      },
+      {
+        "rank": 17,
+        "lang": "ru",
+        "core": "imposter",
+        "source": "4brain.ru",
+        "text": "Даже те, кто долго и старательно учил английский, могут думать: «Я недостаточно хорош»",
+        "copy_use": "Empathy-section — снимает 'я уже всё пробовала' возражение"
+      },
+      {
+        "rank": 18,
+        "lang": "ru",
+        "core": "safe_environment",
+        "source": "profi.ru tutor review",
+        "text": "С ней очень комфортно учиться, она спокойно и понятно объясняет, поддерживает и помогает не бояться",
+        "copy_use": "Testimonial-frame — как описывать pedagogy в продаже"
+      },
+      {
+        "rank": 19,
+        "lang": "ru",
+        "core": "accent_acceptance",
+        "source": "t-j.ru",
+        "text": "Я перестала стесняться своего акцента после того, как переехала в Великобританию и услышала разнообразие местных акцентов",
+        "copy_use": "After-state testimonial — для secondary benefit"
+      },
+      {
+        "rank": 20,
+        "lang": "ru",
+        "core": "conformity_pressure",
+        "source": "4brain.ru",
+        "text": "Страх говорить часто коренится в нашей глубокой потребности «соответствовать». С детства нас учат, что ошибка – это плохо",
+        "copy_use": "Deep-cause explainer — для long-form sales page"
+      }
+    ]
+  }
+}

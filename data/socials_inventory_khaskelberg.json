@@ -1,0 +1,67 @@
+{
+  "brand": "Мария Хаскельберг",
+  "url": "https://mariakhaskelberg.com/yazik",
+  "main_site": "https://mariakhaskelberg.com",
+  "person": "Maria Khaskelberg / Мария Хаскельберг",
+  "scanned_at": "2026-05-14",
+  "platforms": [
+    {
+      "platform": "Telegram (личный)",
+      "handle": "@mariakha",
+      "url": "https://t.me/mariakha",
+      "type": "personal_contact",
+      "status": "active_personal",
+      "display_name": "Мария Харитонова",
+      "audience_size": null,
+      "notes": "Указан в footer mariakhaskelberg.com. Это ЛИЧНЫЙ контакт (Maria Kharitonova — возможно девичья/предыдущая фамилия или ошибка), не публичный канал. og:description='You can contact @mariakha right away'. Используется для контакта с клиентами + чат-сопровождение в рамках пакета /yazik."
+    },
+    {
+      "platform": "Telegram (личный, second)",
+      "handle": "@haas_mari",
+      "url": "https://t.me/haas_mari",
+      "type": "personal_contact",
+      "status": "on_leave",
+      "display_name": "Maria",
+      "audience_size": null,
+      "notes": "Второй личный TG-аккаунт. Bio: 'On leave. Не на связи ⛔️'. Не активный публичный канал."
+    },
+    {
+      "platform": "Instagram",
+      "handle": "@maria.kha",
+      "url": "https://instagram.com/maria.kha",
+      "type": "personal_profile",
+      "status": "dormant",
+      "display_name": "Maria Kha",
+      "audience_size": "26 followers, 70 following, 7 posts",
+      "notes": "Указан в footer mariakhaskelberg.com. Крайне маленькая аудитория и почти нет контента — это ЛИЧНЫЙ заброшенный профиль, НЕ бизнес/контент-аккаунт. Для FLA-исследования бесполезен."
+    }
+  ],
+  "primary_platforms": [],
+  "expert_publications": [
+    {
+      "source": "Université de Liège (ULiège), Faculty of Psychology",
+      "url": "https://www.fplse.uliege.be/cms/c_4037487/en/psy-repertoire?uid=u228791",
+      "type": "academic_directory",
+      "role": "Collaboratrice, Département de Psychologie — Psycho-traumatisme",
+      "notes": "Официальная страница на сайте университета. Указаны 'Open Access Publications' (научные публикации). Это proof of expertise — она реальный academic, не self-claimed."
+    },
+    {
+      "source": "Uehat.com blog",
+      "url": "https://www.uehat.com/blog/1867729",
+      "type": "PR_article",
+      "published": "2025-04-08",
+      "notes": "Биографическая статья 'Психолог с 20-летним опытом, которому доверяют' — рекламная/имиджевая публикация, не научная."
+    }
+  ],
+  "not_found": [
+    "YouTube (не найден)",
+    "Facebook (не найден публичный профиль)",
+    "LinkedIn (Maria Khaskelberg отсутствует; в выдаче только Marina Khaskelberg — другой человек, Israel)",
+    "TikTok (не найден)",
+    "Threads (не найден)",
+    "VK (не найден)",
+    "Substack/личный блог (не найден)",
+    "B17.ru, Snob, psyjournals — публикации не найдены (есть только академические через ULiège)"
+  ],
+  "notes": "КРИТИЧЕСКИ ВАЖНО для FLA-исследования: у Марии Хаскельберг НЕТ публичных контент-площадок. Лендинг /yazik вообще не содержит ссылок на соцсети (только форма заявки). Main site mariakhaskelberg.com в footer показывает только @maria.kha (Instagram, 26 followers, 7 posts — dormant) и @mariakha (Telegram личка). Бизнес-модель — 100% через лендинг + сарафан + академический авторитет (ULiège). 'Чат-сопровождение в Telegram' из оффера = переписка в личке @mariakha, НЕ участие в канале. Для Фазы 2 (сбор постов + комментов под топ-10) подходящих платформ НЕТ — она не контент-мейкер, а профессионал-практик с пассивным лендингом. Рекомендация: либо переключиться на другого RU-нативного конкурента (Anti-Shkola как было в Фазе 1), либо для Хаскельберг ограничиться анализом лендинга/оффера + отзывов на лендинге (если есть)."
+}

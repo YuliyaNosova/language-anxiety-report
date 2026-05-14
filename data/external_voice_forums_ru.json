@@ -1,0 +1,183 @@
+{
+  "source": "perplexity_research_ru",
+  "collected_at": "2026-05-14",
+  "method": "Perplexity deep research aggregating VK english_100, t-j.ru, sportzania.ru, lingualeo, profi.ru, englex, 4brain, vc.ru, english classroom, t.me/okenglish_school, woman.ru forum, sites.google.com 'tvoy-horoshy-anglisky', alibra.ru, sky.pro, prosto.rabota.ru",
+  "platforms_covered": [
+    "VK english_100",
+    "t-j.ru",
+    "sportzania.ru",
+    "vc.ru",
+    "profi.ru",
+    "englex.ru",
+    "4brain.ru",
+    "lingualeo.com forum",
+    "englishclassroom.ru",
+    "woman.ru forum",
+    "alibra.ru",
+    "Telegram okenglish_school"
+  ],
+  "quotes": [
+    {
+      "text": "Часто бывает, что при необходимости что-то сказать по-английски, мы впадаем в ступор",
+      "theme": "stupor_freeze",
+      "platform": "VK english_100",
+      "language": "ru",
+      "translation": "Often when we need to say something in English, we fall into stupor"
+    },
+    {
+      "text": "А вдруг я буду долго подбирать слова, говорить медленно и с паузами. Иностранец подумает, что я глупый",
+      "theme": "fear_of_judgment",
+      "platform": "VK english_100",
+      "language": "ru",
+      "translation": "What if I take long picking words, speak slowly with pauses. A foreigner will think I'm stupid"
+    },
+    {
+      "text": "главный враг в разговоре на английском — это боязнь «ляпнуть что-нибудь не то»",
+      "theme": "fear_of_mistake",
+      "platform": "VK english_100",
+      "language": "ru"
+    },
+    {
+      "text": "При разговоре с англоговорящим собеседником мы так боимся показаться глупыми или смешными, что предпочитаем молчать или говорить только Yes или No",
+      "theme": "fear_silence_strategy",
+      "platform": "VK english_100",
+      "language": "ru"
+    },
+    {
+      "text": "Почему-то мы думаем, что собеседник ждет от нас речи со скоростью 120 слов в минуту, а не нормального разговора",
+      "theme": "unrealistic_self_expectations",
+      "platform": "VK english_100",
+      "language": "ru"
+    },
+    {
+      "text": "Знакомо: на созвоне ты всё понимаешь, киваешь, даже можешь написать в чат. Потом закрываешь звонок и злишься: 'Ну я же знаю эти слова'",
+      "theme": "work_meeting_silence_anger",
+      "platform": "vc.ru",
+      "language": "ru",
+      "translation": "Familiar: on a call you understand everything, nod, can even type in chat. Then you close the call and get angry: 'I know these words!'"
+    },
+    {
+      "text": "Это не лень и не 'нет таланта к языкам'. Это отсутствие регулярной speaking practice",
+      "theme": "reframing_self_blame",
+      "platform": "vc.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Понимаю слова на английском, но говорить не могу",
+      "theme": "comprehension_without_production_canonical",
+      "platform": "sportzania.ru (forum title)",
+      "language": "ru",
+      "translation": "I understand the words in English but cannot speak"
+    },
+    {
+      "text": "И здесь возникает ступор. Здесь ваша речь начинает ломаться",
+      "theme": "speech_breakdown",
+      "platform": "englishclassroom.ru",
+      "language": "ru"
+    },
+    {
+      "text": "И здесь начинается страх: «А что если я что-нибудь скажу, а потом не знаю как это перевести?»",
+      "theme": "fear_of_losing_control",
+      "platform": "englishclassroom.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Я перестала стесняться своего акцента после того, как переехала в Великобританию и своими ушами услышала все разнообразие местных акцентов... С акцентом говорят все — нет никакого смысла избавляться от своего",
+      "theme": "accent_acceptance_after_immigration",
+      "platform": "t-j.ru discussion participant",
+      "language": "ru"
+    },
+    {
+      "text": "Русские часто 'зэкают'. Чтобы это исправить, преподаватель отрабатывал с нами звуки [θ] и [ð], которые дает буквосочетание th, с помощью зеркала",
+      "theme": "accent_specific_shame",
+      "platform": "t-j.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Сначала выучу все времена, потом заговорю — знакомый внутренний диалог?",
+      "theme": "perpetual_postponement",
+      "platform": "4brain.ru",
+      "language": "ru",
+      "translation": "First I'll learn all the tenses, then I'll speak — familiar inner dialogue?"
+    },
+    {
+      "text": "Вы ждете идеального момента, но он никогда не наступит... Вы боитесь начать, потому что 'еще недостаточно хороши'",
+      "theme": "perfectionism_paralysis",
+      "platform": "4brain.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Желание говорить 'как в учебнике' мешает сделать первый шаг",
+      "theme": "textbook_perfectionism",
+      "platform": "4brain.ru",
+      "language": "ru"
+    },
+    {
+      "text": "даже те, кто долго и старательно учил английский, могут думать: 'Я недостаточно хорош'",
+      "theme": "imposter_syndrome",
+      "platform": "4brain.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Если в школе вас дразнили за произношение или на курсах иностранного языка преподаватель строго исправлял каждую ошибку, мозг запомнил: 'Говорить = стресс'",
+      "theme": "school_trauma_conditioning",
+      "platform": "4brain.ru / englex.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Физические реакции: дрожащий голос, потные ладони, 'пустота в голове'",
+      "theme": "physical_symptoms",
+      "platform": "4brain.ru",
+      "language": "ru",
+      "translation": "Physical reactions: trembling voice, sweaty palms, 'emptiness in the head'"
+    },
+    {
+      "text": "Избегание ситуаций, где нужно говорить (например, вы отказываетесь от встреч с иностранцами)",
+      "theme": "active_avoidance",
+      "platform": "4brain.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Языковой барьер — это не отсутствие знаний, а боязнь их использовать, если они далеки от идеала",
+      "theme": "barrier_as_fear_not_knowledge",
+      "platform": "englex.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Вы можете знать много слов, но если долго не говорили, то начать бывает сложно. Именно отсутствие регулярных тренировок превращает знания в 'молчаливый багаж'",
+      "theme": "silent_baggage_metaphor",
+      "platform": "englex.ru",
+      "language": "ru"
+    },
+    {
+      "text": "Если преподаватель заставляет учеников говорить, когда они к этому еще не готовы, те начинают очень сильно нервничать. Это чувство снова и снова повторяется и волнение становится еще сильнее",
+      "theme": "forced_speaking_trauma",
+      "platform": "sites.google.com 'tvoy-horoshy-anglisky' (English trauma platform)",
+      "language": "ru"
+    },
+    {
+      "text": "К несчастью, у многих учеников в разных странах похожий опыт... они верят в то, что английский это очень трудный и сложный язык. У них нет никакой уверенности в своих знаниях",
+      "theme": "learned_helplessness",
+      "platform": "tvoy-horoshy-anglisky",
+      "language": "ru"
+    },
+    {
+      "text": "Школьники же, становясь взрослыми и продолжая изучать английский язык, делают так же – уделяют говорению минимум времени или не практикуют его совсем",
+      "theme": "avoidance_persists_to_adulthood",
+      "platform": "sportzania.ru",
+      "language": "ru"
+    },
+    {
+      "text": "С ней очень комфортно учиться, она спокойно и понятно объясняет, поддерживает и помогает не бояться",
+      "theme": "safe_environment_seeking",
+      "platform": "profi.ru tutor review",
+      "language": "ru"
+    },
+    {
+      "text": "Страх говорить на иностранном языке часто коренится в нашей глубокой потребности 'соответствовать'. С детства нас учат, что ошибка – это плохо",
+      "theme": "conformity_pressure",
+      "platform": "4brain.ru",
+      "language": "ru"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "collected_at": "2026-05-14",
+  "purpose": "External (non-brand) audience voice for FLA project Phase 2.5 — what real people say about language anxiety, independent of any specific brand's marketing",
+  "total_voices_collected": 51,
+  "by_source": {
+    "perplexity_research_en": 25,
+    "perplexity_research_ru": 26,
+    "habr_kocheva_articles": 3,
+    "instagram_antishkola_comments": 0,
+    "youtube_antishkola_comments": 0,
+    "reddit_direct_scrape": "BLOCKED (HTTP 403 both reddit.com/.json and old.reddit.com)",
+    "telegram_discussion_chats": "NOT FOUND (only brand-broadcast channels accessible via t.me/s/, no user discussion)"
+  },
+  "languages": {
+    "en": 25,
+    "ru": 26
+  },
+  "platforms_unique": [
+    "VK english_100",
+    "t-j.ru",
+    "sportzania.ru",
+    "vc.ru",
+    "profi.ru",
+    "englex.ru",
+    "4brain.ru",
+    "lingualeo.com forum",
+    "englishclassroom.ru",
+    "woman.ru forum",
+    "Telegram okenglish_school",
+    "tvoy-horoshy-anglisky",
+    "alibra.ru",
+    "mezzoguild.com (commenters)",
+    "forum.lingq.com",
+    "fluentlanguage.co.uk",
+    "sarahvigil.com",
+    "monoglotanxiety.com",
+    "thinkinginenglish.blog",
+    "frenchcreativeacademy.com",
+    "howwelearnlanguages.substack.com",
+    "road2resolutions.com",
+    "Frontiers in Education research"
+  ],
+  "preliminary_themes": [
+    {
+      "group": "freeze_stupor_panic",
+      "count": 8,
+      "lang_split": {
+        "en": 4,
+        "ru": 4
+      },
+      "sample_quotes": [
+        {
+          "text": "I panic when I have to respond",
+          "platform": "French Creative Academy",
+          "lang": "en"
+        },
+        {
+          "text": "Speaking out loud can cause a freeze response, a blank mind, or even physical symptoms: sweating, trembling, dizziness. Not because of the language — but because of the loss of control it represents.",
+          "platform": "monoglotanxiety.com",
+          "lang": "en"
+        },
+        {
+          "text": "When the Teacher asks something suddenly, I panic. I might know the [word] but…",
+          "platform": "Frontiers in Education research study (verbatim learner quote)",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "group": "perfectionism",
+      "count": 7,
+      "lang_split": {
+        "en": 3,
+        "ru": 4
+      },
+      "sample_quotes": [
+        {
+          "text": "They stay silent. They wait until they're 'perfect'. And they never speak.",
+          "platform": "French Creative Academy",
+          "lang": "en"
+        },
+        {
+          "text": "I know so many people who refuse, or are scared, to use their English knowledge because they say they are not perfect.",
+          "platform": "thinkinginenglish.blog (commenter community)",
+          "lang": "en"
+        },
+        {
+          "text": "Aiming for perfection was hard. It gave me a false sense of achievement and stirred up destructive spirals of self-doubt and self-loathing that eroded my mental health and held up real progress.",
+          "platform": "thinkinginenglish.blog (learner essay)",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "group": "comprehension_without_production",
+      "count": 6,
+      "lang_split": {
+        "en": 4,
+        "ru": 2
+      },
+      "sample_quotes": [
+        {
+          "text": "I understand everything… but I just can't speak",
+          "platform": "French Creative Academy blog (composite of learner reports)",
+          "lang": "en"
+        },
+        {
+          "text": "I am still struggling to understand when people are speaking to each other in Spanish. But when they talk to me directly… I get about one in four or five words.",
+          "platform": "forum.lingq.com 'Who still struggles to understand'",
+          "lang": "en"
+        },
+        {
+          "text": "You may feel like you understand a language but cannot speak when you interact with native speakers because you're unable to articulate yourself as well as you'd like to.",
+          "platform": "sarahvigil.com blog (paraphrasing learners she works with)",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "group": "avoidance_silence",
+      "count": 6,
+      "lang_split": {
+        "en": 2,
+        "ru": 4
+      },
+      "sample_quotes": [
+        {
+          "text": "some people are very good learners — but only in silence. They write, read, listen, but avoid speaking. Why? Because speaking is unpredictable. It demands speed, spontaneity, and letting go.",
+          "platform": "monoglotanxiety.com",
+          "lang": "en"
+        },
+        {
+          "text": "We can make excuses for why we don't want to speak, like saying that we're too embarrassed to speak or we are exhausted anyway",
+          "platform": "language learning forum (composite)",
+          "lang": "en"
+        },
+        {
+          "text": "При разговоре с англоговорящим собеседником мы так боимся показаться глупыми или смешными, что предпочитаем молчать или говорить только Yes или No",
+          "platform": "VK english_100",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "group": "school_trauma",
+      "count": 5,
+      "lang_split": {
+        "en": 2,
+        "ru": 3
+      },
+      "sample_quotes": [
+        {
+          "text": "a family culture of high expectations: You have to be excellent, or it's not worth trying. This creates perfectionism, and a deep fear of not being enough — especially when speaking.",
+          "platform": "monoglotanxiety.com",
+          "lang": "en"
+        },
+        {
+          "text": "Sometimes, language blocks are linked to older emotional stories: Not being listened to as a child, Being told to 'be quiet', Speaking in a family where expressing emotion was dangerous",
+          "platform": "monoglotanxiety.com",
+          "lang": "en"
+        },
+        {
+          "text": "Если в школе вас дразнили за произношение или на курсах иностранного языка преподаватель строго исправлял каждую ошибку, мозг запомнил: 'Говорить = стресс'",
+          "platform": "4brain.ru / englex.ru",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "group": "fear_judgment",
+      "count": 5,
+      "lang_split": {
+        "en": 1,
+        "ru": 4
+      },
+      "sample_quotes": [
+        {
+          "text": "other people will judge their accents, laugh at their mistakes, and notice the inaccuracies.",
+          "platform": "fluentlanguage.co.uk",
+          "lang": "en"
+        },
+        {
+          "text": "А вдруг я буду долго подбирать слова, говорить медленно и с паузами. Иностранец подумает, что я глупый",
+          "platform": "VK english_100",
+          "lang": "ru"
+        },
+        {
+          "text": "главный враг в разговоре на английском — это боязнь «ляпнуть что-нибудь не то»",
+          "platform": "VK english_100",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "group": "accent_shame",
+      "count": 4,
+      "lang_split": {
+        "en": 2,
+        "ru": 2
+      },
+      "sample_quotes": [
+        {
+          "text": "My accent is holding me back. People will judge me if I mess up.",
+          "platform": "fluentlanguage.co.uk (paraphrasing learner DMs)",
+          "lang": "en"
+        },
+        {
+          "text": "Your accent is a reflection of your journey, your experiences, and the languages you've spoken. It's not something to hide; it's something to embrace.",
+          "platform": "fluentlanguage.co.uk",
+          "lang": "en"
+        },
+        {
+          "text": "Я перестала стесняться своего акцента после того, как переехала в Великобританию и своими ушами услышала все разнообразие местных акцентов... С акцентом говорят все — нет никакого смысла избавляться о",
+          "platform": "t-j.ru discussion participant",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "group": "interlocutor_dynamics",
+      "count": 4,
+      "lang_split": {
+        "en": 4,
+        "ru": 0
+      },
+      "sample_quotes": [
+        {
+          "text": "if you appear nervous, the listener is going to want to spare you the anxiety and will switch to English",
+          "platform": "mezzoguild.com",
+          "lang": "en"
+        },
+        {
+          "text": "I've learned how to appear cool as a cucumber even if my knee caps are shaking",
+          "platform": "mezzoguild.com (polyglot)",
+          "lang": "en"
+        },
+        {
+          "text": "We live in a place where locals do not tolerate a poor attempt at their language",
+          "platform": "mezzoguild.com (commenter)",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "group": "self_blame_or_reframe",
+      "count": 3,
+      "lang_split": {
+        "en": 1,
+        "ru": 2
+      },
+      "sample_quotes": [
+        {
+          "text": "The reason why I don't understand English now as much as I could is because of my laziness and lack of consistency.",
+          "platform": "forum.lingq.com",
+          "lang": "en"
+        },
+        {
+          "text": "Это не лень и не 'нет таланта к языкам'. Это отсутствие регулярной speaking practice",
+          "platform": "vc.ru",
+          "lang": "ru"
+        },
+        {
+          "text": "Языковой барьер — это не отсутствие знаний, а боязнь их использовать, если они далеки от идеала",
+          "platform": "englex.ru",
+          "lang": "ru"
+        }
+      ]
+    },
+    {
+      "group": "safe_environment_seeking",
+      "count": 1,
+      "lang_split": {
+        "en": 0,
+        "ru": 1
+      },
+      "sample_quotes": [
+        {
+          "text": "С ней очень комфортно учиться, она спокойно и понятно объясняет, поддерживает и помогает не бояться",
+          "platform": "profi.ru tutor review",
+          "lang": "ru"
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    "RU and EN voices share IDENTICAL core themes (stupor/freeze, comprehension gap, perfectionism, accent shame, school trauma) — FLA is universal, not RU-cultural",
+    "RU-specific intensity: word 'ступор' is canonical and ubiquitous — no exact EN equivalent ('freeze' is closest). The Russian discourse explicitly names a phenomenology that EN sources describe more diffusely",
+    "Antishkola/YT/IG comments yielded ZERO FLA-relevant voices despite 100+ comments scanned — fan/lifestyle audience, not bleeding-from-the-block. This means audience pain language must come from EDUCATIONAL/forum spaces (4brain, englex, vc.ru), not from competitor comment sections",
+    "RU audience uses MORE somatic language: 'дрожащий голос, потные ладони, пустота в голове', 'красне', 'киваю', 'молчу'. EN sources more cognitive: 'blank mind', 'tongue-tied', 'frozen'",
+    "RU pain naming: 'молчаливый багаж' (silent baggage) is a magnificent native metaphor — found in englex.ru. Strong copy potential",
+    "RU motivation framing: 'на созвоне ты всё понимаешь, киваешь, потом злишься' (vc.ru) — WORK-MEETING-SHAME is the dominant RU JTBD context, NOT travel/dating (which dominates EN forums)",
+    "Universal pattern across both langs: 'I'll start speaking AFTER I learn X' — perpetual deferral. RU canonical: 'Сначала выучу все времена, потом заговорю'. EN canonical: 'They wait until they're perfect. And they never speak.'"
+  ],
+  "ru_vs_en_comparison": {
+    "shared_core": [
+      "freeze response",
+      "comprehension without production",
+      "perfectionism paralysis",
+      "accent shame",
+      "school-trauma origin",
+      "active avoidance"
+    ],
+    "ru_specific": [
+      "Word 'ступор' as canonical concept — no equivalent in EN",
+      "Work-call shame ('на созвоне ты всё понимаешь, киваешь') as dominant adult context",
+      "'Молчаливый багаж' metaphor",
+      "Soviet/post-Soviet school trauma reference (called to blackboard, strict error correction)",
+      "Higher somatic language density"
+    ],
+    "en_specific": [
+      "More variety of polyglot/linguist meta-discourse",
+      "Stronger explicit mention of dating/relationships as motivator",
+      "More references to childhood emotional trauma as root cause (monoglotanxiety.com)",
+      "Specific 'native-switches-to-English' frustration trope (mezzoguild)"
+    ]
+  },
+  "platform_value_ranking_for_fla_voice": [
+    {
+      "rank": 1,
+      "platform": "VK english_100 community discussions + 4brain.ru + englex.ru articles+comments",
+      "why": "Highest density of authentic RU FLA pain language, includes verbatim learner phrasings"
+    },
+    {
+      "rank": 2,
+      "platform": "vc.ru articles (RU professional FLA pain)",
+      "why": "Captures work-context shame — high-paying RU audience"
+    },
+    {
+      "rank": 3,
+      "platform": "monoglotanxiety.com + thinkinginenglish.blog (EN)",
+      "why": "Trauma-informed framings, perfectionism essays"
+    },
+    {
+      "rank": 4,
+      "platform": "forum.lingq.com + mezzoguild.com comments",
+      "why": "Polyglot/serious learner real voices"
+    },
+    {
+      "rank": 5,
+      "platform": "profi.ru tutor reviews",
+      "why": "Mostly positive testimonials but reveal what RU learners SOUGHT (safe environment, 'помогает не бояться')"
+    },
+    {
+      "rank": 99,
+      "platform": "Reddit",
+      "why": "BLOCKED via HTTP — would need authenticated API to access"
+    },
+    {
+      "rank": 99,
+      "platform": "Telegram public channels",
+      "why": "Channels are broadcast-only, discussion chats need invite or scraping infra"
+    },
+    {
+      "rank": 99,
+      "platform": "Antishkola IG/YT comments",
+      "why": "Fan audience, NOT in pain. ZERO FLA-relevant signals in 100+ comments scanned"
+    }
+  ]
+}

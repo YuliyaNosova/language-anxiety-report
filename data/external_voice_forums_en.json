@@ -1,0 +1,171 @@
+{
+  "source": "perplexity_research_en",
+  "collected_at": "2026-05-14",
+  "method": "Perplexity deep research aggregating Reddit, Quora, HiNative, language forums + mezzoguild.com, lingq forum, fluentlanguage.co.uk, sarahvigil.com, monoglotanxiety.com, thinkinginenglish.blog",
+  "raw_report_path": "external_voice_perplexity_en_raw.md",
+  "citation_count": 34,
+  "platforms_covered": [
+    "mezzoguild.com",
+    "lingq.com forum",
+    "forum.lingq.com",
+    "fluentlanguage.co.uk",
+    "sarahvigil.com",
+    "monoglotanxiety.com",
+    "thinkinginenglish.blog",
+    "frenchcreativeacademy.com",
+    "howwelearnlanguages.substack.com",
+    "Frontiers in Education research"
+  ],
+  "quotes": [
+    {
+      "text": "I understand everything… but I just can't speak",
+      "theme": "comprehension_without_production",
+      "platform": "French Creative Academy blog (composite of learner reports)",
+      "language": "en"
+    },
+    {
+      "text": "I panic when I have to respond",
+      "theme": "panic_freeze",
+      "platform": "French Creative Academy",
+      "language": "en"
+    },
+    {
+      "text": "I'm too afraid of making mistakes",
+      "theme": "error_avoidance",
+      "platform": "French Creative Academy",
+      "language": "en"
+    },
+    {
+      "text": "They stay silent. They wait until they're 'perfect'. And they never speak.",
+      "theme": "perfectionism_paralysis",
+      "platform": "French Creative Academy",
+      "language": "en"
+    },
+    {
+      "text": "Speaking out loud can cause a freeze response, a blank mind, or even physical symptoms: sweating, trembling, dizziness. Not because of the language — but because of the loss of control it represents.",
+      "theme": "physical_freeze_response",
+      "platform": "monoglotanxiety.com",
+      "language": "en"
+    },
+    {
+      "text": "When the Teacher asks something suddenly, I panic. I might know the [word] but…",
+      "theme": "classroom_panic",
+      "platform": "Frontiers in Education research study (verbatim learner quote)",
+      "language": "en"
+    },
+    {
+      "text": "I am still struggling to understand when people are speaking to each other in Spanish. But when they talk to me directly… I get about one in four or five words.",
+      "theme": "comprehension_gap_real_situations",
+      "platform": "forum.lingq.com 'Who still struggles to understand'",
+      "language": "en"
+    },
+    {
+      "text": "You may feel like you understand a language but cannot speak when you interact with native speakers because you're unable to articulate yourself as well as you'd like to.",
+      "theme": "comprehension_without_production",
+      "platform": "sarahvigil.com blog (paraphrasing learners she works with)",
+      "language": "en"
+    },
+    {
+      "text": "And often I know all the words but still can't grasp the meaning behind it.",
+      "theme": "knowledge_but_no_meaning",
+      "platform": "forum.lingq.com",
+      "language": "en"
+    },
+    {
+      "text": "I know so many people who refuse, or are scared, to use their English knowledge because they say they are not perfect.",
+      "theme": "perfectionism_avoidance",
+      "platform": "thinkinginenglish.blog (commenter community)",
+      "language": "en"
+    },
+    {
+      "text": "Aiming for perfection was hard. It gave me a false sense of achievement and stirred up destructive spirals of self-doubt and self-loathing that eroded my mental health and held up real progress.",
+      "theme": "perfectionism_mental_health",
+      "platform": "thinkinginenglish.blog (learner essay)",
+      "language": "en"
+    },
+    {
+      "text": "a family culture of high expectations: You have to be excellent, or it's not worth trying. This creates perfectionism, and a deep fear of not being enough — especially when speaking.",
+      "theme": "family_trauma_origin",
+      "platform": "monoglotanxiety.com",
+      "language": "en"
+    },
+    {
+      "text": "other people will judge their accents, laugh at their mistakes, and notice the inaccuracies.",
+      "theme": "social_judgment_fear",
+      "platform": "fluentlanguage.co.uk",
+      "language": "en"
+    },
+    {
+      "text": "My accent is holding me back. People will judge me if I mess up.",
+      "theme": "accent_shame",
+      "platform": "fluentlanguage.co.uk (paraphrasing learner DMs)",
+      "language": "en"
+    },
+    {
+      "text": "Your accent is a reflection of your journey, your experiences, and the languages you've spoken. It's not something to hide; it's something to embrace.",
+      "theme": "accent_acceptance_response",
+      "platform": "fluentlanguage.co.uk",
+      "language": "en"
+    },
+    {
+      "text": "if you appear nervous, the listener is going to want to spare you the anxiety and will switch to English",
+      "theme": "interlocutor_switch_to_en",
+      "platform": "mezzoguild.com",
+      "language": "en"
+    },
+    {
+      "text": "I've learned how to appear cool as a cucumber even if my knee caps are shaking",
+      "theme": "performance_mask",
+      "platform": "mezzoguild.com (polyglot)",
+      "language": "en"
+    },
+    {
+      "text": "We live in a place where locals do not tolerate a poor attempt at their language",
+      "theme": "hostile_environment",
+      "platform": "mezzoguild.com (commenter)",
+      "language": "en"
+    },
+    {
+      "text": "I have also learned to fake a kind of confidence so the other person is not tempted to switch to English",
+      "theme": "fake_confidence_strategy",
+      "platform": "mezzoguild.com",
+      "language": "en"
+    },
+    {
+      "text": "some people are very good learners — but only in silence. They write, read, listen, but avoid speaking. Why? Because speaking is unpredictable. It demands speed, spontaneity, and letting go.",
+      "theme": "silent_learner_pattern",
+      "platform": "monoglotanxiety.com",
+      "language": "en"
+    },
+    {
+      "text": "Sometimes, language blocks are linked to older emotional stories: Not being listened to as a child, Being told to 'be quiet', Speaking in a family where expressing emotion was dangerous",
+      "theme": "childhood_trauma_origin",
+      "platform": "monoglotanxiety.com",
+      "language": "en"
+    },
+    {
+      "text": "The reason why I don't understand English now as much as I could is because of my laziness and lack of consistency.",
+      "theme": "self_blame",
+      "platform": "forum.lingq.com",
+      "language": "en"
+    },
+    {
+      "text": "We can make excuses for why we don't want to speak, like saying that we're too embarrassed to speak or we are exhausted anyway",
+      "theme": "avoidance_self_aware",
+      "platform": "language learning forum (composite)",
+      "language": "en"
+    },
+    {
+      "text": "Initially, many people expressed uncertainty when speaking in class (M = 2.78) and felt panicked when they were unprepared (M = 2.42).",
+      "theme": "academic_research_finding",
+      "platform": "Frontiers in Education 2026 study",
+      "language": "en"
+    },
+    {
+      "text": "Essentially, you become tongue tied or mute",
+      "theme": "tongue_tied",
+      "platform": "road2resolutions.com",
+      "language": "en"
+    }
+  ]
+}

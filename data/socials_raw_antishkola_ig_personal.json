@@ -1,0 +1,666 @@
+{
+ "brand": "Anti-Shkola",
+ "platform": "instagram",
+ "handle": "@anikabrain",
+ "url": "https://www.instagram.com/anikabrain/",
+ "collected_at": "2026-05-14",
+ "method": "instagram public web_profile_info API + playwright headless scrape of /p/{code}/ pages (no auth)",
+ "profile_stats": {
+  "subscribers": 3618,
+  "following": 1177,
+  "posts_total": 1755,
+  "bio": "Основатель: @antishkola_official | @bilingval.kids | @Playsend.co | @edventures_hub\n👩‍💻300 000 + учеников\nСоздаю продукты, которые меняют жизни людей",
+  "external_url": "https://t.me/antishkolaspeakout_bot",
+  "full_name": "EdTech предприниматель в Испании",
+  "is_business": true,
+  "category": null,
+  "is_private": false,
+  "id": "234778279"
+ },
+ "posts": [
+  {
+   "id": "3863621052677017556_234778279",
+   "shortcode": "DWeVuCHiM_U",
+   "url": "https://www.instagram.com/p/DWeVuCHiM_U/",
+   "type": "video/reel",
+   "caption": "От запроса до ответа не прошло и недели. Она меня слышит 😂",
+   "posted_at": "2026-03-29T15:52:38Z",
+   "likes": 92,
+   "comments_count": 31,
+   "comments_parsed_count": 11,
+   "comments": [
+    {
+     "author": "s_a_g_i_t_t",
+     "text": "Главное, очень четко формулировать желание. А то у судьбы своеобразное и слегка саркастическое порой чувство юмора. Не такое, как в в фильме \"исполнитель желаний\", но направление похожее😂",
+     "posted_age": "6w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "spishatonespish",
+     "text": "У меня так было с желанием закрыть долги. Вырубили электричество, пришлось оперативно все хвосты закрыть)",
+     "posted_age": "6w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "alexey.golder_",
+     "text": "Барьер",
+     "posted_age": "6w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "srgbgq",
+     "text": "Вселенная всё слышит и помогает, иногда, правда, по своему😂 что за банк такой жёсткий? Первый раз такое слышу..",
+     "posted_age": "6w",
+     "likes": 3,
+     "replies": []
+    },
+    {
+     "author": "annyshka_veterinar",
+     "text": "😂",
+     "posted_age": "6w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "fenata",
+     "text": "с одной просрочки сразу 2 недели и все? обычно все же несколько косяков надо собрать, чтобы так жестко😔😔",
+     "posted_age": "6w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "morielllla",
+     "text": "Даже не знаю как лайкать пост) держитесь",
+     "posted_age": "6w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "olhavarenyk",
+     "text": "Офигеть! Не знала, что вообще такое бывает. Теперь плюс одна фобия. Это в Испании?",
+     "posted_age": "6w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "romi_smy",
+     "text": "😮😮😮😮",
+     "posted_age": "6w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "kkomogortsev",
+     "text": "#держимся",
+     "posted_age": "6w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "julia.gaiko",
+     "text": "Жесть",
+     "posted_age": "6w",
+     "likes": 2,
+     "replies": []
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "3858044165913354370_234778279",
+   "shortcode": "DWKhrplCKCC",
+   "url": "https://www.instagram.com/p/DWKhrplCKCC/",
+   "type": "carousel",
+   "caption": "17 лет ты называешь меня женой, не знаю, сочувствовать, поздравлять, купить тебе билет в один конец в Тай, пожелать еще столько же? С годовщиной тебя @alexeystogov partner in crime",
+   "posted_at": "2026-03-21T23:12:05Z",
+   "likes": 135,
+   "comments_count": 27,
+   "comments_parsed_count": 11,
+   "comments": [
+    {
+     "author": "Edited",
+     "text": "17 лет ты называешь меня женой, не знаю, сочувствовать, поздравлять, купить тебе билет в один конец в Тай, пожелать еще столько же? С годовщиной тебя @alexeystogov partner in crime",
+     "posted_age": "7w",
+     "likes": null,
+     "replies": []
+    },
+    {
+     "author": "khanfoodie",
+     "text": "Какие вы красивые❤️",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "andrey_evd_okimov",
+     "text": "Мои поздравления 🙌❤️ чайки",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "mbbcareer",
+     "text": "это свадебный танец? ))",
+     "posted_age": "7w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "mogilevich_kseniya",
+     "text": "Поздравляю вас, прекрасная пара! 😍😍😍",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "nastya_monday",
+     "text": "Любимки💕",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "zhanna_tolochenko",
+     "text": "😍😍",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "olushkbonheur",
+     "text": "Люблю вас❤❤❤Поздравляю!!! Помню вашу свадьбу😘😘😘",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "camomile.life",
+     "text": "Поздравляю 🔥",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "mariatareeva",
+     "text": "Вы мои хорошие❤️🔥Этот танец репетиция на свадьбу?",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "marina.grgata",
+     "text": "💞💞🎉🎉🎉",
+     "posted_age": "7w",
+     "likes": 1,
+     "replies": []
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "3781756893828485272_234778279",
+   "shortcode": "DR7f9u7iBCY",
+   "url": "https://www.instagram.com/p/DR7f9u7iBCY/",
+   "type": "video/reel",
+   "caption": "С днем рождения, сын.",
+   "posted_at": "2025-12-06T17:04:14Z",
+   "likes": 102,
+   "comments_count": 25,
+   "comments_parsed_count": 12,
+   "comments": [
+    {
+     "author": "khanfoodie",
+     "text": "Аника, с днём рождения сыночка! Надеюсь, познакомиться с ним лично ;-)",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "irkin_intelligence",
+     "text": "🔥с Днем Рождения❤️",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "eleshasmile",
+     "text": "С днём рождения, Тихона!!!!",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "ksenia_massage_energy",
+     "text": "Слезы 🥹🥹🥹🥰🥰🥰 с днем явления вас!!!!!",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "lavolgas",
+     "text": "Ахаха 😂😂😂 с днём рождения Тихона и тебя, конечно, тоже с 13тилетием твоего материнства! 😘❤️",
+     "posted_age": "22w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "vanillapeppersugar",
+     "text": "Поздравляю 🥳 счастья ему!",
+     "posted_age": "22w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "yula.kirzner",
+     "text": "С днем рождения 🎂🎊😍",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "nataliafilippova74",
+     "text": "С Днем Рождения,Тихона !❤️❤️❤️",
+     "posted_age": "22w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "julia_suhorukova_1990",
+     "text": "С днём рождения 🥳",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "enniya_light",
+     "text": "С днём рождения 🔥🔥🔥🔥",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "kroshkamalishka",
+     "text": "С Днем рождения ❤️🔥, Тихон.",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "valzaharova",
+     "text": "С Днем Рождения, Тихона!",
+     "posted_age": "22w",
+     "likes": 1,
+     "replies": []
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "3895360169347116356_234778279",
+   "shortcode": "DYPGW9-I-1E",
+   "url": "https://www.instagram.com/p/DYPGW9-I-1E/",
+   "type": "video/reel",
+   "caption": "Удивительное рядом",
+   "posted_at": "2026-05-12T10:57:44Z",
+   "likes": 85,
+   "comments_count": 19,
+   "comments_parsed_count": 5,
+   "comments": [
+    {
+     "author": "astrologalex",
+     "text": "Ты знаешь, лучше, когда учителя бастуют, но в общем и целом дают хорошее образование и классно учат, чем то, что сейчас в России происходит с образованием…",
+     "posted_age": "1d",
+     "likes": 6,
+     "replies": []
+    },
+    {
+     "author": "fraukaterina711",
+     "text": "Мы в Таррагоне сегодня остались дома",
+     "posted_age": "1d",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "rajivgeraev",
+     "text": "Ха ха, нет таких слов «забастовка», «бастовать» ты из с ChatGPT придумала. Но звучит забавно. Даже как будто очень решительно и объединяющие. Надо предложить добавить в конституцию 😅",
+     "posted_age": "1d",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "irinamakcom",
+     "text": "А нам не разрешили оставаться дома - сказали есть часть урока есть , то отсутствие это наша проблема falta ставитс значит🤪так что мои ходят",
+     "posted_age": "1d",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "19",
+     "text": "",
+     "posted_age": "2 days ago",
+     "likes": null,
+     "replies": []
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "3806904462992761980_19643152",
+   "shortcode": "DTU13ByiGR8LpvGUIubCzt-3DSLWmSUzfHvjuY0",
+   "url": "https://www.instagram.com/p/DTU13ByiGR8LpvGUIubCzt-3DSLWmSUzfHvjuY0/",
+   "type": "video/reel",
+   "caption": null,
+   "posted_at": "2026-01-10T09:47:49Z",
+   "likes": 130,
+   "comments_count": 17,
+   "comments_parsed_count": 0,
+   "comments": [],
+   "error": null
+  },
+  {
+   "id": "3811290525328786985_365743978",
+   "shortcode": "DTkbIoqCMYp",
+   "url": "https://www.instagram.com/p/DTkbIoqCMYp/",
+   "type": "video/reel",
+   "caption": "Хочу рассказать, как мы с издательством БОМБОРА писали мою первую книгу «Английский в Minecraft». У меня есть школа изучения английского и испанского в видеоиграх с носителями языка. И в какой-то момент на почту школы пришло письмо от редакции БОМБОРА (Эксмо) с предложением написать книгу.\n\nЯ сначала подумала, что это какой-то спам. Но потом редактор быстро убедил меня в том, что все действительно официально. Фух! \n\nМы начали писать книгу, и дальше все пошло очень гладко и очень классно. У нас собралась обалденная команда. Сюжеты мне помогали писать дети, я их собирала, редактировала, художественно оборачивала. Моя коллега Полина из Антишколы помогала с заданиями, редактурой, логикой. Потом к нам подключился редактор издательства, художник, и в итоге мы все вместе за несколько месяцев сделали этот проект. Честно, я вообще не ожидала, что это будет так легко и увлекательно. \n\nВ самой книге вы найдете интересные задания, квесты, красочные иллюстрации, отрисованные художником и сюжет, который по-настоящему увлечет вашего ребенка!\n\nМне хочется сказать огромное спасибо издательству за возможность реализовать одну из моих заветных мечт — публикация собственной книги.",
+   "posted_at": "2026-01-16T11:05:20Z",
+   "likes": 104,
+   "comments_count": 17,
+   "comments_parsed_count": 11,
+   "comments": [
+    {
+     "author": "bomborabooks",
+     "text": "Хочу рассказать, как мы с издательством БОМБОРА писали мою первую книгу «Английский в Minecraft». У меня есть школа изучения английского и испанского в видеоиграх с носителями языка. И в какой-то момент на почту школы пришло письмо от редакции БОМБОРА (Эксмо) с предложением написать книгу.\n\nЯ сначала подумала, что это какой-то спам. Но потом редактор быстро убедил меня в том, что все действительно официально. Фух! \n\nМы начали писать книгу, и дальше все пошло очень гладко и очень классно. У нас собралась обалденная команда. Сюжеты мне помогали писать дети, я их собирала, редактировала, художественно оборачивала. Моя коллега Полина из Антишколы помогала с заданиями, редактурой, логикой. Потом к нам подключился редактор издательства, художник, и в итоге мы все вместе за несколько месяцев сделали этот проект. Честно, я вообще не ожидала, что это будет так легко и увлекательно. \n\nВ самой книге вы найдете интересные задания, квесты, красочные иллюстрации, отрисованные художником и сюжет, который по-настоящему увлечет вашего ребенка!\n\nМне хочется сказать огромное спасибо издательству за возможность реализовать одну из моих заветных мечт — публикация собственной книги.",
+     "posted_age": "16w",
+     "likes": null,
+     "replies": []
+    },
+    {
+     "author": "julyjulove",
+     "text": "Красавица 😍😍😍",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "estephaniegonzalezpersonal",
+     "text": "La traducción del texto 🙌🏻",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "estephaniegonzalezpersonal",
+     "text": "¡Felicidades querida amiga! ❤️",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "obyknovennoe__chudo",
+     "text": "👏👏👏👏🔥",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "antishkola_official",
+     "text": "Гордимся! 🔥😍",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "kravkr",
+     "text": "А авторские права у вас полностью на книгу?",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "bilingval.kids",
+     "text": "🔥🔥🔥ура!",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "belkina4273",
+     "text": "Уррра, Анюта, поздравляем!!!",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "anikabrain",
+     "text": "Спасибо, редакция ❤️🫶🏻",
+     "posted_age": "16w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "playsend.co",
+     "text": "💜💜💜",
+     "posted_age": "16w",
+     "likes": 1,
+     "replies": []
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "3793357929437503712_234778279",
+   "shortcode": "DSktvBSCKDg",
+   "url": "https://www.instagram.com/p/DSktvBSCKDg/",
+   "type": "carousel",
+   "caption": "Недавно получила первые роялти от книги. Словила инсайт, что мысль, однажды упакованная в форму, может жить дальше без ежедневного участия очень долго. У меня до этого был опыт роялти с онлайн-курсов на образовательных платформах, контракты эти уже закончились, а было так приятно! Хочется еще и еще таких кирпичиков пассивного дохода. С ИИ их можно делать намного быстрее, но они будут более скоротечны. \n\nЕще прочитала отзыв на книгу, который, конечно, для меня важнее любых цифр:\n«Ребенок увидел - и такой огонь в глазах по отношению к английскому, какого не было никогда. Написано так, будто заботливая мама “в теме”, а не чужой человек. Хочется, чтобы вся учебная литература была такой».\n\nВот ради этого, конечно, все и делается. Не ради галочки. А ради момента, когда ребенок загорается желанием учиться.\n\nХочу напомнить, что если вы выбираете полезный яркий подарок для ребенка, возможно, это ваш вариант - моя книга «Английский в Minecraft» в издательстве Эксмо/Бамбора, \nкупить можно онлайн на Озон, Читай-Город и тп \n\nСсылка есть в шапке профиля https://www.ozon.ru/product/angliyskiy-yazyk-samouchitel-v-minecraft-uchim-yazyk-s-lyubimoy-igroy-breyn-anika-2261931348/",
+   "posted_at": "2025-12-22T17:12:05Z",
+   "likes": 44,
+   "comments_count": 15,
+   "comments_parsed_count": 6,
+   "comments": [
+    {
+     "author": "lavolgas",
+     "text": "Аника, поздравляю тебя!!! 👏🥳😍👍 ты большая молодец! ✊😍💫",
+     "posted_age": "20w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "epan4es",
+     "text": "👏👏👏",
+     "posted_age": "20w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "kroshkamalishka",
+     "text": "Аника, молодец 👏👏👏 мои поздравления. Заказала на озон, потом напишу там хороший отзыв. Такая книга обязательна должна быть у меня на полке дома.",
+     "posted_age": "20w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "lioksochka",
+     "text": "👏👏👏",
+     "posted_age": "20w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "tania_mz",
+     "text": "Как круто🔥",
+     "posted_age": "20w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "obyknovennoe__chudo",
+     "text": "👏👏👏👏👏👏👏🔥",
+     "posted_age": "20w",
+     "likes": 1,
+     "replies": []
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "3741766323966324055_234778279",
+   "shortcode": "DPtbKWciC1X",
+   "url": "https://www.instagram.com/p/DPtbKWciC1X/",
+   "type": "video/reel",
+   "caption": "Еще немножко повзрослеть",
+   "posted_at": "2025-10-12T12:50:11Z",
+   "likes": 76,
+   "comments_count": 14,
+   "comments_parsed_count": 6,
+   "comments": [
+    {
+     "author": "batalka",
+     "text": "Аня, сочувствую и желаю твоему мужу скорейшего выздоровления! Саша рвал ахилл 5 лет назад, до сих пор вспоминаем с содраганием, хотя ему сделали сразу операцию, восстановление долгое и очень болезненное. Желаем вам, чтобы восстановление прошло минимально тяжело, насколько это возможно!🙏",
+     "posted_age": "30w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "camomile.life",
+     "text": "Скорейшего восстановления ❤️‍🔥",
+     "posted_age": "30w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "lavolgas",
+     "text": "Аника, обнимаю тебя крепко! 🫂 Сил тебе и терпения, а Леше скорейшего восстановления! 🙏🏻💫",
+     "posted_age": "30w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "marina.grgata",
+     "text": "Скорейшего выздоровления ✳️🌿🙌",
+     "posted_age": "30w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "mbbcareer",
+     "text": "Испытание всем .. скорейшего восстановления !",
+     "posted_age": "30w",
+     "likes": 2,
+     "replies": []
+    },
+    {
+     "author": "loytatyana",
+     "text": "Скорейшего восстановления 😢",
+     "posted_age": "30w",
+     "likes": 2,
+     "replies": []
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "3747444863042906499_234778279",
+   "shortcode": "DQBmT-FCOmD",
+   "url": "https://www.instagram.com/p/DQBmT-FCOmD/",
+   "type": "video/reel",
+   "caption": "Что ж, я наконец готова делать из этого проекта @playsend.co компанию. Мы потестили метод (обучение языкам в популярных играх - Roblox, Minecraft и др) на десятках учеников (от Израиля до Сингапура), собрали метрики и увидели отличную юнит экономику, я начала получать большое количество вопросов от потенциальных инвесторов. \n\nПоэтому во-первых, прошу друзей поддержать меня и рассказать о проекте тем, кому это может помочь, а во-вторых, пожелать мне удачи🍀. Потому что я впервые готовлю презентации для инвесторов и фондов не из круга друзей и общаюсь с ними самостоятельно, не опираясь на партнеров. \n\nВпервые чувствую себя с ними на равных и могу позволить себе быть собой, со всей своей детской искренностью, наивностью и верой в светлое будущее. Потому что больше не боюсь ошибаться и не боюсь отказов. Вот такой новый этап.",
+   "posted_at": "2025-10-20T09:07:51Z",
+   "likes": 70,
+   "comments_count": 14,
+   "comments_parsed_count": 6,
+   "comments": [
+    {
+     "author": "lockden13",
+     "text": "🔥🔥🔥🔥",
+     "posted_age": "28w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "dima.m.zhukov",
+     "text": "Вот это мощь!",
+     "posted_age": "29w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "nastyavbegah",
+     "text": "👏👏👏",
+     "posted_age": "29w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "estephaniegonzalezpersonal",
+     "text": "Mucha suerte! Te irá increíble",
+     "posted_age": "29w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "loytatyana",
+     "text": "Удачи👏👏",
+     "posted_age": "29w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "playsend.co",
+     "text": "❤️❤️❤️",
+     "posted_age": "29w",
+     "likes": 1,
+     "replies": []
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "3758761868001846111_234778279",
+   "shortcode": "DQpzgERiKNf",
+   "url": "https://www.instagram.com/p/DQpzgERiKNf/",
+   "type": "video/reel",
+   "caption": "Короче, Испания сломила всю мою волю к аскезам и зожничесту. Эти безупречные умопомрачительные мозговышибательные яства, доступные за бесценок в любом супермаркете и кафе превращают тебя в раба гедонизма. Даже не думайте сопротивляться 😅",
+   "posted_at": "2025-11-04T23:39:08Z",
+   "likes": 69,
+   "comments_count": 14,
+   "comments_parsed_count": 3,
+   "comments": [
+    {
+     "author": "frau.shneyder",
+     "text": "Абсолютно согласна😂🙈",
+     "posted_age": "27w",
+     "likes": 1,
+     "replies": []
+    },
+    {
+     "author": "epan4es",
+     "text": "зато спорт на берегу моря круглый год)",
+     "posted_age": "27w",
+     "likes": 3,
+     "replies": []
+    },
+    {
+     "author": "takayatanya",
+     "text": "+1",
+     "posted_age": "27w",
+     "likes": 1,
+     "replies": []
+    }
+   ],
+   "error": null
+  }
+ ],
+ "total_comments_collected": 71,
+ "errors": [],
+ "notes": [
+  "Apify лимит ИСЧЕРПАН (как и предупреждал inventory) — использован fallback стек.",
+  "1) Профильные стат-данные и список постов: i.instagram.com/api/v1/users/web_profile_info/ + feed/user/{id}/ (без auth, X-IG-App-ID: 936619743392459) → 72 поста из feed pagination для каждого профиля.",
+  "2) Комменты: на /p/{shortcode}/ IG отдаёт SSR-фрагмент первой страницы коммов (~10-13 из общего числа). Auth wall блокирует загрузку остатка через 'View all N comments'.",
+  "Таким образом, parsed_count для постов с большим числом коммов ниже реального comment_count. Это ограничение фактического публичного доступа без логина."
+ ]
+}

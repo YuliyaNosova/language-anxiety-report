@@ -1,0 +1,161 @@
+{
+  "brand": "Елена Кочева (Lingua-Strategy)",
+  "url": "https://lingua-strategy.ru",
+  "person": "Елена Кочева",
+  "scanned_at": "2026-05-14",
+  "platforms": [
+    {
+      "platform": "Telegram",
+      "url": "https://t.me/lingua_strategy",
+      "handle": "@lingua_strategy",
+      "name": "Изучение языка как стратегия | Лена Кочева",
+      "subscribers": 9301,
+      "status": "active_primary",
+      "notes": "Главная площадка. Личный блог о коучинге, эмиграции, Камино, языках. Контакт-ассистент: @linguastrategy. Public preview: https://t.me/s/lingua_strategy"
+    },
+    {
+      "platform": "Habr",
+      "url": "https://habr.com/ru/users/lingua_strategy/",
+      "handle": "@lingua_strategy",
+      "status": "active_low_frequency",
+      "notes": "Профиль с дек 2022. Последняя активность 25 июня 2025. Минимум 2 авторские статьи: 705418 (ChatGPT, дек 2022) и 893024 (MVP/Agile + книга, май 2025). Использует ник lingua_strategy."
+    },
+    {
+      "platform": "Forbes (автор-колумнист)",
+      "url": "https://www.forbes.ru/profile/533466-elena-koceva",
+      "status": "media_author",
+      "notes": "Профиль автора на Forbes.ru. Минимум 2 материала: главa из книги (дек 2024) + колонка про ИИ (март 2025)."
+    },
+    {
+      "platform": "Website blog",
+      "url": "https://lingua-strategy.ru",
+      "status": "active_secondary",
+      "notes": "Tilda-сайт. Подстраницы: /sample (программа), /camino (путешествия), /the_book (купить книгу), /book_appendix (доп. материалы). Сейчас принимает клиентов только в формат Camino."
+    },
+    {
+      "platform": "LinkedIn",
+      "url": null,
+      "status": "not_found",
+      "notes": "Поиск Exa не вернул LinkedIn-профиль. Несмотря на IT-бэкграунд (Level.travel, Mindbox, СберЗвук), отдельной публичной страницы Lingua-Strategy на LinkedIn не нашлось. Возможен личный профиль, закрытый/непубличный — нужна Phase 2 проверка вручную."
+    },
+    {
+      "platform": "Instagram",
+      "url": null,
+      "status": "not_found",
+      "notes": "Не упомянут ни в footer сайта, ни в шапке Telegram-канала. С большой вероятностью неактивен (контент-стратегия — Telegram-first)."
+    },
+    {
+      "platform": "YouTube",
+      "url": null,
+      "status": "not_found_as_creator",
+      "notes": "Появляется как гость (интервью у Tony Popova: youtu.be/PUrzvrXZoqw, подкаст «АСТ Нонфикшн» на MyBook), собственный канал не найден."
+    },
+    {
+      "platform": "Twitter/X",
+      "url": null,
+      "status": "not_found"
+    },
+    {
+      "platform": "Facebook",
+      "url": null,
+      "status": "not_found"
+    },
+    {
+      "platform": "Threads",
+      "url": null,
+      "status": "not_found"
+    },
+    {
+      "platform": "TikTok",
+      "url": null,
+      "status": "not_found"
+    },
+    {
+      "platform": "Substack / личный блог",
+      "url": null,
+      "status": "not_found",
+      "notes": "Роль личного блога выполняет Telegram-канал + блог на lingua-strategy.ru (Tilda)."
+    }
+  ],
+  "primary_platforms": ["Telegram", "Habr", "Forbes (как автор)", "Website blog"],
+  "media_publications": [
+    {
+      "outlet": "Forbes Life",
+      "url": "https://www.forbes.ru/forbeslife/526938-sobesednik-na-vasej-storone-kak-preodolet-strah-pri-obsenii-na-inostrannom-azyke",
+      "title": "«Собеседник на вашей стороне»: как преодолеть страх при общении на ин. языке",
+      "date": "2024-12-15",
+      "type": "глава из книги"
+    },
+    {
+      "outlet": "Forbes Life",
+      "url": "https://www.forbes.ru/forbeslife/533465-v-cat-za-slovom-kak-iskusstvennyj-intellekt-pomogaet-ucit-azyki-i-gde-on-bessilen",
+      "title": "В чат за словом: как искусственный интеллект помогает учить языки и где он бессилен",
+      "date": "2025-03-26",
+      "type": "колонка"
+    },
+    {
+      "outlet": "РБК Pro",
+      "url": "https://pro.rbc.ru/demo/642577669a7947551c962e39",
+      "title": "Hello, ChatGPT! Как нейросети помогут выучить иностранные языки",
+      "date": null,
+      "type": "статья"
+    },
+    {
+      "outlet": "Habr",
+      "url": "https://habr.com/ru/articles/705418/",
+      "title": "5 неочевидных способов прокачать иностранный язык с помощью ChatGPT",
+      "date": "2022-12-14",
+      "type": "статья (автор lingua_strategy)"
+    },
+    {
+      "outlet": "Habr",
+      "url": "https://habr.com/ru/articles/893024",
+      "title": "IT-фреймворки для неайтишных задач. Как я написала книгу, используя MVP, Agile и бета-тестирование",
+      "date": "2025-05-13",
+      "type": "статья (автор lingua_strategy)"
+    },
+    {
+      "outlet": "GoPractice (вебинар)",
+      "url": "https://t.me/gopractice/161",
+      "title": "Продуктовый подход к изучению языка и подготовке к собеседованию",
+      "date": null,
+      "type": "вебинар"
+    },
+    {
+      "outlet": "Техника речи (подкаст)",
+      "url": "https://tehnikarechi.studio/episodes/2022/12/22/kak-byudzhetno",
+      "title": "О том, сколько на самом деле стоит выучить иностранный язык",
+      "date": "2022-12-22",
+      "type": "подкаст"
+    },
+    {
+      "outlet": "АСТ Нонфикшн (подкаст, MyBook)",
+      "url": "https://mybook.ru/author/ast-nonfikshn/elena-kocheva-lingvo-haking-kak-vyuchit-inostranny/",
+      "title": "Елена Кочева. Лингво-хакинг: как выучить иностранный язык эффективно и без выгорания",
+      "date": "2024-12-19",
+      "type": "подкаст-интервью"
+    }
+  ],
+  "book": {
+    "title": "Лингво-хакинг. Как выучить иностранный язык эффективно и без выгорания",
+    "publisher": "АСТ нонфикшн",
+    "year": 2024,
+    "where_to_buy": "https://lingua-strategy.ru/the_book",
+    "amazon": "http://amzn.eu/d/1htpNBj",
+    "appendix": "https://lingua-strategy.ru/book_appendix",
+    "livelib": "https://test2.livelib.ru/author/2848337-elena-kocheva",
+    "tirage": 5000,
+    "production_cost_rub": 200000,
+    "creation_story": "https://habr.com/ru/articles/893024"
+  },
+  "camino_project": {
+    "url": "https://lingua-strategy.ru/camino",
+    "platform": "подстраница lingua-strategy.ru",
+    "name": "Камино де Сантьяго. Твой португальский путь",
+    "format": "языковое путешествие 150 км пешком, 7-8 дней, индивидуальный коучинг на пути",
+    "dates_2026": ["2-9 мая 2026 (мест нет)", "30 июня - 6 июля 2026 (2 места)"],
+    "leader": "Елена Кочева (прошла 4 Камино, 700+ км)",
+    "notes": "На текущий момент это её ЕДИНСТВЕННЫЙ активный коммерческий продукт — индивидуальный коучинг закрыт, продаются только Camino-путешествия. Отдельных соцсетей у проекта нет, продвижение через Telegram-канал."
+  },
+  "notes": "Контент-стратегия Telegram-first + Habr для IT-аудитории + Forbes как ICP-сигнал. Ассистент: @linguastrategy. Стиль постов — личный/уязвимый («душевный эксгибиционизм»), много про эмиграцию и кризис среднего возраста. На текущий момент бренд частично «закрыт»: индивидуальный коучинг недоступен, продаются только Camino-путешествия + книга. Для Фазы 2 (комменты) основной канал — Telegram @lingua_strategy (9.3K подписчиков, активные комменты под постами про эмиграцию/языковой блок). Дополнительно — комменты под Habr-статьями (893024, 705418) и под Forbes-колонками. LinkedIn — phase 2 проверить вручную через прямой поиск."
+}

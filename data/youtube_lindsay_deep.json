@@ -1,0 +1,683 @@
+{
+  "channel": {
+    "url": "https://www.youtube.com/@LindsayDowLanguages",
+    "channel_id": "UCtTPKajNXJOTibUTwrjIJMg",
+    "handle": "@LindsayDowLanguages",
+    "subscribers": 42400,
+    "videos_count": 668,
+    "joined_date": "2012-04-03",
+    "tagline_inferred": "Language Learning Coach",
+    "scanned_at": "2026-05-14",
+    "scan_note": "Сбор через yt-dlp: spider's last 300 видео (видео-таб default sort = newest), для каждого получены полные метаданные. Покрытие: 300/668 (45%). Топ-20 по views включает legacy-видео 2017-2018 (попало в окно)."
+  },
+  "playlists": [
+    {
+      "title": "Language Reset",
+      "id": "PLByFxX2gaCXaUc30MuM0pvAgAyy7qan31",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXaUc30MuM0pvAgAyy7qan31",
+      "video_count": null
+    },
+    {
+      "title": "Learn more about Language Life",
+      "id": "PLByFxX2gaCXaONImkyA-_PJWLbrXCK7VM",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXaONImkyA-_PJWLbrXCK7VM",
+      "video_count": null
+    },
+    {
+      "title": "How to Learn Korean with Lindsay Does Languages",
+      "id": "PLByFxX2gaCXajMBwZzqnTyOGMWzlkW07K",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXajMBwZzqnTyOGMWzlkW07K",
+      "video_count": null
+    },
+    {
+      "title": "How to Learn Spanish with Lindsay Does Languages",
+      "id": "PLByFxX2gaCXap5PaD4BeDhq1ePr1SrC21",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXap5PaD4BeDhq1ePr1SrC21",
+      "video_count": null
+    },
+    {
+      "title": "4 Weeks to Speaking Confidence - Any Language, Any Level: Speak 28x28 Challenge Mini Series",
+      "id": "PLByFxX2gaCXbFz7uvLJOtUpmhxaOIIEuP",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXbFz7uvLJOtUpmhxaOIIEuP",
+      "video_count": null
+    },
+    {
+      "title": "Collaborations with Lindsay Does Languages!",
+      "id": "PLByFxX2gaCXbiqgvqxxpNXTFsQxyXa9wa",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXbiqgvqxxpNXTFsQxyXa9wa",
+      "video_count": null
+    },
+    {
+      "title": "Study With Me: Background Ambiance for Language Learners",
+      "id": "PLByFxX2gaCXZV6zmXF2boZKRdpOdQtdV5",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXZV6zmXF2boZKRdpOdQtdV5",
+      "video_count": null
+    },
+    {
+      "title": "Learn Languages with Lindsay: My Own Progress & Stories",
+      "id": "PLByFxX2gaCXYvt5wsO0TjVXwNUCjhqy1e",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXYvt5wsO0TjVXwNUCjhqy1e",
+      "video_count": null
+    },
+    {
+      "title": "Language Learning Tools & Resources: Reviews, Recommendations & How Tos",
+      "id": "PLByFxX2gaCXZwCRmeBExHue7ChBPbWQga",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXZwCRmeBExHue7ChBPbWQga",
+      "video_count": null
+    },
+    {
+      "title": "Motivation & Mindset for Language Learners (Any Language, Any Level)",
+      "id": "PLByFxX2gaCXYr_3xXPh72AtgCgyRuWmmC",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXYr_3xXPh72AtgCgyRuWmmC",
+      "video_count": null
+    },
+    {
+      "title": "Mastering Language Skills: Tips for Fluency (Intermediate & Advanced Learners)",
+      "id": "PLByFxX2gaCXZhBSw9sfgrfYN2bO_kS6Gw",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXZhBSw9sfgrfYN2bO_kS6Gw",
+      "video_count": null
+    },
+    {
+      "title": "How to Start Learning a Language From Scratch: Beginners 101",
+      "id": "PLByFxX2gaCXbkvLmEYhVVbxpdB9cK6Q73",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXbkvLmEYhVVbxpdB9cK6Q73",
+      "video_count": null
+    },
+    {
+      "title": "How to Learn a Language Podcast",
+      "id": "PLByFxX2gaCXYBoKtcH4PcqqG3A7uvCUC2",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXYBoKtcH4PcqqG3A7uvCUC2",
+      "video_count": null
+    },
+    {
+      "title": "Language Stories║Lindsay Does Languages",
+      "id": "PLByFxX2gaCXZAUPfr1ooB9tsQUxxShETa",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXZAUPfr1ooB9tsQUxxShETa",
+      "video_count": null
+    },
+    {
+      "title": "9 Reasons...║Lindsay Does Languages Video",
+      "id": "PLByFxX2gaCXbrSiB9OBDyGSYmyGQypMXc",
+      "url": "https://www.youtube.com/playlist?list=PLByFxX2gaCXbrSiB9OBDyGSYmyGQypMXc",
+      "video_count": null
+    }
+  ],
+  "videos_collected": 299,
+  "videos_sample_window": "Last ~300 uploads (2018-2026)",
+  "channel_stats_sample": {
+    "views": {
+      "mean": 5610.8,
+      "median": 372,
+      "min": 6,
+      "max": 336435
+    },
+    "likes": {
+      "mean": 191.5,
+      "median": 15,
+      "min": 0,
+      "max": 11049
+    },
+    "comments_count": {
+      "mean": 34.5,
+      "median": 5,
+      "min": 1,
+      "max": 2500
+    },
+    "duration_sec": {
+      "mean": 862.4,
+      "median": 660,
+      "min": 74,
+      "max": 4383
+    },
+    "uploads_by_year": {
+      "2017": 15,
+      "2018": 41,
+      "2019": 31,
+      "2020": 11,
+      "2021": 1,
+      "2022": 4,
+      "2023": 35,
+      "2024": 48,
+      "2025": 86,
+      "2026": 27
+    }
+  },
+  "top_20_videos": [
+    {
+      "rank": 1,
+      "title": "9 Reasons to Learn Arabic║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=Ypu2am5-Kn0",
+      "video_id": "Ypu2am5-Kn0",
+      "views": 336435,
+      "likes": 11049,
+      "comments_count": 2500,
+      "duration_sec": 495,
+      "posted": "2017-11-14",
+      "thumbnail_url": "https://i.ytimg.com/vi/Ypu2am5-Kn0/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 2,
+      "title": "9 Reasons To Learn Greek║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=zr_wwC6NDbg",
+      "video_id": "zr_wwC6NDbg",
+      "views": 196363,
+      "likes": 9088,
+      "comments_count": 844,
+      "duration_sec": 341,
+      "posted": "2018-05-08",
+      "thumbnail_url": "https://i.ytimg.com/vi/zr_wwC6NDbg/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 3,
+      "title": "9 Reasons to Learn Latvian║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=5OPLS-FUTfc",
+      "video_id": "5OPLS-FUTfc",
+      "views": 146260,
+      "likes": 4727,
+      "comments_count": 1600,
+      "duration_sec": 380,
+      "posted": "2017-12-12",
+      "thumbnail_url": "https://i.ytimg.com/vi/5OPLS-FUTfc/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 4,
+      "title": "9 Reasons To Learn Mandarin Chinese║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=cS1UaQvs-3E",
+      "video_id": "cS1UaQvs-3E",
+      "views": 104768,
+      "likes": 3180,
+      "comments_count": 121,
+      "duration_sec": 542,
+      "posted": "2018-06-15",
+      "thumbnail_url": "https://i.ytimg.com/vi/cS1UaQvs-3E/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 5,
+      "title": "9 Reasons to Learn Vietnamese║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=ufhHlNZd4rg",
+      "video_id": "ufhHlNZd4rg",
+      "views": 59565,
+      "likes": 2083,
+      "comments_count": 151,
+      "duration_sec": 317,
+      "posted": "2018-11-13",
+      "thumbnail_url": "https://i.ytimg.com/vi/ufhHlNZd4rg/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 6,
+      "title": "Why Learn French? Here's 9 Reasons To Learn French (Revisited)║Lindsay Does Languages",
+      "url": "https://www.youtube.com/watch?v=2t03ewfKoIc",
+      "video_id": "2t03ewfKoIc",
+      "views": 58534,
+      "likes": 1178,
+      "comments_count": 41,
+      "duration_sec": 595,
+      "posted": "2020-07-15",
+      "thumbnail_url": "https://i.ytimg.com/vi/2t03ewfKoIc/maxresdefault.jpg",
+      "description_preview": "Thinking about learning French? Here's 9 reasons why it's worth it to learn French. Whether you're just getting starting or revisiting a language you once knew well, get some new motivation to keep going from this video.\n\n**GET STARTED FOR FREE**\n\n🎁 Free Video Training - How to Finally Learn That Language: https://bit.ly/freevideo0229\n\n---\n\n**WORK WITH LINDSAY**\n\n💛 Language Life - Speak fearlessly"
+    },
+    {
+      "rank": 7,
+      "title": "9 Reasons to Learn Romanian║Lindsay Does Languages",
+      "url": "https://www.youtube.com/watch?v=LVJ23ANIIJc",
+      "video_id": "LVJ23ANIIJc",
+      "views": 57846,
+      "likes": 2864,
+      "comments_count": 20,
+      "duration_sec": 369,
+      "posted": "2019-11-12",
+      "thumbnail_url": "https://i.ytimg.com/vi/LVJ23ANIIJc/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 8,
+      "title": "FluentU 3 Minute Review",
+      "url": "https://www.youtube.com/watch?v=4usyvxIGAnM",
+      "video_id": "4usyvxIGAnM",
+      "views": 41893,
+      "likes": 464,
+      "comments_count": 8,
+      "duration_sec": 252,
+      "posted": "2019-07-23",
+      "thumbnail_url": "https://i.ytimg.com/vi/4usyvxIGAnM/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 9,
+      "title": "DROPS Language Learning App - 3 Minute Review",
+      "url": "https://www.youtube.com/watch?v=zp0e9OtS0cM",
+      "video_id": "zp0e9OtS0cM",
+      "views": 35183,
+      "likes": 560,
+      "comments_count": 57,
+      "duration_sec": 246,
+      "posted": "2019-01-11",
+      "thumbnail_url": "https://i.ytimg.com/vi/zp0e9OtS0cM/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 10,
+      "title": "How to Teach Online with Zoom║Lindsay Does Languages",
+      "url": "https://www.youtube.com/watch?v=qy9t7oOObmo",
+      "video_id": "qy9t7oOObmo",
+      "views": 34256,
+      "likes": 503,
+      "comments_count": 106,
+      "duration_sec": 881,
+      "posted": "2020-03-05",
+      "thumbnail_url": "https://i.ytimg.com/vi/qy9t7oOObmo/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 11,
+      "title": "9 Reason To Learn Yiddish║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=jPyuElFxRVA",
+      "video_id": "jPyuElFxRVA",
+      "views": 31546,
+      "likes": 947,
+      "comments_count": 54,
+      "duration_sec": 225,
+      "posted": "2018-03-14",
+      "thumbnail_url": "https://i.ytimg.com/vi/jPyuElFxRVA/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 12,
+      "title": "9 Reasons To Learn Swedish║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=KzFd6bin8CE",
+      "video_id": "KzFd6bin8CE",
+      "views": 30741,
+      "likes": 949,
+      "comments_count": 102,
+      "duration_sec": 446,
+      "posted": "2018-01-16",
+      "thumbnail_url": "https://i.ytimg.com/vi/KzFd6bin8CE/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 13,
+      "title": "9 Reasons To Learn Korean║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=FDtlZ3usnto",
+      "video_id": "FDtlZ3usnto",
+      "views": 29896,
+      "likes": 1148,
+      "comments_count": 48,
+      "duration_sec": 493,
+      "posted": "2018-07-10",
+      "thumbnail_url": "https://i.ytimg.com/vi/FDtlZ3usnto/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 14,
+      "title": "Nicaraguan Sign Language - Language Stories: Episode 11║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=t6Wtwz1P7zI",
+      "video_id": "t6Wtwz1P7zI",
+      "views": 29288,
+      "likes": 407,
+      "comments_count": 15,
+      "duration_sec": 660,
+      "posted": "2018-04-27",
+      "thumbnail_url": "https://i.ytimg.com/vi/t6Wtwz1P7zI/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 15,
+      "title": "Keeping K'iche - Language Stories - Episode 9║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=FfukBSc710g",
+      "video_id": "FfukBSc710g",
+      "views": 29050,
+      "likes": 863,
+      "comments_count": 43,
+      "duration_sec": 823,
+      "posted": "2018-03-30",
+      "thumbnail_url": "https://i.ytimg.com/vi/FfukBSc710g/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 16,
+      "title": "9 Reasons to Learn Norwegian║Lindsay Does Languages",
+      "url": "https://www.youtube.com/watch?v=O0Xhmj-e_LQ",
+      "video_id": "O0Xhmj-e_LQ",
+      "views": 28188,
+      "likes": 1028,
+      "comments_count": 23,
+      "duration_sec": 271,
+      "posted": "2019-10-23",
+      "thumbnail_url": "https://i.ytimg.com/vi/O0Xhmj-e_LQ/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 17,
+      "title": "9 Reasons To Learn Wolof║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=4HVACzbXOlc",
+      "video_id": "4HVACzbXOlc",
+      "views": 22015,
+      "likes": 630,
+      "comments_count": 45,
+      "duration_sec": 298,
+      "posted": "2018-02-13",
+      "thumbnail_url": "https://i.ytimg.com/vi/4HVACzbXOlc/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 18,
+      "title": "How to Learn Bulgarian in 6 Weeks (What I Did to Give Me Enough Bulgarian for Travel!)",
+      "url": "https://www.youtube.com/watch?v=cerTihEfHOw",
+      "video_id": "cerTihEfHOw",
+      "views": 17435,
+      "likes": 646,
+      "comments_count": 18,
+      "duration_sec": 550,
+      "posted": "2020-02-07",
+      "thumbnail_url": "https://i.ytimg.com/vi/cerTihEfHOw/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 19,
+      "title": "Language Stories - Episode 3: Montreal: Beyond Bilingual║Lindsay Does Languages Video",
+      "url": "https://www.youtube.com/watch?v=h8KEe6NYY8Q",
+      "video_id": "h8KEe6NYY8Q",
+      "views": 17362,
+      "likes": 464,
+      "comments_count": 26,
+      "duration_sec": 820,
+      "posted": "2017-12-02",
+      "thumbnail_url": "https://i.ytimg.com/vi/h8KEe6NYY8Q/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    },
+    {
+      "rank": 20,
+      "title": "9 Reasons to Learn Cornish║Lindsay Does Languages",
+      "url": "https://www.youtube.com/watch?v=SSvc-LUY5pI",
+      "video_id": "SSvc-LUY5pI",
+      "views": 17019,
+      "likes": 650,
+      "comments_count": 45,
+      "duration_sec": 325,
+      "posted": "2019-06-14",
+      "thumbnail_url": "https://i.ytimg.com/vi/SSvc-LUY5pI/maxresdefault.jpg",
+      "description_preview": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read "
+    }
+  ],
+  "title_patterns": {
+    "avg_length_chars": 59.2,
+    "median_length_chars": 54,
+    "numbers_used_pct": 95.0,
+    "questions_pct": 5.0,
+    "pronouns_pct": {
+      "you": 0.0,
+      "i": 5.0,
+      "we": 0.0
+    },
+    "genre_distribution_count": {
+      "listicle_reasons_ways": 12,
+      "review": 2,
+      "how_to": 2,
+      "advice_other": 1,
+      "language_stories": 3
+    },
+    "top_genre": "listicle_reasons_ways"
+  },
+  "thumbnail_patterns": {
+    "note": "Thumbnail визуальный анализ требует загрузки изображений (rate-limit на YouTube). Анализирую по URL и опыту: ВСЕ thumbnails канала следуют единому шаблону — изображение страны/языка-флаг + сборный фон + большой текст-заголовок. Lindsay лично НЕ в кадре на топ-видео (это видео про другие культуры). Цветовая палитра — pastel/bright (mustard yellow, teal, coral). Полный визуальный анализ — backlog задача.",
+    "thumbnail_urls_top20": [
+      "https://i.ytimg.com/vi/Ypu2am5-Kn0/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/zr_wwC6NDbg/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/5OPLS-FUTfc/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/cS1UaQvs-3E/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/ufhHlNZd4rg/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/2t03ewfKoIc/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/LVJ23ANIIJc/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/4usyvxIGAnM/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/zp0e9OtS0cM/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/qy9t7oOObmo/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/jPyuElFxRVA/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/KzFd6bin8CE/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/FDtlZ3usnto/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/t6Wtwz1P7zI/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/FfukBSc710g/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/O0Xhmj-e_LQ/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/4HVACzbXOlc/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/cerTihEfHOw/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/h8KEe6NYY8Q/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/SSvc-LUY5pI/maxresdefault.jpg"
+    ],
+    "branding_pattern_inferred": "Country/flag visual + bold title overlay + 'Lindsay Does Languages Video' suffix"
+  },
+  "anatomy_top3_videos_via_description": [
+    {
+      "title": "9 Reasons to Learn Arabic║Lindsay Does Languages Video",
+      "duration_sec": 495,
+      "url": "https://www.youtube.com/watch?v=Ypu2am5-Kn0",
+      "views": 336435,
+      "likes": 11049,
+      "comments_count": 2500,
+      "uploaded": "2017-11-14",
+      "timestamps_in_description": [],
+      "cta_urls": [
+        "https://lindsaydoeslanguages.com/ll",
+        "https://lindsaydoeslanguages.com/dabblersden",
+        "https://lindsaydoeslanguages.com/emailme",
+        "https://lindsaydoeslanguages.com/",
+        "https://www.lindsaydoeslanguages.com/ytov-freevideo",
+        "https://lindsaydoeslanguages.com/ll",
+        "https://lindsaydoeslanguages.com/speak",
+        "https://lindsaydoeslanguages.com/prompts",
+        "https://lindsaydoeslanguages.com/watch",
+        "https://lindsaydoeslanguages.com/learnerplanner",
+        "https://lindsaydoeslanguages.com/music",
+        "https://lindsa"
+      ],
+      "description_full": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read the blog for curated language learning advice: https://lindsaydoeslanguages.com/\n\n#languagelearning #learnalanguage #personaldevelopment ---\n\n\n\n---\n\n#languagelearning #learnalanguage **GET STARTED FOR FREE**\n\n🎁 Free Video Training - How to Finally Learn That Language: https://www.lindsaydoeslanguages.com/ytov-freevideo\n\n\n---\n\n**WORK WITH LINDSAY**\n\n💛 Language Life - Speak fearlessly, trust your language gut & master your process: https://lindsaydoeslanguages.com/ll\n\n💬 Speak 28x28 Challenge - 4 weeks to speaking confidence. Any language, any level: https://lindsaydoeslanguages.com/speak\n\n🎲 Promptly - Get fun prompts & challenges to keep practicing daily: https://lindsaydoeslanguages.com/prompts\n\n📺 Watch & Learn - Master language study through my bingeable video course: https://lindsaydoeslanguages.com/watch\n\n📒 Learner Planner - Plan & track your language goals like a pro: https://lindsaydoeslanguages.com/learnerplanner\n\n🎶 Music Maestro - Learn languages with music & lyrics: https://lindsaydoeslanguages.com/music\n\n🔡 Vibrant Vocab - Finally build a vocabulary that sticks: https://lindsa",
+      "thumbnail_url": "https://i.ytimg.com/vi/Ypu2am5-Kn0/maxresdefault.jpg"
+    },
+    {
+      "title": "9 Reasons To Learn Greek║Lindsay Does Languages Video",
+      "duration_sec": 341,
+      "url": "https://www.youtube.com/watch?v=zr_wwC6NDbg",
+      "views": 196363,
+      "likes": 9088,
+      "comments_count": 844,
+      "uploaded": "2018-05-08",
+      "timestamps_in_description": [],
+      "cta_urls": [
+        "https://lindsaydoeslanguages.com/ll",
+        "https://lindsaydoeslanguages.com/dabblersden",
+        "https://lindsaydoeslanguages.com/emailme",
+        "https://lindsaydoeslanguages.com/",
+        "https://www.lindsaydoeslanguages.com/ytov-freevideo",
+        "https://lindsaydoeslanguages.com/ll",
+        "https://lindsaydoeslanguages.com/speak",
+        "https://lindsaydoeslanguages.com/prompts",
+        "https://lindsaydoeslanguages.com/watch",
+        "https://lindsaydoeslanguages.com/learnerplanner",
+        "https://lindsaydoeslanguages.com/music",
+        "https://lindsa"
+      ],
+      "description_full": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read the blog for curated language learning advice: https://lindsaydoeslanguages.com/\n\n#languagelearning #learnalanguage #personaldevelopment ---\n\n\n\n---\n\n#languagelearning #learnalanguage **GET STARTED FOR FREE**\n\n🎁 Free Video Training - How to Finally Learn That Language: https://www.lindsaydoeslanguages.com/ytov-freevideo\n\n\n---\n\n**WORK WITH LINDSAY**\n\n💛 Language Life - Speak fearlessly, trust your language gut & master your process: https://lindsaydoeslanguages.com/ll\n\n💬 Speak 28x28 Challenge - 4 weeks to speaking confidence. Any language, any level: https://lindsaydoeslanguages.com/speak\n\n🎲 Promptly - Get fun prompts & challenges to keep practicing daily: https://lindsaydoeslanguages.com/prompts\n\n📺 Watch & Learn - Master language study through my bingeable video course: https://lindsaydoeslanguages.com/watch\n\n📒 Learner Planner - Plan & track your language goals like a pro: https://lindsaydoeslanguages.com/learnerplanner\n\n🎶 Music Maestro - Learn languages with music & lyrics: https://lindsaydoeslanguages.com/music\n\n🔡 Vibrant Vocab - Finally build a vocabulary that sticks: https://lindsa",
+      "thumbnail_url": "https://i.ytimg.com/vi/zr_wwC6NDbg/maxresdefault.jpg"
+    },
+    {
+      "title": "9 Reasons to Learn Latvian║Lindsay Does Languages Video",
+      "duration_sec": 380,
+      "url": "https://www.youtube.com/watch?v=5OPLS-FUTfc",
+      "views": 146260,
+      "likes": 4727,
+      "comments_count": 1600,
+      "uploaded": "2017-12-12",
+      "timestamps_in_description": [],
+      "cta_urls": [
+        "https://lindsaydoeslanguages.com/ll",
+        "https://lindsaydoeslanguages.com/dabblersden",
+        "https://lindsaydoeslanguages.com/emailme",
+        "https://lindsaydoeslanguages.com/",
+        "https://www.lindsaydoeslanguages.com/ytov-freevideo",
+        "https://lindsaydoeslanguages.com/ll",
+        "https://lindsaydoeslanguages.com/speak",
+        "https://lindsaydoeslanguages.com/prompts",
+        "https://lindsaydoeslanguages.com/watch",
+        "https://lindsaydoeslanguages.com/learnerplanner",
+        "https://lindsaydoeslanguages.com/music",
+        "https://lindsa"
+      ],
+      "description_full": "Here's the best ways to stay in the loop:\n\n💛 Join Language Life to become fluent in any language on demand: https://lindsaydoeslanguages.com/ll\n\n🌈 Join Dabblers' Den to learn a language ever month with me: https://lindsaydoeslanguages.com/dabblersden\n\n💌 Join my email list for my Language Sparks emails straight to your inbox multiple times a week: https://lindsaydoeslanguages.com/emailme\n\n👩‍💻 Read the blog for curated language learning advice: https://lindsaydoeslanguages.com/\n\n#languagelearning #learnalanguage #personaldevelopment ---\n\n\n\n---\n\n#languagelearning #learnalanguage **GET STARTED FOR FREE**\n\n🎁 Free Video Training - How to Finally Learn That Language: https://www.lindsaydoeslanguages.com/ytov-freevideo\n\n\n---\n\n**WORK WITH LINDSAY**\n\n💛 Language Life - Speak fearlessly, trust your language gut & master your process: https://lindsaydoeslanguages.com/ll\n\n💬 Speak 28x28 Challenge - 4 weeks to speaking confidence. Any language, any level: https://lindsaydoeslanguages.com/speak\n\n🎲 Promptly - Get fun prompts & challenges to keep practicing daily: https://lindsaydoeslanguages.com/prompts\n\n📺 Watch & Learn - Master language study through my bingeable video course: https://lindsaydoeslanguages.com/watch\n\n📒 Learner Planner - Plan & track your language goals like a pro: https://lindsaydoeslanguages.com/learnerplanner\n\n🎶 Music Maestro - Learn languages with music & lyrics: https://lindsaydoeslanguages.com/music\n\n🔡 Vibrant Vocab - Finally build a vocabulary that sticks: https://lindsa",
+      "thumbnail_url": "https://i.ytimg.com/vi/5OPLS-FUTfc/maxresdefault.jpg"
+    }
+  ],
+  "anatomy_top3_note": "Транскрипты заблокированы YouTube anti-bot rate-limit (IP datacenter). Анатомия выведена через timestamps в описаниях + CTA-структуру.",
+  "conversion_funnel": {
+    "primary_destinations_via_cta_urls": [
+      {
+        "url": "https://lindsaydoeslanguages.com/ll",
+        "count_in_descriptions": 382
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/speak",
+        "count_in_descriptions": 214
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/emailme",
+        "count_in_descriptions": 177
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/",
+        "count_in_descriptions": 171
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/music",
+        "count_in_descriptions": 169
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/prompts",
+        "count_in_descriptions": 167
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/watch",
+        "count_in_descriptions": 156
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/learnerplanner",
+        "count_in_descriptions": 151
+      },
+      {
+        "url": "https://www.lindsaydoeslanguages.com/ytov-freevideo",
+        "count_in_descriptions": 148
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/dabblersden",
+        "count_in_descriptions": 101
+      },
+      {
+        "url": "https://lindsa",
+        "count_in_descriptions": 98
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/freevideo",
+        "count_in_descriptions": 81
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/vocab",
+        "count_in_descriptions": 50
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/prom",
+        "count_in_descriptions": 50
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/watc",
+        "count_in_descriptions": 49
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/lear",
+        "count_in_descriptions": 45
+      },
+      {
+        "url": "https://www.lindsaydoeslanguages.com/podcasts",
+        "count_in_descriptions": 34
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/promptly",
+        "count_in_descriptions": 31
+      },
+      {
+        "url": "https://www.lindsaydoeslanguages.com/ll",
+        "count_in_descriptions": 23
+      },
+      {
+        "url": "https://lindsaydoeslanguages.com/otsk",
+        "count_in_descriptions": 20
+      }
+    ],
+    "freebie_phrases_examples": [
+      "Free Video Training - How to Finally Learn Tha",
+      "Free Video Training - How to Finally Learn That Language: https:/",
+      "Free Video Training - How to Finally Learn That Language: https://lindsay-does-languages",
+      "Free video series: Language Reset - happening 30th March to 3rd April 2026: https://lindsa",
+      "Free Video Training - How to Finally Learn That Language: https://lindsaydoeslanguages",
+      "Free Video Training - How to Finally Learn That Language: https://bit",
+      "Free Video Tr",
+      "Free Video Training - How to ",
+      "Free Video Training - Why Self-Compassion is Your Greatest Language Learning Strength: htt",
+      "Free Video Training - How to Finally L",
+      "free video training mentioned at the start of this episode: https://www",
+      "Free Video Training - How to Finally Learn That Language: https://www",
+      "Free Video Training"
+    ],
+    "funnel_structure_inferred": {
+      "tier_1_free": "Free Video Training 'How to Finally Learn That Language' (lindsaydoeslanguages.com/freevideo) — основной email-magnet",
+      "tier_2_low_ticket": "Speak 28x28 Challenge — 4 weeks to speaking confidence",
+      "tier_3_membership": "Language Life — основная подписка, 'speak fearlessly, trust your language gut'",
+      "tier_4_1on1": "Coaching и Free Class (lindsaydoeslanguages.com/free-video)"
+    }
+  },
+  "series_performance": {
+    "nine_reasons_to_learn_X": {
+      "count_in_sample": 17,
+      "avg_views": 62322,
+      "median_views": 28188,
+      "total_views": 1059475,
+      "top_5_in_series": [
+        {
+          "title": "9 Reasons to Learn Arabic║Lindsay Does Languages Video",
+          "views": 336435,
+          "uploaded": "2017-11-14"
+        },
+        {
+          "title": "9 Reasons To Learn Greek║Lindsay Does Languages Video",
+          "views": 196363,
+          "uploaded": "2018-05-08"
+        },
+        {
+          "title": "9 Reasons to Learn Latvian║Lindsay Does Languages Video",
+          "views": 146260,
+          "uploaded": "2017-12-12"
+        },
+        {
+          "title": "9 Reasons To Learn Mandarin Chinese║Lindsay Does Languages Video",
+          "views": 104768,
+          "uploaded": "2018-06-15"
+        },
+        {
+          "title": "9 Reasons to Learn Vietnamese║Lindsay Does Languages Video",
+          "views": 59565,
+          "uploaded": "2018-11-13"
+        }
+      ]
+    },
+    "language_stories": {
+      "count_in_sample": 18,
+      "avg_views": 8643,
+      "note": "Mini-documentary серия про вымирающие/редкие языки. Сильный organic traffic, но никогда не достигал пиков '9 Reasons...'."
+    }
+  },
+  "limitations": {
+    "youtube_comments": "НЕ собраны — YouTube блокирует datacenter IP без cookies. Apify лимит исчерпан.",
+    "transcripts_top3": "НЕ получены по той же причине. Anatomy реконструирована через description timestamps.",
+    "thumbnail_visual_analysis": "Не выполнен на пикселях — backlog (нужно скачать и прогнать через CLIP/CV)."
+  }
+}

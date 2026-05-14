@@ -1,0 +1,126 @@
+{
+  "brand": "Lindsay Does Languages",
+  "url": "https://lindsaydoeslanguages.com",
+  "person": "Lindsay Williams (née Dow)",
+  "scanned_at": "2026-05-14",
+  "platforms": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@LindsayDowLanguages",
+      "handle": "@LindsayDowLanguages",
+      "channel_id": "UCtTPKajNXJOTibUTwrjIJMg",
+      "subscribers": 42400,
+      "videos_count": 668,
+      "joined_date": "2012-04-03",
+      "last_video_date_approx": "~2025-10 (vor 7 Monaten)",
+      "activity": "medium",
+      "shorts_present": true,
+      "notes": "Главный канал. Handle использует фамилию Dow (девичью), не Does. Recent видео views очень низкие (13-728), несмотря на 42.4K подписчиков — индикатор спящей базы или плохой алгоритмической раздачи. 14 лет на платформе."
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/lindsaydoeslanguages/",
+      "handle": "@lindsaydoeslanguages",
+      "activity": "active",
+      "notes": "Линкуется из footer всех страниц сайта + podcast show notes."
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/lindsaydoeslanguages/",
+      "handle": "lindsaydoeslanguages",
+      "activity": "active",
+      "notes": "Личный профиль, иногда альтернативный handle lindsayhwilliams."
+    },
+    {
+      "platform": "pinterest",
+      "url": "https://uk.pinterest.com/ldlanguages/",
+      "handle": "ldlanguages (UK domain)",
+      "activity": "active",
+      "notes": "Указан в актуальных подкаст-show-notes 2018+ и в YouTube-описаниях. UK-домен (Lindsay живёт в UK)."
+    },
+    {
+      "platform": "spotify",
+      "url": "https://open.spotify.com/user/lindsaydoeslanguages",
+      "handle": "lindsaydoeslanguages",
+      "activity": "active",
+      "notes": "Социальный профиль (плейлисты) + хостит подкаст."
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/lindsaydoeslanguages",
+      "activity": "dormant",
+      "notes": "Существует исторически (упоминается в интервью Aussie English 2022), но НЕ в актуальном footer сайта (footer = YT, Spotify, LinkedIn, IG). Скорее всего заброшен или low-priority."
+    },
+    {
+      "platform": "twitter",
+      "url": "unknown (legacy)",
+      "activity": "dormant",
+      "notes": "Упоминается только в старом интервью Actual Fluency (2020). НЕ в текущем footer, НЕ в YouTube-описаниях видео 2024+. Похоже, покинут после Musk era."
+    },
+    {
+      "platform": "tiktok",
+      "url": null,
+      "activity": "not_present",
+      "notes": "Не найден ни в одном источнике. У бренда TikTok отсутствует."
+    },
+    {
+      "platform": "podcast",
+      "name": "How to Learn A Language",
+      "url": "https://lindsaydoeslanguages.com/podcasts/",
+      "spotify_rss": "https://creators.spotify.com/pod/show/lindsay-dow",
+      "activity": "medium",
+      "notes": "Запущен в январе 2023. Хостится на Spotify for Creators (бывш. Anchor). Также упомянут предыдущий подкаст 'The Fluent Show' (host fluent.show)."
+    },
+    {
+      "platform": "patreon",
+      "url": null,
+      "activity": "not_present",
+      "notes": "Patreon отсутствует. Монетизация — через собственный сайт: курсы, Language Life membership, 1:1 coaching."
+    }
+  ],
+  "primary_platforms": ["youtube", "blog", "podcast", "email_newsletter", "instagram"],
+  "youtube_special": {
+    "exact_url": "https://www.youtube.com/@LindsayDowLanguages",
+    "legacy_url": "https://www.youtube.com/user/LindsayDoesLanguages",
+    "channel_id": "UCtTPKajNXJOTibUTwrjIJMg",
+    "subscribers": 42400,
+    "videos_count": 668,
+    "joined_date": "2012-04-03",
+    "shorts_present": true,
+    "recent_views_per_video": "13-728 (медиана ~80-200)",
+    "categories_inferred": [
+      "Language learning tips & methodology",
+      "Polyglot / multilingual content (Spanish, French, Guaraní, Welsh и др.)",
+      "Tutor business advice (Teach Languages Online)",
+      "Cultural / travel adjacent"
+    ],
+    "notes": "ВАЖНО для Фазы 3: handle на YouTube = @LindsayDowLanguages (фамилия Dow, девичья). Старый URL /user/LindsayDoesLanguages ещё резолвится. Канал зрелый (14 лет), 668 видео — огромная база для контент-аудита. Activity medium с дрифтом к low (последняя загрузка ~7 мес. назад, низкие views на свежих видео при крупной подписочной базе)."
+  },
+  "blog_signals": {
+    "posts_count_estimate": "сотни (блог с 2012)",
+    "categories_visible_in_nav": ["About", "Explore", "Free Class", "Courses & Coaching", "Blog", "Podcast", "Language Life"],
+    "tag_examples": ["social-media"]
+  },
+  "email_newsletter": {
+    "name": "Language Sparks Emails",
+    "signup_url": "https://lindsaydoeslanguages.com/emailme",
+    "frequency_estimate": "multiple times a week ('fresh tips & motivation multiple times a week' — из подкаст-show-notes)",
+    "opt_in_locations": [
+      "Free Class страница (free-video) — lead magnet через бесплатный видеотренинг",
+      "Footer / sidebar блога",
+      "Podcast show notes (Spotify, Apple)",
+      "YouTube-описания видео (CTA 'KOSTENLOS STARTEN' / 'Start free')"
+    ]
+  },
+  "monetization": {
+    "model": "owned-site (no Patreon, no paid Substack)",
+    "products": [
+      "Language Life membership (3 элемента: self-study + community + 1:1 support)",
+      "12-modules online courses (~1 модуль/месяц)",
+      "Mini self-study courses",
+      "1:1 coaching",
+      "Teach Languages Online (B2B для tutors, hiatus + revived)"
+    ]
+  },
+  "notes": "Lindsay = чистый эталон zero-paid organic growth. Воронка: YouTube + Pinterest + блог + подкаст → email (Language Sparks) → courses/membership на собственном сайте. НЕТ TikTok, НЕТ Patreon, заброшены Twitter и (вероятно) Facebook. Для Фазы 3 (YouTube deep-dive): handle @LindsayDowLanguages, 668 видео — нужно отобрать топ-10 по views (учитывая что свежие имеют 50-700 views, топы могут быть в архиве 2014-2020). Personal pivot: 'I used to teach languages — now I teach how to learn languages' — позиционирование оформилось окончательно ~2023 после MA Applied Linguistics."
+}

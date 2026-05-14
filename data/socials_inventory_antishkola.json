@@ -1,0 +1,112 @@
+{
+  "brand": "Anti-Shkola",
+  "url": "https://anti-shkola.ru",
+  "scanned_at": "2026-05-14",
+  "platforms": [
+    {
+      "platform": "telegram_bot",
+      "url": "https://t.me/antishkolaspeakout_bot",
+      "handle": "@antishkolaspeakout_bot",
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "active",
+      "notes": "Главный лид-магнит на лендинге: 'Тест на определение типа языкового барьера' — 3 минуты, 5 типов барьера. Основной точкой входа в воронку с anti-shkola.ru. RU."
+    },
+    {
+      "platform": "telegram_channel",
+      "url": "https://t.me/antishkola_official",
+      "handle": "@antishkola_official",
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "unknown_private_or_closed_preview",
+      "notes": "Bio: 'Антишкола — SpeakOUT: Свобода речи'. t.me/s/... превью недоступно (контактная страница, не публичный preview) → канал приватный для учеников ИЛИ публичный без preview. Упомянут на /antishkola как 'Telegram-канал общения учеников'."
+    },
+    {
+      "platform": "telegram_personal",
+      "url": "https://t.me/anikabrain",
+      "handle": "@anikabrain",
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "contact_only",
+      "notes": "Личный контакт Аники Брейн (основательницы). Не публичный канал, а direct contact."
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/antishkola_official/",
+      "handle": "@antishkola_official",
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "medium",
+      "notes": "Бренд-аккаунт. Title: 'АНТИШКОЛА | Понимаешь, но не говоришь'. На /news и /antishkola указано как один из 2-х основных каналов коммуникации с учениками ('Аника всегда отвечает на вопросы студентов в Instagram и Facebook'). Точный счётчик не достан (Meta требует логин, Apify лимит исчерпан)."
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/anikabrain/",
+      "handle": "@anikabrain",
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "high",
+      "notes": "Личный аккаунт основательницы. Title: 'EdTech предприниматель в Испании'. Активно ведётся (см. consultations link с /anika). По LinkedIn profile data Anika Brain имеет 2653 followers — IG аудитория сопоставима или больше."
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@antishkola_official",
+      "handle": "@antishkola_official",
+      "channel_id": null,
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "low_or_dormant",
+      "notes": "Бренд-канал 'АНТИШКОЛА | Понимаешь, но не говоришь'. Самые свежие найденные видео датируются 2019-2021 (отзывы учеников, презентации курсов). Похоже на legacy-канал, активно не ведётся. Точный счётчик не достан (JS-render)."
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UC9cGx_MR7-kb7whu03XV_-Q",
+      "handle": "Anika Brain",
+      "channel_id": "UC9cGx_MR7-kb7whu03XV_-Q",
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "low",
+      "notes": "Личный канал Аники Брейн (Title: 'Аника Брейн: хватит учить, пора говорить!'). Указан на /anika как один из 4 основных соцсетей."
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/anyastogova",
+      "handle": "anyastogova",
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "low",
+      "notes": "Личный профиль основательницы (Анна Стогова). На /news указан как канал общения со студентами наряду с IG. Без логина данные не видны."
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/anika-brain-43446612b/",
+      "handle": "anika-brain-43446612b",
+      "subscribers": 2653,
+      "last_post_date": "2025-recent",
+      "activity": "medium",
+      "notes": "500 connections, 2653 followers (Exa-фетч). CEO PlaySEND.co, активные посты про EdTech / AI / VDS.tech 2025. Это про OTHER ventures (PlaySEND, Brainika), не про Anti-Shkola напрямую — основательница personal brand."
+    },
+    {
+      "platform": "whatsapp",
+      "url": "tel:+18143008350",
+      "handle": "+1 (814) 300 83 50",
+      "subscribers": null,
+      "last_post_date": null,
+      "activity": "support_channel",
+      "notes": "Указан в footer сайта как Tel/WhatsApp/Telegram. Канал для записи на пробный урок и поддержки, не контентная площадка."
+    }
+  ],
+  "primary_platforms": [
+    "telegram_bot (@antishkolaspeakout_bot — главный лид-магнит / диагностика барьера)",
+    "instagram (@antishkola_official + @anikabrain — основная коммуникация с учениками + личный бренд основательницы)",
+    "telegram_channel (@antishkola_official — закрытое или ученическое community)"
+  ],
+  "not_found": [
+    "tiktok (не найден ни на лендинге, ни в поиске — путаница с @antischool___online НЕ совпадает: это украинский бренд antischool.online из Харькова, другая компания)",
+    "vk (vk.com/antishkola и vk.com/anti.shkola — captcha-блок, контента бренда в поиске не найдено; vk.com/island.antischool — другая 'антишкола Остров' для домашнего обучения детей)",
+    "x_twitter (не найден)",
+    "threads (не найден)",
+    "dzen / rutube (только реаплоады видео третьих лиц, не бренд-канал)"
+  ],
+  "notes": "Anti-Shkola — RU-нативный бренд, основной маркетинговый трафик идёт через: (1) Meta Ads → лендинг → Telegram-бот диагностики, (2) Instagram (бренд + личный), (3) Facebook (legacy). YouTube канал есть, но активность низкая (последние всплески 2019-2021). VK / TikTok / X / Threads — отсутствуют. ВАЖНОЕ ОТЛИЧЕНИЕ: бренд Anti-Shkola Ани Стоговой (anti-shkola.ru, ИНН 505441304943) ≠ AntiSchool ONLINE из Харькова (antischool.online, IG @antischool_online, TG @antischool_online, TikTok @antischool___online) — это две разные компании, легко спутать. Для Фазы 2 (сбор постов и комментов) топ-3 платформы: IG @antishkola_official, IG @anikabrain, TG @antishkolaspeakout_bot (бот-флоу). YouTube вторичен. Счётчики подписчиков точно не достанутся без логина/платного Apify."
+}

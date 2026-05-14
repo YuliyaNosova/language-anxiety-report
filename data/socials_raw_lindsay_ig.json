@@ -1,0 +1,11 @@
+{
+  "brand": "Lindsay Does Languages",
+  "platform": "instagram",
+  "handle": "@lindsaydoeslanguages",
+  "url": "https://www.instagram.com/lindsaydoeslanguages/",
+  "scanned_at": "2026-05-14",
+  "posts": [],
+  "status": "NOT_COLLECTED",
+  "blocked_reason": "Apify instagram-scraper заблокирован monthly limit. Прямой fetch профиля возвращает login wall (Instagram теперь требует session cookies для публичных профилей). Bio + публичные счётчики не извлекаются из меты без auth.",
+  "fallback_signals_from_phase1": "Linked в footer всех страниц сайта Lindsay + podcast show notes. Активность = active по Phase 1 inventory. По размеру аудитории — minor по сравнению с YouTube + email (vs ~42K YT subs)."
+}
